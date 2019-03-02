@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 742AEF68-FBD2-3A58-87CA-B4BD06AA66AB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/Snappy.framework/Snappy
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SNAssembly, _OBJC_CLASS_$_SNTestAssembly, _OBJC_CLASS_$_SNTestChain, _OBJC_CLASS_$_SNTestContext, _OBJC_CLASS_$_SNTestCoordinator, _OBJC_CLASS_$_SNTestFailure, _OBJC_CLASS_$_SNTestRun, _OBJC_CLASS_$_SNTestRunner, _OBJC_CLASS_$_SNTestStore, _OBJC_CLASS_$_SNTestSuite, _OBJC_METACLASS_$_SNAssembly, _OBJC_METACLASS_$_SNTestAssembly, _OBJC_METACLASS_$_SNTestChain, _OBJC_METACLASS_$_SNTestContext, _OBJC_METACLASS_$_SNTestCoordinator, _OBJC_METACLASS_$_SNTestFailure, _OBJC_METACLASS_$_SNTestRun, _OBJC_METACLASS_$_SNTestRunner, _OBJC_METACLASS_$_SNTestStore, _OBJC_METACLASS_$_SNTestSuite, _SnappyVersionNumber, _SnappyVersionString ]
+...

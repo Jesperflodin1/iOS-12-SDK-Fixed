@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 83C10B7E-6CFC-3924-A33C-DC2C06DABAFC' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/iTunesStoreFramework.axbundle/iTunesStoreFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXiTunesStoreGlue, _OBJC_METACLASS_$_AXiTunesStoreGlue, __Failover, _accessibilityLocalizedString ]
+...

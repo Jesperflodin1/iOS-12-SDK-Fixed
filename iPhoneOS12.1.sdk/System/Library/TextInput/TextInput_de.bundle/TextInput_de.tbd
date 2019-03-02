@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0EDBD561-3CAE-3B04-8E9E-7836909837CD' ]
+platform:	ios
+install-name:  /System/Library/TextInput/TextInput_de.bundle/TextInput_de
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TIKeyboardFeatureSpecialization_de, _OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_de, __ZN2KB29InputManagerSpecialization_deC1EPK10__CFLocale, __ZN2KB29InputManagerSpecialization_deC2EPK10__CFLocale, __ZNK2KB29InputManagerSpecialization_de10has_umlautERKNS_6StringE, __ZNK2KB29InputManagerSpecialization_de21has_decomposed_umlautERKNS_6StringE, __ZNK2KB29InputManagerSpecialization_de25get_does_need_spell_checkERKNS_6StringE, __ZNK2KB29InputManagerSpecialization_de27do_apply_custom_conversionsERNS_19CandidateCollectionE, __ZNK2KB29InputManagerSpecialization_de31do_filter_spellcheck_candidatesERNS_19CandidateCollectionERKNS_6StringE, __ZNK2KB29InputManagerSpecialization_de35get_period_ends_sentence_after_wordERKNS_6StringEb, __ZNK2KB29InputManagerSpecialization_de42get_should_correct_explicitly_shifted_wordEv, __ZTVN2KB29InputManagerSpecialization_deE ]
+...

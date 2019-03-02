@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6F2B1788-51B6-3847-B31F-96DD1ED77843' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FaceCore.framework/FaceCore
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FCRDetectionParamDetectionRegion, _FCRDetectionParamEnhancedEyesAndMouthLocalization, _FCRDetectionParamInitialAngle, _FCRDetectionParamUseSmallMemoryFootprint, _FCRExtractionParamEnhancedEyesAndMouthLocalization, _FCRExtractionParamExtractBlink, _FCRExtractionParamExtractFaceBlur, _FCRExtractionParamExtractFaceprint, _FCRExtractionParamExtractLandmarkPoints, _FCRExtractionParamExtractSmile, _FCRExtractionParamInitialAngle, _FCRFaceBlurScore, _FCRFaceBlurred, _FCRFaceDetectionParameters, _FCRFaceDetectorErrorDomain, _FCRFaceExpressionLeftEyeClosed, _FCRFaceExpressionLeftEyeClosedScore, _FCRFaceExpressionRightEyeClosed, _FCRFaceExpressionRightEyeClosedScore, _FCRFaceExpressionSmile, _FCRFaceExpressionSmileScore, _FCRFastFaceDetectionParameters, _FCRKeypointTrackingParameters, _FCRPreciseDetectionParameters, _FCRSetupParamDetectProfiles, _FCRSetupParamDetectorType, _FCRSetupParamDetectorTypeFaceDetection, _FCRSetupParamDetectorTypeFastFaceDetection, _FCRSetupParamDetectorTypePreciseFaceDetection, _FCRSetupParamMinFaceSize, _FCRSetupParamNumberOfAngles, _FCRSetupParamTrackingType, _FCRSetupParamTrackingTypeKeypoints, _FCRSetupParamTrackingTypeNone, _FCRSetupParamTrackingTypeStandard, _FCRStandardTrackingParameters, _OBJC_CLASS_$_FCRFace, _OBJC_CLASS_$_FCRFaceDetector, _OBJC_METACLASS_$_FCRFace, _OBJC_METACLASS_$_FCRFaceDetector ]
+...

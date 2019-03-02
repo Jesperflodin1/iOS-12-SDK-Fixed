@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D44471F6-1104-31C2-8CF7-E42298A9368F' ]
+platform:	ios
+install-name:  /System/Library/VideoProcessors/GyroVideoStabilization.videoprocessor
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FigSampleBufferProcessorCreateForGyroVideoStabilization ]
+...

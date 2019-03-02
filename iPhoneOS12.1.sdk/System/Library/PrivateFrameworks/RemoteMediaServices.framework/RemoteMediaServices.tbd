@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 90C384D7-6807-32F3-9F78-744B5A3BDA80' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RemoteMediaServices.framework/RemoteMediaServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NSStringFromRMSMessageType, _NSStringFromRMSResponseCode, _OBJC_CLASS_$_RMSControlSession, _OBJC_CLASS_$_RMSDiscoverySession, _OBJC_CLASS_$_RMSIDSServer, _OBJC_CLASS_$_RMSNowPlayingInfo, _OBJC_CLASS_$_RMSPairingRecordStore, _OBJC_CLASS_$_RMSPairingSession, _OBJC_CLASS_$_RMSService, _OBJC_METACLASS_$_RMSControlSession, _OBJC_METACLASS_$_RMSDiscoverySession, _OBJC_METACLASS_$_RMSIDSServer, _OBJC_METACLASS_$_RMSNowPlayingInfo, _OBJC_METACLASS_$_RMSPairingRecordStore, _OBJC_METACLASS_$_RMSPairingSession, _OBJC_METACLASS_$_RMSService, _RMSControlSessionTimeout, _RMSDiscoverySessionTimeout, _RMSPairingSessionTimeout, _generateRandomPasscode ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 404D4A19-A501-30DC-8429-35B5E22EE8B8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/HardwareDiagnostics.framework/HardwareDiagnostics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _HDBaseDomain, _HDCapturePlugInErrorDomain, _HDCreateError, _HDDefaultLogHandle, _HDDiagnosticAnalysisDataKey, _HDDiagnosticAnalysisParametersKey, _HDDiagnosticExperimentDataKey, _HDDiagnosticExperimentParametersKey, _HDErrorDomain, _HDIOReportDomain, _HDIOReportErrorDomain, _HDLunaImageExperimentErrorDomain, _HardwareDiagnosticsVersionNumber, _HardwareDiagnosticsVersionString, _OBJC_CLASS_$_HDAnalysisResult, _OBJC_CLASS_$_HDBound, _OBJC_CLASS_$_HDDescription, _OBJC_CLASS_$_HDDimensionlessUnit, _OBJC_CLASS_$_HDExperimentResult, _OBJC_CLASS_$_HDKeyedObjectParameter, _OBJC_CLASS_$_HDLab, _OBJC_CLASS_$_HDLimit, _OBJC_CLASS_$_HDMeasuredResult, _OBJC_CLASS_$_HDNumberParameter, _OBJC_CLASS_$_HDReport, _OBJC_CLASS_$_HDSimpleDiagnostic, _OBJC_CLASS_$_HDStringParameter, _OBJC_METACLASS_$_HDAnalysisResult, _OBJC_METACLASS_$_HDBound, _OBJC_METACLASS_$_HDDescription, _OBJC_METACLASS_$_HDDimensionlessUnit, _OBJC_METACLASS_$_HDExperimentResult, _OBJC_METACLASS_$_HDKeyedObjectParameter, _OBJC_METACLASS_$_HDLab, _OBJC_METACLASS_$_HDLimit, _OBJC_METACLASS_$_HDMeasuredResult, _OBJC_METACLASS_$_HDNumberParameter, _OBJC_METACLASS_$_HDReport, _OBJC_METACLASS_$_HDSimpleDiagnostic, _OBJC_METACLASS_$_HDStringParameter ]
+...

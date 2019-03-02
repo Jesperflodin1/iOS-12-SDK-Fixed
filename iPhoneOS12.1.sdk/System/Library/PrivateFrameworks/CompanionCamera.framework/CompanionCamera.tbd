@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 59AD490C-CB05-3BBF-8B68-F8D68C355662' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CompanionCamera.framework/CompanionCamera
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CCCameraConnection, _OBJC_CLASS_$_CCCameraConnectionInternal, _OBJC_METACLASS_$_CCCameraConnection, _OBJC_METACLASS_$_CCCameraConnectionInternal, __ccCaptureModeFromNCCaptureMode, __ccFlashModeFromNCFlashMode, __ccHDRModeFromNCHDRMode, __ccIrisModeFromNCIrisMode, __ncCaptureModeFromCCCaptureMode, __ncFlashModeFromCCFlashMode, __ncFlashSupportFromCCFlashSupport, __ncHDRModeFromCCHDRMode, __ncHDRSupportFromCCHDRSupport, __ncIrisModeFromCCIrisMode, __ncIrisSupportFromCCIrisSupport, __ncOrientationFromDeviceOrientation, __ncShallowDepthOfFieldStatusFromCCShallowDepthOfFieldStatus, _nanocamera_log_app, _nanocamera_log_control, _nanocamera_log_preview ]
+...

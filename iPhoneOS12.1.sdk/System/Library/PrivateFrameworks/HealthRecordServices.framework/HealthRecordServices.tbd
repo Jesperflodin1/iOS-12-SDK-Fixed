@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 31B5BF6D-FD7F-396C-8B1F-EA6756464496' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/HealthRecordServices.framework/HealthRecordServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _HDHRSClinicalItemPropertyKeyExtractionFailureInfo, _HDHealthRecordsXPCServiceInterface, _HealthRecordServicesVersionNumber, _HealthRecordServicesVersionString, _OBJC_CLASS_$_HDClinicalDataCollectionExtractionResult, _OBJC_CLASS_$_HDExtractionRequest, _OBJC_CLASS_$_HDExtractionResult, _OBJC_CLASS_$_HDExtractionResultItem, _OBJC_CLASS_$_HDFHIRJSONObject, _OBJC_CLASS_$_HDFHIRResourceData, _OBJC_CLASS_$_HDFHIRResourceLastSeenObject, _OBJC_CLASS_$_HDFHIRResourceObject, _OBJC_CLASS_$_HDHRSExtractionFailureInfo, _OBJC_CLASS_$_HDHRSExtractionFailureRecord, _OBJC_CLASS_$_HDHRSOriginInformation, _OBJC_CLASS_$_HDHealthRecordsXPCServiceClient, _OBJC_CLASS_$_HDOriginalFHIRResourceObject, _OBJC_CLASS_$_HDRedactedFHIRResourceObject, _OBJC_CLASS_$_HDReferenceExtractionRequest, _OBJC_CLASS_$_HDReferenceExtractionResult, _OBJC_CLASS_$_HDUnresolvedReferenceSet, _OBJC_METACLASS_$_HDClinicalDataCollectionExtractionResult, _OBJC_METACLASS_$_HDExtractionRequest, _OBJC_METACLASS_$_HDExtractionResult, _OBJC_METACLASS_$_HDExtractionResultItem, _OBJC_METACLASS_$_HDFHIRJSONObject, _OBJC_METACLASS_$_HDFHIRResourceData, _OBJC_METACLASS_$_HDFHIRResourceLastSeenObject, _OBJC_METACLASS_$_HDFHIRResourceObject, _OBJC_METACLASS_$_HDHRSExtractionFailureInfo, _OBJC_METACLASS_$_HDHRSExtractionFailureRecord, _OBJC_METACLASS_$_HDHRSOriginInformation, _OBJC_METACLASS_$_HDHealthRecordsXPCServiceClient, _OBJC_METACLASS_$_HDOriginalFHIRResourceObject, _OBJC_METACLASS_$_HDRedactedFHIRResourceObject, _OBJC_METACLASS_$_HDReferenceExtractionRequest, _OBJC_METACLASS_$_HDReferenceExtractionResult, _OBJC_METACLASS_$_HDUnresolvedReferenceSet ]
+...

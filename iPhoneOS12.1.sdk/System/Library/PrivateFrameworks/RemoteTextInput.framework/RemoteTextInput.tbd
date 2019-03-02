@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6277E02B-3ED0-3D19-8C69-62D1D56C66E6' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RemoteTextInput.framework/RemoteTextInput
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_RTIDataPayload, _OBJC_CLASS_$_RTIDocumentState, _OBJC_CLASS_$_RTIDocumentTraits, _OBJC_CLASS_$_RTIInputSystemClient, _OBJC_CLASS_$_RTIInputSystemClientSession, _OBJC_CLASS_$_RTIInputSystemDataPayload, _OBJC_CLASS_$_RTIInputSystemService, _OBJC_CLASS_$_RTIInputSystemServiceSession, _OBJC_CLASS_$_RTIInputSystemSession, _OBJC_CLASS_$_RTIInputSystemSourceSession, _OBJC_CLASS_$_RTIStyledIntermediateText, _OBJC_CLASS_$_RTITextOperations, _OBJC_CLASS_$_RTIUtilities, _OBJC_METACLASS_$_RTIDataPayload, _OBJC_METACLASS_$_RTIDocumentState, _OBJC_METACLASS_$_RTIDocumentTraits, _OBJC_METACLASS_$_RTIInputSystemClient, _OBJC_METACLASS_$_RTIInputSystemClientSession, _OBJC_METACLASS_$_RTIInputSystemDataPayload, _OBJC_METACLASS_$_RTIInputSystemService, _OBJC_METACLASS_$_RTIInputSystemServiceSession, _OBJC_METACLASS_$_RTIInputSystemSession, _OBJC_METACLASS_$_RTIInputSystemSourceSession, _OBJC_METACLASS_$_RTIStyledIntermediateText, _OBJC_METACLASS_$_RTITextOperations, _OBJC_METACLASS_$_RTIUtilities, _RTICanLogMessageAtLevel, _RTILogFacility, _RTIServiceAnonymousName, _RTIServiceIOSMacName, _RTIServiceMediaRemoteName, _RTIServiceRapportName, _RTIServiceSharingName, _RTIServiceSharingSafariName, _RTIServiceTVControlServicesName, _RemoteTextInputVersionNumber, _RemoteTextInputVersionString, __RTI_NSStringFromCGRect ]
+...

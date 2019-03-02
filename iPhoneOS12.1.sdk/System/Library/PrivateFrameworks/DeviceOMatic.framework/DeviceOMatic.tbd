@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 96CBEAE2-5B23-3699-9312-C372588A3D94' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DeviceOMatic.framework/DeviceOMatic
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DOMRegisterForMatching, _DOMServiceIsAttachedToRemovableDevice ]
+...

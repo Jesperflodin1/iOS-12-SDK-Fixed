@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C9790FC9-6711-3479-BFB2-8FFB6547AE64' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMSharedUI.framework/IMSharedUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMAnonymizeContentAndContacts, _IMAnonymizeContentAndContactsDidChangeNotification, _IMAttachmentLogSubtype, _IMFullScreenEffectPreferredFrameInterval, _IMFullscreenEffectManagerUpdatesPlaying, _IMFullscreenEffectsBundlePath, _IMSetAnonymizeContentAndContacts, _IMSharedUIBundle, _IMSharedUIBundleID, _IMSharedUIVersionNumber, _IMSharedUIVersionString, _OBJC_CLASS_$_IMFullScreenEffect, _OBJC_CLASS_$_IMFullScreenEffectManager, _OBJC_CLASS_$_IMFullScreenMomentBundleManager, _OBJC_CLASS_$_IMFullscreenEffectFilter, _OBJC_CLASS_$_IMTypingIndicatorLayer, _OBJC_METACLASS_$_IMFullScreenEffect, _OBJC_METACLASS_$_IMFullScreenEffectManager, _OBJC_METACLASS_$_IMFullScreenMomentBundleManager, _OBJC_METACLASS_$_IMFullscreenEffectFilter, _OBJC_METACLASS_$_IMTypingIndicatorLayer, _kCKThinkingDotsOpacityDefault ]
+...

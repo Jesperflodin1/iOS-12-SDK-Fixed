@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C344CADB-97FD-3E34-B626-909799924B08' ]
+platform:	ios
+install-name:  /usr/lib/log/liblog_signpost.description.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OSLogCopyFormattedString, _SignpostFormattedString ]
+...

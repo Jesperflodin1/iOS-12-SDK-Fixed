@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0F712832-F310-3BBB-9E06-192D2733E16F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AOPHaptics.framework/AOPHaptics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AOPHapticsActionKey, _AOPHapticsGainKey, _AOPHapticsOutputTypeKey, _AOPHapticsPreSilenceDurationKey, _AOPHapticsPriorityKey, _AOPHapticsRequestTimestampKey, _AOPHapticsSlotIndexKey, _OBJC_CLASS_$_AOPHapticsController, _OBJC_METACLASS_$_AOPHapticsController ]
+...

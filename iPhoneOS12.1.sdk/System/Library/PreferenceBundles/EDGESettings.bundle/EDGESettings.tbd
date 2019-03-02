@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DCEE338F-243A-390C-8AF2-8B734C1484C8' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/EDGESettings.bundle/EDGESettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

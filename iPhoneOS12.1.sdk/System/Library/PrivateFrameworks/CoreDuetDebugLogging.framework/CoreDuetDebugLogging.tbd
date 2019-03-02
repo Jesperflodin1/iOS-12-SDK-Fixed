@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 234B8535-1524-3CB7-9913-C6212FE6BDA5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreDuetDebugLogging.framework/CoreDuetDebugLogging
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CDDSetError, _CDDebugErrorStrings, _OBJC_CLASS_$_CDDebug, _OBJC_METACLASS_$_CDDebug ]
+...

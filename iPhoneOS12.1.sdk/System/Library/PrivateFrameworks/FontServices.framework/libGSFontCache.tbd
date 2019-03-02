@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 52905B61-DFC6-3C28-9ECB-785CA3F4CE1D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FontServices.framework/libGSFontCache.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _GSFontCacheGetData, _GSFontCacheGetDictionary ]
+...

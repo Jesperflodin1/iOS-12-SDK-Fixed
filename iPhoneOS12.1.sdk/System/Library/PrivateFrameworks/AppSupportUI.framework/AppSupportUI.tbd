@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D4F951F0-D05E-35B2-94BA-CA1A0485F2B6' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppSupportUI.framework/AppSupportUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NUIContainerViewDefaultDimension, _NUIContainerViewDefaultDirectionalInsets, _NUIContainerViewDefaultInsets, _NUIContainerViewDefaultSize, _NUIContainerViewSystemDimension, _OBJC_CLASS_$_NUIBoxArrangement, _OBJC_CLASS_$_NUIContainerBoxView, _OBJC_CLASS_$_NUIContainerGridView, _OBJC_CLASS_$_NUIContainerStackView, _OBJC_CLASS_$_NUIContainerView, _OBJC_CLASS_$_NUIContentScrollView, _OBJC_CLASS_$_NUIGridArrangement, _OBJC_CLASS_$_NUIMultilineSizingHelper, _OBJC_CLASS_$_NUISizeCache, _OBJC_CLASS_$_NUIWidgetGridView, _OBJC_CLASS_$_NUIWidgetGridViewCell, _OBJC_CLASS_$_NUIWidgetGridViewEmptyCell, _OBJC_METACLASS_$_NUIBoxArrangement, _OBJC_METACLASS_$_NUIContainerBoxView, _OBJC_METACLASS_$_NUIContainerGridView, _OBJC_METACLASS_$_NUIContainerStackView, _OBJC_METACLASS_$_NUIContainerView, _OBJC_METACLASS_$_NUIContentScrollView, _OBJC_METACLASS_$_NUIGridArrangement, _OBJC_METACLASS_$_NUIMultilineSizingHelper, _OBJC_METACLASS_$_NUISizeCache, _OBJC_METACLASS_$_NUIWidgetGridView, _OBJC_METACLASS_$_NUIWidgetGridViewCell, _OBJC_METACLASS_$_NUIWidgetGridViewEmptyCell ]
+...

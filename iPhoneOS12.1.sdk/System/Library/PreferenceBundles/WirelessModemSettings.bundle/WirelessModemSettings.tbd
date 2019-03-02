@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 40FBDBF9-84B3-395F-BBA8-A3ED6F9E99AB' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/WirelessModemSettings.bundle/WirelessModemSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MISManagerStateChangedNotification, _OBJC_CLASS_$_BluetoothSetupView, _OBJC_CLASS_$_MISManager, _OBJC_CLASS_$_SetupView, _OBJC_CLASS_$_TetheringSetupView, _OBJC_CLASS_$_TetheringSwitchFooterView, _OBJC_CLASS_$_USBSetupView, _OBJC_CLASS_$_WiFiPasswordController, _OBJC_CLASS_$_WiFiSetupView, _OBJC_CLASS_$_WirelessModemBundleController, _OBJC_CLASS_$_WirelessModemController, _OBJC_IVAR_$_TetheringSwitchFooterView._labels, _OBJC_METACLASS_$_BluetoothSetupView, _OBJC_METACLASS_$_MISManager, _OBJC_METACLASS_$_SetupView, _OBJC_METACLASS_$_TetheringSetupView, _OBJC_METACLASS_$_TetheringSwitchFooterView, _OBJC_METACLASS_$_USBSetupView, _OBJC_METACLASS_$_WiFiPasswordController, _OBJC_METACLASS_$_WiFiSetupView, _OBJC_METACLASS_$_WirelessModemBundleController, _OBJC_METACLASS_$_WirelessModemController, _WMSLogComponent, __wiFiDevicePowerCallback, _textPaddingVert ]
+...

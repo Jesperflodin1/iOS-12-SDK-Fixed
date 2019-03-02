@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 3405F685-6D48-39B0-8BC8-EAAC9DFB1B94' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PaperKit.framework/PaperKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _PaperKitVersionNumber, _PaperKitVersionString ]
+...

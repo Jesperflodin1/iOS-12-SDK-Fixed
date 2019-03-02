@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F7BD7B3E-131D-3C5E-9C92-021B3D5F20E6' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppStoreUI.framework/AppStoreUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ASAppStoreUIBundle, _OBJC_CLASS_$_ASClientController, _OBJC_CLASS_$_ASPurchaseBatch, _OBJC_CLASS_$_ASViewControllerFactory, _OBJC_METACLASS_$_ASClientController, _OBJC_METACLASS_$_ASPurchaseBatch, _OBJC_METACLASS_$_ASViewControllerFactory ]
+...

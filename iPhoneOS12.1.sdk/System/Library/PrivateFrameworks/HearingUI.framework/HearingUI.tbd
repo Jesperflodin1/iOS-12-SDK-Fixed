@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E20BD9E0-8436-3C41-995D-6B4AFAC8A52E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/HearingUI.framework/HearingUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXHARoundToPixel, _HACCItemEdgeSize, _HearingUIVersionNumber, _HearingUIVersionString, _OBJC_CLASS_$_AXHAStepSlider, _OBJC_CLASS_$_HACCBatteryGroupView, _OBJC_CLASS_$_HACCBatteryView, _OBJC_CLASS_$_HACCChevronView, _OBJC_CLASS_$_HACCConstants, _OBJC_CLASS_$_HACCContentViewController, _OBJC_CLASS_$_HACCListItemView, _OBJC_CLASS_$_HACCListViewController, _OBJC_CLASS_$_HACCLiveListenButton, _OBJC_CLASS_$_HACCLiveListenLevelGroup, _OBJC_CLASS_$_HACCProgramsButton, _OBJC_CLASS_$_HACCShortcutViewController, _OBJC_CLASS_$_HACCSlider, _OBJC_CLASS_$_HACCStatusView, _OBJC_IVAR_$_HACCBatteryView._batteryView, _OBJC_IVAR_$_HACCBatteryView._numberFormatter, _OBJC_IVAR_$_HACCBatteryView._sideLabel, _OBJC_IVAR_$_HACCBatteryView._valueLabel, _OBJC_IVAR_$_HACCListItemView._glyphImage, _OBJC_IVAR_$_HACCListItemView._glyphImageView, _OBJC_IVAR_$_HACCListItemView._highlightedBackgroundView, _OBJC_IVAR_$_HACCListItemView._separatorView, _OBJC_IVAR_$_HACCListItemView._titleLabel, _OBJC_METACLASS_$_AXHAStepSlider, _OBJC_METACLASS_$_HACCBatteryGroupView, _OBJC_METACLASS_$_HACCBatteryView, _OBJC_METACLASS_$_HACCChevronView, _OBJC_METACLASS_$_HACCConstants, _OBJC_METACLASS_$_HACCContentViewController, _OBJC_METACLASS_$_HACCListItemView, _OBJC_METACLASS_$_HACCListViewController, _OBJC_METACLASS_$_HACCLiveListenButton, _OBJC_METACLASS_$_HACCLiveListenLevelGroup, _OBJC_METACLASS_$_HACCProgramsButton, _OBJC_METACLASS_$_HACCShortcutViewController, _OBJC_METACLASS_$_HACCSlider, _OBJC_METACLASS_$_HACCStatusView, _accessibilityHearingAidImageNamed, _accessibilityHearingUIBundle, _haccEdgeSize ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 784CD2BE-84C0-3A7C-BBFA-72177F4BB798' ]
+platform:	ios
+install-name:  /System/Library/VideoProcessors/HDR.videoprocessor
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FigSampleBufferProcessorCreateForHDR ]
+...

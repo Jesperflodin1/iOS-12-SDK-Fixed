@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6438BBE1-4CE7-335C-A7D6-369E71CE1612' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/AppleNeuralEngine
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AppleNeuralEngineVersionNumber, _AppleNeuralEngineVersionString, _OBJC_CLASS_$__ANEClient, _OBJC_CLASS_$__ANECloneHelper, _OBJC_CLASS_$__ANEDaemonConnection, _OBJC_CLASS_$__ANEDataReporter, _OBJC_CLASS_$__ANEDeviceController, _OBJC_CLASS_$__ANEDeviceInfo, _OBJC_CLASS_$__ANEErrors, _OBJC_CLASS_$__ANEHashEncoding, _OBJC_CLASS_$__ANEIOSurfaceObject, _OBJC_CLASS_$__ANELog, _OBJC_CLASS_$__ANEModel, _OBJC_CLASS_$__ANEProgramForEvaluation, _OBJC_CLASS_$__ANEQoSMapper, _OBJC_CLASS_$__ANERequest, _OBJC_CLASS_$__ANEStrings, _OBJC_METACLASS_$__ANEClient, _OBJC_METACLASS_$__ANECloneHelper, _OBJC_METACLASS_$__ANEDaemonConnection, _OBJC_METACLASS_$__ANEDataReporter, _OBJC_METACLASS_$__ANEDeviceController, _OBJC_METACLASS_$__ANEDeviceInfo, _OBJC_METACLASS_$__ANEErrors, _OBJC_METACLASS_$__ANEHashEncoding, _OBJC_METACLASS_$__ANEIOSurfaceObject, _OBJC_METACLASS_$__ANELog, _OBJC_METACLASS_$__ANEModel, _OBJC_METACLASS_$__ANEProgramForEvaluation, _OBJC_METACLASS_$__ANEQoSMapper, _OBJC_METACLASS_$__ANERequest, _OBJC_METACLASS_$__ANEStrings, __ANEDaemonInterface, __ANEDaemonInterfacePrivate, _kANEFModelANECIRValue, _kANEFModelCoreMLValue, _kANEFModelPreCompiledValue, _kANEFModelTypeKey ]
+...

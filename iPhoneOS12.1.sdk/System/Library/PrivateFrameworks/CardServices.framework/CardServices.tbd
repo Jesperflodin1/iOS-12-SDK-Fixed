@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 70A217A1-F0C5-3EB2-8EC4-84C3A827F9BC' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CardServices.framework/CardServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CardServicesVersionNumber, _CardServicesVersionString, _OBJC_CLASS_$_CRSCardRequest, _OBJC_CLASS_$_CRSCardResponse, _OBJC_CLASS_$_CRSIdentifiedServiceRegistry, _OBJC_CLASS_$_CRSRequest, _OBJC_CLASS_$_CRSResponse, _OBJC_CLASS_$__CRSCardServiceBundle, _OBJC_CLASS_$__CRSCardServiceBundleManager, _OBJC_CLASS_$__CRSPassthroughService, _OBJC_CLASS_$__CRSServiceBundle, _OBJC_CLASS_$__CRSServiceBundleManager, _OBJC_METACLASS_$_CRSCardRequest, _OBJC_METACLASS_$_CRSCardResponse, _OBJC_METACLASS_$_CRSIdentifiedServiceRegistry, _OBJC_METACLASS_$_CRSRequest, _OBJC_METACLASS_$_CRSResponse, _OBJC_METACLASS_$__CRSCardServiceBundle, _OBJC_METACLASS_$__CRSCardServiceBundleManager, _OBJC_METACLASS_$__CRSPassthroughService, _OBJC_METACLASS_$__CRSServiceBundle, _OBJC_METACLASS_$__CRSServiceBundleManager ]
+...

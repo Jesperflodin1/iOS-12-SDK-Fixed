@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 3F239985-2880-363B-B44F-A6E2C6626EEE' ]
+platform:	ios
+install-name:  /usr/lib/libETLDLOADCoreDumpDynamic.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ETLDLOADCoreDumpCaptureRecord, _ETLDLOADCoreDumpCaptureRecordFast ]
+...

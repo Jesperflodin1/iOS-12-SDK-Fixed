@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 67C9059C-23DA-3DDC-BB44-5CDAB9BF56DF' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SLGLog, _OBJC_CLASS_$_SLGLogXPCClient, _OBJC_METACLASS_$_SLGLog, _OBJC_METACLASS_$_SLGLogXPCClient, _SLGCreateError, _SLGCreateLoggingIsDisabledError, _SLGCreateSessionEndMetadata, _SLGCreateSessionStartMetadata, _SLGLogDefaultsDomain, _SLGLogDefaultsEnabledKey, _SLGLogErrorDomain, _SLGLogIsEnabled, _SLGLogServiceName, _StudyLogVersionNumber, _StudyLogVersionString, _slg_general_log ]
+...

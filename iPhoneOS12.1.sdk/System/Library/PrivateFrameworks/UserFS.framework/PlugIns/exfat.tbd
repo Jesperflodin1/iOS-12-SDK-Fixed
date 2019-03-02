@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 83F82C42-B90C-32BC-A775-B235199687C4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UserFS.framework/PlugIns/exfat.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _userfs_plugin_init ]
+...

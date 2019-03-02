@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: EAF72C4A-6089-3D0E-8FA3-10052EEC16BA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoAudioControl.framework/NanoAudioControl
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_NACAudioRoute, _OBJC_CLASS_$_NACDaemonServer, _OBJC_CLASS_$_NACProxyVolumeControlTarget, _OBJC_CLASS_$_NACRoutingController, _OBJC_CLASS_$_NACVolumeController, _OBJC_CLASS_$_NACXPCServer, _OBJC_METACLASS_$_NACAudioRoute, _OBJC_METACLASS_$_NACDaemonServer, _OBJC_METACLASS_$_NACProxyVolumeControlTarget, _OBJC_METACLASS_$_NACRoutingController, _OBJC_METACLASS_$_NACVolumeController, _OBJC_METACLASS_$_NACXPCServer ]
+...

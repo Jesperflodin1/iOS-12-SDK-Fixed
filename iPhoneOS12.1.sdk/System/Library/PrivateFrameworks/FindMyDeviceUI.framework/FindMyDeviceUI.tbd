@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9FB0DE04-9228-325A-A5D8-D592E91DCA3B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FindMyDeviceUI.framework/FindMyDeviceUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_FMDUIFMIPiCloudSettingsViewController, _OBJC_METACLASS_$_FMDUIFMIPiCloudSettingsViewController ]
+...

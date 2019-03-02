@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 96D4FFB5-32E6-32DA-AFD7-A50E3E900CE1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WiFiVelocity.framework/WiFiVelocity
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_W5AWDLStatus, _OBJC_CLASS_$_W5BluetoothDevice, _OBJC_CLASS_$_W5BluetoothStatus, _OBJC_CLASS_$_W5Client, _OBJC_CLASS_$_W5DebugConfiguration, _OBJC_CLASS_$_W5DiagnosticsTestRequest, _OBJC_CLASS_$_W5DiagnosticsTestResult, _OBJC_CLASS_$_W5Event, _OBJC_CLASS_$_W5LogItemReceipt, _OBJC_CLASS_$_W5LogItemRequest, _OBJC_CLASS_$_W5NetworkStatus, _OBJC_CLASS_$_W5Peer, _OBJC_CLASS_$_W5PerfConfiguration, _OBJC_CLASS_$_W5PerfResult, _OBJC_CLASS_$_W5PerfUpdate, _OBJC_CLASS_$_W5PingResult, _OBJC_CLASS_$_W5PowerStatus, _OBJC_CLASS_$_W5SpeedTestResult, _OBJC_CLASS_$_W5Status, _OBJC_CLASS_$_W5WiFiChannel, _OBJC_CLASS_$_W5WiFiLinkQualityUpdate, _OBJC_CLASS_$_W5WiFiPreferredNetwork, _OBJC_CLASS_$_W5WiFiScanResult, _OBJC_CLASS_$_W5WiFiStatus, _OBJC_METACLASS_$_W5AWDLStatus, _OBJC_METACLASS_$_W5BluetoothDevice, _OBJC_METACLASS_$_W5BluetoothStatus, _OBJC_METACLASS_$_W5Client, _OBJC_METACLASS_$_W5DebugConfiguration, _OBJC_METACLASS_$_W5DiagnosticsTestRequest, _OBJC_METACLASS_$_W5DiagnosticsTestResult, _OBJC_METACLASS_$_W5Event, _OBJC_METACLASS_$_W5LogItemReceipt, _OBJC_METACLASS_$_W5LogItemRequest, _OBJC_METACLASS_$_W5NetworkStatus, _OBJC_METACLASS_$_W5Peer, _OBJC_METACLASS_$_W5PerfConfiguration, _OBJC_METACLASS_$_W5PerfResult, _OBJC_METACLASS_$_W5PerfUpdate, _OBJC_METACLASS_$_W5PingResult, _OBJC_METACLASS_$_W5PowerStatus, _OBJC_METACLASS_$_W5SpeedTestResult, _OBJC_METACLASS_$_W5Status, _OBJC_METACLASS_$_W5WiFiChannel, _OBJC_METACLASS_$_W5WiFiLinkQualityUpdate, _OBJC_METACLASS_$_W5WiFiPreferredNetwork, _OBJC_METACLASS_$_W5WiFiScanResult, _OBJC_METACLASS_$_W5WiFiStatus, _W5FormattedDescriptionForDebugConfiguration, _W5FormattedDescriptionForDiagnosticsTestResult, _W5FormattedDescriptionForStatus, _W5FormattedHeaderForDiagnosticsTestResults, _W5IsSelfAssignedIPv4, _W5IsSelfAssignedIPv6, _W5MachineSerialNumber ]
+...

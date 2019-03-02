@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C76EB1BF-93CE-308F-86A9-070A4B5EF101' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/BatteryCenter.framework/BatteryCenter
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _BCLogDeviceController, _BCLogWidget, _OBJC_CLASS_$_BCBatteryDevice, _OBJC_CLASS_$_BCBatteryDeviceController, _OBJC_CLASS_$_BCBatteryView, _OBJC_METACLASS_$_BCBatteryDevice, _OBJC_METACLASS_$_BCBatteryDeviceController, _OBJC_METACLASS_$_BCBatteryView, _kBCBatteryDeviceB188ProductIdentifier, _kBCBatteryDeviceB222ProductIdentifier ]
+...

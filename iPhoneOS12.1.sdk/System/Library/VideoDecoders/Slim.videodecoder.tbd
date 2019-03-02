@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7F0752A1-A8D0-3812-BF77-E0ABC3900C7C' ]
+platform:	ios
+install-name:  /System/Library/VideoDecoders/Slim.videodecoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _SLIMRegister, _SlimDecodeFrame, _SlimXDecodeBlocks, _SlimXDecodeFrame, _SlimXEncodeBlocks, _SlimXEncodeFrame, _decode_chroma16, _decode_chroma23, _decode_chroma26, _decode_chroma9, _decode_luma12, _decode_luma17, _decode_luma9, _vectorWritePacked ]
+...

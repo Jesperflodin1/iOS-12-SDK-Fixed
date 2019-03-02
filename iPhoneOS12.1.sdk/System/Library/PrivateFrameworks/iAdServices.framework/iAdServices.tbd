@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BF3F5851-876C-38F7-93FA-A9F1873FDBD3' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iAdServices.framework/iAdServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ADBKSApplicationStateDescription, _ADClientGlobalStateChangedNotification, _ADClientSegmentDataErrorDomain, _ADDefaultsBundleID, _ADErrorDomain, _ADInternalErrorCode, _ADInternalErrorDomain, _ADInternalServerFailureCode, _ADLocationPermissionCacheURL, _ADLogBarrier, _ADMakeCacheSubdirectory, _ADSessionUnexpectedCloseError, _ADShouldProxyRequestToHost, _ADWebViewProxyURLSchemeHTTP, _ADWebViewProxyURLSchemeHTTPS, _AdServicesDaemonIdentifier, _AdServingDaemonCacheCapacity, _OBJC_CLASS_$_ADAdActionPublicAttributes, _OBJC_CLASS_$_ADAdImpressionPublicAttributes, _OBJC_CLASS_$_ADAdServingDaemonConnection, _OBJC_CLASS_$_ADAdSpaceConfiguration, _OBJC_CLASS_$_ADAdSpaceEventInfo, _OBJC_CLASS_$_ADDefaults, _OBJC_CLASS_$_ADDeviceInfo, _OBJC_CLASS_$_ADMRAIDAction, _OBJC_CLASS_$_ADSInternalPoint, _OBJC_CLASS_$_ADSInternalRect, _OBJC_CLASS_$_ADSInternalSize, _OBJC_CLASS_$_ADServiceUtilities, _OBJC_METACLASS_$_ADAdActionPublicAttributes, _OBJC_METACLASS_$_ADAdImpressionPublicAttributes, _OBJC_METACLASS_$_ADAdServingDaemonConnection, _OBJC_METACLASS_$_ADAdSpaceConfiguration, _OBJC_METACLASS_$_ADAdSpaceEventInfo, _OBJC_METACLASS_$_ADDefaults, _OBJC_METACLASS_$_ADDeviceInfo, _OBJC_METACLASS_$_ADMRAIDAction, _OBJC_METACLASS_$_ADSInternalPoint, _OBJC_METACLASS_$_ADSInternalRect, _OBJC_METACLASS_$_ADSInternalSize, _OBJC_METACLASS_$_ADServiceUtilities, __ADLog, _isInternalInstall, _kADVideoAdvertisingIdentifier, _kADVideoURLSchemeHTTP, _kADVideoURLSchemeHTTPS ]
+...

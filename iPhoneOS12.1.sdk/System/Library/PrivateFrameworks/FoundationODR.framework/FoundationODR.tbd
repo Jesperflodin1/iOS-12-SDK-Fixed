@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AA7F7297-0307-3401-B128-7A7B5D2B2C08' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FoundationODR.framework/FoundationODR
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FoundationODRVersionNumber, _FoundationODRVersionString ]
+...

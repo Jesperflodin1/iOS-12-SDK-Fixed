@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8BDEA98D-61C1-3D42-B6E5-31BB77911A4A' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMTransferServicesErrorDomain, _OBJC_CLASS_$_IMTransferServicesCompressionController, _OBJC_CLASS_$_IMTransferServicesController, _OBJC_IVAR_$_IMTransferServicesCompressionController._blockMap, _OBJC_METACLASS_$_IMTransferServicesCompressionController, _OBJC_METACLASS_$_IMTransferServicesController ]
+...

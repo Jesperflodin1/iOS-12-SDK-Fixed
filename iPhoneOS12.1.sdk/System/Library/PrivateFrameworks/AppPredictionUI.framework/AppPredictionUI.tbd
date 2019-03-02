@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 080F9F3A-B918-3B17-990E-29AD5AB02DCD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppPredictionUI.framework/AppPredictionUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _APUIAppIconImageLoaderIconSize, _APUIAppIconImageLoaderProtocol, _APUIBundleIdReplacementFor, _APUIDeviceSupportsForceTouch, _APUIIsDeviceLocked, _APUIIsIntentFromSystemApp, _APUIIsInternalBuild, _APUIRegisterCardKitProvidersIfNeeded, _APUIRegisterCardServicesIfNeeded, _APUIThisProcessIsSpringBoard, _AppPredictionUIVersionNumber, _AppPredictionUIVersionString, _OBJC_CLASS_$_APUIActionCardRequest, _OBJC_CLASS_$_APUIActionCardUtils, _OBJC_CLASS_$_APUIActionCardViewConfig, _OBJC_CLASS_$_APUIAppIconImageLoader, _OBJC_CLASS_$_APUICardRequestSatisfactionCriteria, _OBJC_CLASS_$_APUICardService, _OBJC_CLASS_$_APUIIntentHandlingViewController, _OBJC_CLASS_$_APUILongLookViewController, _OBJC_CLASS_$_APUIShortLookViewController, _OBJC_CLASS_$_APUIWFLIntentController, _OBJC_CLASS_$__APUIActionCardInfo, _OBJC_CLASS_$__APUICardRequestCompactSatisfactionCriteria, _OBJC_CLASS_$__APUICardRequestCustomIntentSatisfactionCriteria, _OBJC_METACLASS_$_APUIActionCardRequest, _OBJC_METACLASS_$_APUIActionCardUtils, _OBJC_METACLASS_$_APUIActionCardViewConfig, _OBJC_METACLASS_$_APUIAppIconImageLoader, _OBJC_METACLASS_$_APUICardRequestSatisfactionCriteria, _OBJC_METACLASS_$_APUICardService, _OBJC_METACLASS_$_APUIIntentHandlingViewController, _OBJC_METACLASS_$_APUILongLookViewController, _OBJC_METACLASS_$_APUIShortLookViewController, _OBJC_METACLASS_$_APUIWFLIntentController, _OBJC_METACLASS_$__APUIActionCardInfo, _OBJC_METACLASS_$__APUICardRequestCompactSatisfactionCriteria, _OBJC_METACLASS_$__APUICardRequestCustomIntentSatisfactionCriteria, _kAPUICardServiceIdentifier ]
+...

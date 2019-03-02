@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: A1133712-6848-3080-BEAA-4062013347C9' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/ContactsSettings.bundle/ContactsSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ABAccountIdentifierLocal, _CNUICopyAccountInformation, _OBJC_CLASS_$_ABImporter, _OBJC_CLASS_$_ContactsSettingsPlugin, _OBJC_CLASS_$_ContactsShortNameController, _OBJC_IVAR_$_ContactsSettingsPlugin._ContactsInMailSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._ContactsSortOrderSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._MeCardSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._PersonNameOrderSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._SIMImportSpacerSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._SIMImportSpecifier, _OBJC_IVAR_$_ContactsSettingsPlugin._addressBook, _OBJC_IVAR_$_ContactsSettingsPlugin._addressBookQueue, _OBJC_IVAR_$_ContactsSettingsPlugin._contactStoreNames, _OBJC_IVAR_$_ContactsSettingsPlugin._contactStores, _OBJC_IVAR_$_ContactsSettingsPlugin._contactStoresCount, _OBJC_IVAR_$_ContactsSettingsPlugin._ctServerConnection, _OBJC_IVAR_$_ContactsSettingsPlugin._currentSpecifiers, _OBJC_IVAR_$_ContactsSettingsPlugin._importButtonIndexToStoreID, _OBJC_IVAR_$_ContactsSettingsPlugin._importStoreID, _OBJC_IVAR_$_ContactsSettingsPlugin._loadingContacts, _OBJC_IVAR_$_ContactsSettingsPlugin._meCardLastCheckedSequenceNumber, _OBJC_IVAR_$_ContactsSettingsPlugin._meCardPicker, _OBJC_IVAR_$_ContactsSettingsPlugin._meCardPopover, _OBJC_IVAR_$_ContactsSettingsPlugin._shouldShowSIMImport, _OBJC_METACLASS_$_ABImporter, _OBJC_METACLASS_$_ContactsSettingsPlugin, _OBJC_METACLASS_$_ContactsShortNameController ]
+...

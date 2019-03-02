@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BB9CC70F-C3B5-3F14-8C07-431EB7EA828D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iAdDeveloper.framework/iAdDeveloper
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ADAdServerManifestManager, _OBJC_CLASS_$_ADAdServerManifestRecord, _OBJC_CLASS_$_ADEmbeddedAdServer, _OBJC_CLASS_$_HTSHTTPMessage, _OBJC_CLASS_$_HTSHTTPMessageRequest, _OBJC_CLASS_$_HTSHTTPMessageResponse, _OBJC_CLASS_$_HTSHTTPServer, _OBJC_CLASS_$_HTSHTTPServerConnection, _OBJC_METACLASS_$_ADAdServerManifestManager, _OBJC_METACLASS_$_ADAdServerManifestRecord, _OBJC_METACLASS_$_ADEmbeddedAdServer, _OBJC_METACLASS_$_HTSHTTPMessage, _OBJC_METACLASS_$_HTSHTTPMessageRequest, _OBJC_METACLASS_$_HTSHTTPMessageResponse, _OBJC_METACLASS_$_HTSHTTPServer, _OBJC_METACLASS_$_HTSHTTPServerConnection ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5052373E-347F-3101-8DC5-E74C6C3A502A' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iOSScreenSharing.framework/iOSScreenSharing
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ViewServiceHelper, _OBJC_METACLASS_$_ViewServiceHelper, _SS_SendStatusBarTapToScreenSharingServer ]
+...

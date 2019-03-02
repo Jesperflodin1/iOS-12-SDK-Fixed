@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2305E81B-CF06-3546-9F1A-7051F1F545B6' ]
+platform:	ios
+install-name:  /usr/lib/libETLDIAGLoggingDynamic.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  __Z23ETLDIAGLoggingConfigureR20ETLDIAGLoggingParamsRNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE, __Z24ETLDIAGLoggingCreateHashRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE, __Z25ETLDIAGLoggingUnconfigureR20ETLDIAGLoggingParamsRNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE, __Z29ETLDIAGLoggingGetStringForKeymPPKcPv ]
+...

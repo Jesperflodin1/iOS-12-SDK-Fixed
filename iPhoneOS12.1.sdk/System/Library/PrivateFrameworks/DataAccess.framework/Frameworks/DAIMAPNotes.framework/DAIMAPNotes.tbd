@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1F3BECD1-51E5-346F-A527-9FBDA0A119AE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAIMAPNotes.framework/DAIMAPNotes
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_DAIMAPNotesAccount, _OBJC_METACLASS_$_DAIMAPNotesAccount ]
+...

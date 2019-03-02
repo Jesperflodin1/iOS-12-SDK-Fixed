@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6F479613-D2EC-38A9-B696-CD11FC6C26FD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RTTUI.framework/RTTUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_RTTUIAbbreviationCell, _OBJC_CLASS_$_RTTUIConversationViewController, _OBJC_CLASS_$_RTTUIReplyActionCell, _OBJC_CLASS_$_RTTUIResponseCell, _OBJC_CLASS_$_RTTUIServiceUpdateCell, _OBJC_CLASS_$_RTTUITextView, _OBJC_CLASS_$_RTTUIUtilities, _OBJC_CLASS_$_RTTUIUtteranceCell, _OBJC_CLASS_$_RTTUtteranceRequest, _OBJC_METACLASS_$_RTTUIAbbreviationCell, _OBJC_METACLASS_$_RTTUIConversationViewController, _OBJC_METACLASS_$_RTTUIReplyActionCell, _OBJC_METACLASS_$_RTTUIResponseCell, _OBJC_METACLASS_$_RTTUIServiceUpdateCell, _OBJC_METACLASS_$_RTTUITextView, _OBJC_METACLASS_$_RTTUIUtilities, _OBJC_METACLASS_$_RTTUIUtteranceCell, _OBJC_METACLASS_$_RTTUtteranceRequest, _RTTUIVersionNumber, _RTTUIVersionString, _ttyImageNamed ]
+...

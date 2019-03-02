@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AB7027AC-02E2-3405-A577-A53834FBBC6E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DictionaryUI.framework/DictionaryUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DUDefinitionElementKeyHeadword, _DUDefinitionElementKeyPartOfSpeech, _DUDefinitionElementKeyPronunciation, _DUDefinitionElementKeyRecordID, _DUDefinitionElementKeySenses, _DUDefinitionElementKeySyllabifiedHeadword, _DictionaryUIVersionNumber, _DictionaryUIVersionString, _OBJC_CLASS_$_DUDefinitionDictionary, _OBJC_CLASS_$_DUDefinitionValue, _OBJC_CLASS_$_DUDictionaryManager, _OBJC_CLASS_$_DUEntryViewController, _OBJC_METACLASS_$_DUDefinitionDictionary, _OBJC_METACLASS_$_DUDefinitionValue, _OBJC_METACLASS_$_DUDictionaryManager, _OBJC_METACLASS_$_DUEntryViewController ]
+...

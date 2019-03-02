@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2443DFDD-03DB-3CF6-AE38-243C0F44F08C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreHandwriting.framework/CoreHandwriting
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CHRecognitionOptionTextBefore, _OBJC_CLASS_$_CHBottomUpStrokeGroupingStrategy, _OBJC_CLASS_$_CHBoxcarFilterPointFIFO, _OBJC_CLASS_$_CHCharacterSetRules, _OBJC_CLASS_$_CHDrawing, _OBJC_CLASS_$_CHIndexableContentQuery, _OBJC_CLASS_$_CHPatternGraph, _OBJC_CLASS_$_CHPointFIFO, _OBJC_CLASS_$_CHPointStrokeFIFO, _OBJC_CLASS_$_CHQuadCurvePointFIFO, _OBJC_CLASS_$_CHQuery, _OBJC_CLASS_$_CHRecognitionResult, _OBJC_CLASS_$_CHRecognitionSession, _OBJC_CLASS_$_CHRecognitionSessionIndexableContent, _OBJC_CLASS_$_CHRecognitionSessionResult, _OBJC_CLASS_$_CHRecognizer, _OBJC_CLASS_$_CHSearchQuery, _OBJC_CLASS_$_CHStrokeGroup, _OBJC_CLASS_$_CHStrokeGroupRecognitionResult, _OBJC_CLASS_$_CHStrokeGroupingResult, _OBJC_CLASS_$_CHStrokeGroupingStrategy, _OBJC_CLASS_$_CHTitleQuery, _OBJC_CLASS_$_CHVisualizationManager, _OBJC_METACLASS_$_CHBottomUpStrokeGroupingStrategy, _OBJC_METACLASS_$_CHBoxcarFilterPointFIFO, _OBJC_METACLASS_$_CHCharacterSetRules, _OBJC_METACLASS_$_CHDrawing, _OBJC_METACLASS_$_CHIndexableContentQuery, _OBJC_METACLASS_$_CHPatternGraph, _OBJC_METACLASS_$_CHPointFIFO, _OBJC_METACLASS_$_CHPointStrokeFIFO, _OBJC_METACLASS_$_CHQuadCurvePointFIFO, _OBJC_METACLASS_$_CHQuery, _OBJC_METACLASS_$_CHRecognitionResult, _OBJC_METACLASS_$_CHRecognitionSession, _OBJC_METACLASS_$_CHRecognitionSessionIndexableContent, _OBJC_METACLASS_$_CHRecognitionSessionResult, _OBJC_METACLASS_$_CHRecognizer, _OBJC_METACLASS_$_CHSearchQuery, _OBJC_METACLASS_$_CHStrokeGroup, _OBJC_METACLASS_$_CHStrokeGroupRecognitionResult, _OBJC_METACLASS_$_CHStrokeGroupingResult, _OBJC_METACLASS_$_CHStrokeGroupingStrategy, _OBJC_METACLASS_$_CHTitleQuery, _OBJC_METACLASS_$_CHVisualizationManager ]
+...

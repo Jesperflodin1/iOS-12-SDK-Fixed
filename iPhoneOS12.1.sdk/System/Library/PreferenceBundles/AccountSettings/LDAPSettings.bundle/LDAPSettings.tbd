@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 63018987-ADC6-331A-A575-B6C246F19051' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/AccountSettings/LDAPSettings.bundle/LDAPSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_LDAPSettingsAccountsUIController, _OBJC_CLASS_$_LDAPSettingsPlugin, _OBJC_CLASS_$_LDAPSettingsSearchBaseController, _OBJC_METACLASS_$_LDAPSettingsAccountsUIController, _OBJC_METACLASS_$_LDAPSettingsPlugin, _OBJC_METACLASS_$_LDAPSettingsSearchBaseController ]
+...

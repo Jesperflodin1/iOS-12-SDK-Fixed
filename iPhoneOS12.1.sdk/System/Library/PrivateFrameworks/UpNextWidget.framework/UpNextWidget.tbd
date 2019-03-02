@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6D2BB3FA-935F-3AD1-93CB-1D5D4BD1A8A9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UpNextWidget.framework/UpNextWidget
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_Localization, _OBJC_CLASS_$_UpNextGeoServicesBridge, _OBJC_METACLASS_$_Localization, _OBJC_METACLASS_$_UpNextGeoServicesBridge, _UpNextLogInitIfNeeded, _UpNext_os_log, _UpNext_os_log_debug, _UpNext_os_log_error, _UpNext_os_log_fault, _UpNext_os_log_info ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 25864DE8-1B55-3B25-B4F1-615BE7D82C4B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _BCSBarcodeNotificationPayloadContactKey, _BCSBarcodeNotificationPayloadExtraPreviewText, _BCSBarcodeNotificationPayloadICSStringKey, _BCSBarcodeNotificationPayloadKey, _BCSBarcodeNotificationPayloadPreviewFooterSubtitleKey, _BCSBarcodeNotificationPayloadPreviewFooterTitleKey, _BCSBarcodeNotificationPayloadScannerResultKey, _BCSBarcodeNotificationPayloadURLKey, _BCSErrorDomain, _OBJC_CLASS_$_BCSAVParsingSession, _OBJC_CLASS_$_BCSAWDLogger, _OBJC_CLASS_$_BCSActionPickerItem, _OBJC_CLASS_$_BCSConfigurationManager, _OBJC_CLASS_$_BCSNFCCodeParser, _OBJC_CLASS_$_BCSNotification, _OBJC_CLASS_$_BCSNotificationServiceDelegate, _OBJC_CLASS_$_BCSParser, _OBJC_CLASS_$_BCSQRCodeParser, _OBJC_METACLASS_$_BCSAVParsingSession, _OBJC_METACLASS_$_BCSAWDLogger, _OBJC_METACLASS_$_BCSActionPickerItem, _OBJC_METACLASS_$_BCSConfigurationManager, _OBJC_METACLASS_$_BCSNFCCodeParser, _OBJC_METACLASS_$_BCSNotification, _OBJC_METACLASS_$_BCSNotificationServiceDelegate, _OBJC_METACLASS_$_BCSParser, _OBJC_METACLASS_$_BCSQRCodeParser ]
+...

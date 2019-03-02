@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0E01F8AA-2225-3AD7-A049-2DACDCBA248E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ContextKit.framework/ContextKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CKContextKitNotification_ConfigurationUpdate, _ContextKitErrorDomain, _ContextKitVersionNumber, _ContextKitVersionString, _OBJC_CLASS_$_CKContextClient, _OBJC_CLASS_$_CKContextCompleter, _OBJC_CLASS_$_CKContextGlobals, _OBJC_CLASS_$_CKContextRequest, _OBJC_CLASS_$_CKContextResponse, _OBJC_CLASS_$_CKContextResult, _OBJC_METACLASS_$_CKContextClient, _OBJC_METACLASS_$_CKContextCompleter, _OBJC_METACLASS_$_CKContextGlobals, _OBJC_METACLASS_$_CKContextRequest, _OBJC_METACLASS_$_CKContextResponse, _OBJC_METACLASS_$_CKContextResult ]
+...

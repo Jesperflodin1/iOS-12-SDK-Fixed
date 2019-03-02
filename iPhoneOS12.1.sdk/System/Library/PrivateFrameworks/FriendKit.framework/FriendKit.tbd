@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9A9B8B4A-DAD5-3BE5-9047-3025898DF333' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FriendKit.framework/FriendKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DigitalTouchDomain, _FKDeduplicateFriendListEnabledKey, _FKDidNormalizeFriendListDestinationsKey, _FKEmptyTrailingGroupEnabledKey, _FKFriendGroupTitleChangedExternallyNotification, _FKFriendGroupTitleChangedExternallyNotificationKey, _FKFriendGroupTitleChangedNotification, _FKFriendListKey, _FKFriendsChangedExternallyNotification, _FKFriendsChangedExternallyNotificationKey, _FKFriendsManagerChangedNotification, _FKFriendsManagerDestinationStatusUpdatedDestinationsKey, _FKFriendsManagerDestinationStatusUpdatedNotification, _FKFriendsManagerGroupListChanged, _FKFriendsManagerPersonAdded, _FKFriendsManagerPersonDeleted, _FKFriendsManagerPersonMoved, _FKFriendsManagerPersonUpdated, _FKGroupSizeKey, _FKGroupTitlesKey, _FKMaxGroupCountKey, _FKPersonUnlinkedABGUIDKey, _FKPersonUnlinkedFromAddressBookNotification, _FKPersonValuesChangedNotification, _FKRefreshAgainstContactsOnInitEnabledKey, _FKRemoveDestinationlessFriendsEnabledKey, _FriendKitBundle, _FriendKitVersionNumber, _FriendKitVersionString, _OBJC_CLASS_$_FKDelayedOperation, _OBJC_CLASS_$_FKFriendGroup, _OBJC_CLASS_$_FKFriendsManager, _OBJC_CLASS_$_FKPerson, _OBJC_CLASS_$_FKUtility, _OBJC_METACLASS_$_FKDelayedOperation, _OBJC_METACLASS_$_FKFriendGroup, _OBJC_METACLASS_$_FKFriendsManager, _OBJC_METACLASS_$_FKPerson, _OBJC_METACLASS_$_FKUtility, __FKGetLogSystem ]
+...

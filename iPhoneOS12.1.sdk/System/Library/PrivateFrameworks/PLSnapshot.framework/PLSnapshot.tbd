@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B63473ED-D3E1-331A-B5AE-2E01EF73992E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PLSnapshot.framework/PLSnapshot
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PLSnapshotCPUStats, _OBJC_CLASS_$_PLSnapshotUtilities, _OBJC_METACLASS_$_PLSnapshotCPUStats, _OBJC_METACLASS_$_PLSnapshotUtilities ]
+...

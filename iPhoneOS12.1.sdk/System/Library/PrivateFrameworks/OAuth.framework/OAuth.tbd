@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FB41B669-78D8-3451-96BF-BE5166BE20B6' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/OAuth.framework/OAuth
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OAAuthTokenKey, _OAConsumerKeyKey, _OANonceKey, _OASignatureKey, _OASignatureMethodKey, _OATimestampKey, _OAVersionKey, _OBJC_CLASS_$_OACredential, _OBJC_CLASS_$_OAHMAC_SHA1Signer, _OBJC_CLASS_$_OAPlainTextSigner, _OBJC_CLASS_$_OAURLRequestSigner, _OBJC_IVAR_$_OACredential._consumerKey, _OBJC_IVAR_$_OACredential._consumerSecret, _OBJC_IVAR_$_OACredential._oauthToken, _OBJC_IVAR_$_OACredential._oauthTokenSecret, _OBJC_IVAR_$_OAURLRequestSigner._credential, _OBJC_IVAR_$_OAURLRequestSigner._signatureMethod, _OBJC_METACLASS_$_OACredential, _OBJC_METACLASS_$_OAHMAC_SHA1Signer, _OBJC_METACLASS_$_OAPlainTextSigner, _OBJC_METACLASS_$_OAURLRequestSigner, _oauth_version ]
+...

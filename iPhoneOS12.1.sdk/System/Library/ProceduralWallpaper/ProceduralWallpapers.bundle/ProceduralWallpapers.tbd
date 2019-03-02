@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 296D06C2-0F74-37E8-8E02-A2D278F443E5' ]
+platform:	ios
+install-name:  /System/Library/ProceduralWallpaper/ProceduralWallpapers.bundle/ProceduralWallpapers
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_Bokeh, _OBJC_CLASS_$_BokehParallaxNode, _OBJC_CLASS_$_BokehParallaxScene, _OBJC_CLASS_$_BokehScene, _OBJC_CLASS_$_WKInfiniteImpulseResponseFilter, _OBJC_CLASS_$_WKMotionManager, _OBJC_CLASS_$_WKOpenGLESView, _OBJC_METACLASS_$_Bokeh, _OBJC_METACLASS_$_BokehParallaxNode, _OBJC_METACLASS_$_BokehParallaxScene, _OBJC_METACLASS_$_BokehScene, _OBJC_METACLASS_$_WKInfiniteImpulseResponseFilter, _OBJC_METACLASS_$_WKMotionManager, _OBJC_METACLASS_$_WKOpenGLESView, _fullyCheckHardwareFile, _glueCompileShader, _glueLinkProgram, _glueValidateProgram ]
+...

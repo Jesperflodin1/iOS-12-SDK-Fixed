@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 60A6524C-8523-399E-A669-3F2848EB91BD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/DiskSpaceDiagnostics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DiskSpaceDiagnosticsVersionNumber, _DiskSpaceDiagnosticsVersionString ]
+...

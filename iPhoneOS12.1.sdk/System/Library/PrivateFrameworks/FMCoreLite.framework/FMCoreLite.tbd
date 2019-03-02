@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4A4B3F99-70E1-3FD4-A319-0FA03E115FB0' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FMCoreLite.framework/FMCoreLite
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FMAlertCategoryNone, _FMEmptyResult, _FMErrorDomain, _FMFutureCallbackStack, _OBJC_CLASS_$_FMAlert, _OBJC_CLASS_$_FMCancelationToken, _OBJC_CLASS_$_FMConcurrentMutableArray, _OBJC_CLASS_$_FMConcurrentMutableDictionary, _OBJC_CLASS_$_FMDataArchiver, _OBJC_CLASS_$_FMFuture, _OBJC_CLASS_$_FMInternalFileContainer, _OBJC_CLASS_$_FMPair, _OBJC_CLASS_$_FMPreferencesUtil, _OBJC_CLASS_$_FMPromise, _OBJC_CLASS_$_FMQueue, _OBJC_CLASS_$_FMReadWriteLock, _OBJC_CLASS_$_FMScheduler, _OBJC_CLASS_$_FMSharedFileContainer, _OBJC_CLASS_$_FMSynchronizer, _OBJC_CLASS_$_FMValueThrottler, _OBJC_CLASS_$__FMLazyFuture, _OBJC_METACLASS_$_FMAlert, _OBJC_METACLASS_$_FMCancelationToken, _OBJC_METACLASS_$_FMConcurrentMutableArray, _OBJC_METACLASS_$_FMConcurrentMutableDictionary, _OBJC_METACLASS_$_FMDataArchiver, _OBJC_METACLASS_$_FMFuture, _OBJC_METACLASS_$_FMInternalFileContainer, _OBJC_METACLASS_$_FMPair, _OBJC_METACLASS_$_FMPreferencesUtil, _OBJC_METACLASS_$_FMPromise, _OBJC_METACLASS_$_FMQueue, _OBJC_METACLASS_$_FMReadWriteLock, _OBJC_METACLASS_$_FMScheduler, _OBJC_METACLASS_$_FMSharedFileContainer, _OBJC_METACLASS_$_FMSynchronizer, _OBJC_METACLASS_$_FMValueThrottler, _OBJC_METACLASS_$__FMLazyFuture, __FMBlockDescriptor, __FMDictionaryOfMetrics, __FMFutureDidPerformCallback, __FMFutureWillPerformCallback, __FMPopScopedDescriptor, __FMPushScopedDescriptor, __FMScopedDescriptor, _kFMDataArchiverErrorDomain, _kFMSynchronizerTimeoutNever ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AAE0F02D-3D9E-3A44-A147-75AA50C73CC8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Futhark.framework/Futhark
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FKGetBuildAPIVersion, _FKGetBuildGitHash, _FKGetBuildTimestamp, _FKGetFrameworkVersion, _FKGlyphRender, _FKGlyphSetDerivedProperties, _FKRecognizeGlyph, _FutharkVersionNumber, _FutharkVersionString, _OBJC_CLASS_$_FKTextDetector, _OBJC_CLASS_$_FKTextFeature, _OBJC_IVAR_$_FKTextDetector._roi, _OBJC_IVAR_$_FKTextDetector._sessions, _OBJC_IVAR_$_FKTextDetector._size, _OBJC_IVAR_$_FKTextDetector._timeBinarizer, _OBJC_IVAR_$_FKTextDetector._timeConcomps, _OBJC_IVAR_$_FKTextDetector._timeDownscale, _OBJC_IVAR_$_FKTextDetector._timeRecognizer, _OBJC_IVAR_$_FKTextDetector._timeSequences, _OBJC_IVAR_$_FKTextFeature._backingIndex, _OBJC_IVAR_$_FKTextFeature._scale, _OBJC_IVAR_$_FKTextFeature._session, _OBJC_METACLASS_$_FKTextDetector, _OBJC_METACLASS_$_FKTextFeature ]
+...

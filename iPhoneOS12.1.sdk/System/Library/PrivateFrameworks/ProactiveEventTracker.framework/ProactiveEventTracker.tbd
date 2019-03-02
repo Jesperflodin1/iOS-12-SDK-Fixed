@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 45993D8C-AB9D-37C7-9890-0542A5F395DB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ProactiveEventTracker.framework/ProactiveEventTracker
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PETAggdLoggingOutlet, _OBJC_CLASS_$_PETDeviceInfo, _OBJC_CLASS_$_PETDistributionEventTracker, _OBJC_CLASS_$_PETEventEnumMappedProperty, _OBJC_CLASS_$_PETEventFreeValuedProperty, _OBJC_CLASS_$_PETEventNumericalProperty, _OBJC_CLASS_$_PETEventProperty, _OBJC_CLASS_$_PETEventStringValidator, _OBJC_CLASS_$_PETEventStringValuedProperty, _OBJC_CLASS_$_PETEventTracker, _OBJC_CLASS_$_PETGoalConversionEventTracker, _OBJC_CLASS_$_PETLoggingUtils, _OBJC_CLASS_$_PETScalarEventTracker, _OBJC_CLASS_$_PETStringPairs, _OBJC_CLASS_$_PETTestLoggingOutlet, _OBJC_METACLASS_$_PETAggdLoggingOutlet, _OBJC_METACLASS_$_PETDeviceInfo, _OBJC_METACLASS_$_PETDistributionEventTracker, _OBJC_METACLASS_$_PETEventEnumMappedProperty, _OBJC_METACLASS_$_PETEventFreeValuedProperty, _OBJC_METACLASS_$_PETEventNumericalProperty, _OBJC_METACLASS_$_PETEventProperty, _OBJC_METACLASS_$_PETEventStringValidator, _OBJC_METACLASS_$_PETEventStringValuedProperty, _OBJC_METACLASS_$_PETEventTracker, _OBJC_METACLASS_$_PETGoalConversionEventTracker, _OBJC_METACLASS_$_PETLoggingUtils, _OBJC_METACLASS_$_PETScalarEventTracker, _OBJC_METACLASS_$_PETStringPairs, _OBJC_METACLASS_$_PETTestLoggingOutlet, _ProactiveEventTrackerVersionNumber, _ProactiveEventTrackerVersionString ]
+...

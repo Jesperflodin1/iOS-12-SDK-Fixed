@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DA6A4D32-F5D4-347D-9B71-27E5504872E5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/StocksCore.framework/StocksCore
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SCAdPlatforms, _OBJC_CLASS_$_SCICUNumberFormatter, _OBJC_CLASS_$_SCManagerAssembly, _OBJC_CLASS_$_SCServiceAssembly, _OBJC_CLASS_$_SCURLAssembly, _OBJC_CLASS_$_SCWebHeadline, _OBJC_CLASS_$__TtC10StocksCore16NewsCoreAssembly, _OBJC_CLASS_$__TtC10StocksCore20LegacyStocksAssembly, _OBJC_CLASS_$__TtC10StocksCore8Assembly, _OBJC_METACLASS_$_SCAdPlatforms, _OBJC_METACLASS_$_SCICUNumberFormatter, _OBJC_METACLASS_$_SCManagerAssembly, _OBJC_METACLASS_$_SCServiceAssembly, _OBJC_METACLASS_$_SCURLAssembly, _OBJC_METACLASS_$_SCWebHeadline, _OBJC_METACLASS_$__TtC10StocksCore16NewsCoreAssembly, _OBJC_METACLASS_$__TtC10StocksCore20LegacyStocksAssembly, _OBJC_METACLASS_$__TtC10StocksCore8Assembly, _SCContextEnvironmentFromInt, _SCHeadlineDesiredFieldOptions, _SCIsNewsAppAllowed, _StocksCoreVersionNumber, _StocksCoreVersionString, _char_from_uchar, _formattedCountWithLocale ]
+...

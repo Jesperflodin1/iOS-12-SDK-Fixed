@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 74DCA8C1-C03C-388E-A553-48BD6DBABF86' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/RawCamera.bundle/RawCamera
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CreateListOfSupportedCamerasAndVersions, _GetRawPluginsInfo, _RCCopyMethodsArrayForIdentifier, _RCCreateCIImageFromBufferAndProperties, _RawCameraTP, _ReadMakerNoteProps ]
+...

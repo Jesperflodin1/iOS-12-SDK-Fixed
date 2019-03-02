@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F982645F-73BD-3C27-B395-BBABA67D74C8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FTClientServices.framework/FTClientServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FTCServiceAvailabilityAvailabilityKey, _FTCServiceAvailabilityDidChangeNotification, _FTCServiceAvailabilityServiceTypeKey, _FTCServiceNameCalling, _FTCServiceNameFaceTime, _FTCServiceNameForServiceType, _FTCServiceNameMadrid, _FTCServiceNameiMessage, _FTCServiceTypeForServiceName, _OBJC_CLASS_$_FTCServiceAvailabilityCenter, _OBJC_METACLASS_$_FTCServiceAvailabilityCenter ]
+...

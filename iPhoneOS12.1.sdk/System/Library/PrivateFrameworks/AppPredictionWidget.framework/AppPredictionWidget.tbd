@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D0E8E0EE-B0EA-3B27-B7FC-C7E1E23FD17C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppPredictionWidget.framework/AppPredictionWidget
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AppPredictionWidgetVersionNumber, _AppPredictionWidgetVersionString, _OBJC_CLASS_$_APWAppIconAndLabelView, _OBJC_CLASS_$_APWDebugLightView, _OBJC_CLASS_$_APWSettings, _OBJC_CLASS_$_APWUtil, _OBJC_METACLASS_$_APWAppIconAndLabelView, _OBJC_METACLASS_$_APWDebugLightView, _OBJC_METACLASS_$_APWSettings, _OBJC_METACLASS_$_APWUtil ]
+...

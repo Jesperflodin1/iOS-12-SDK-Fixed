@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9F8C9509-1F26-38A5-BD55-79052256BB0E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/TeaCharts.framework/TeaCharts
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TCAssembly, _OBJC_CLASS_$_TCChartsAssembly, _OBJC_CLASS_$_TCColumnChartAssembly, _OBJC_CLASS_$_TCGridAssembly, _OBJC_CLASS_$_TCLineChartAssembly, _OBJC_CLASS_$_TCSparklineAssembly, _OBJC_CLASS_$__TtC9TeaCharts13LineChartView, _OBJC_CLASS_$__TtC9TeaCharts13SparklineView, _OBJC_CLASS_$__TtC9TeaCharts14LineSeriesView, _OBJC_CLASS_$__TtC9TeaCharts15ColumnChartView, _OBJC_CLASS_$__TtC9TeaCharts24TapDragGestureRecognizer, _OBJC_CLASS_$__TtC9TeaCharts8GridView, _OBJC_METACLASS_$_TCAssembly, _OBJC_METACLASS_$_TCChartsAssembly, _OBJC_METACLASS_$_TCColumnChartAssembly, _OBJC_METACLASS_$_TCGridAssembly, _OBJC_METACLASS_$_TCLineChartAssembly, _OBJC_METACLASS_$_TCSparklineAssembly, _OBJC_METACLASS_$__TtC9TeaCharts13LineChartView, _OBJC_METACLASS_$__TtC9TeaCharts13SparklineView, _OBJC_METACLASS_$__TtC9TeaCharts14LineSeriesView, _OBJC_METACLASS_$__TtC9TeaCharts15ColumnChartView, _OBJC_METACLASS_$__TtC9TeaCharts24TapDragGestureRecognizer, _OBJC_METACLASS_$__TtC9TeaCharts8GridView, _TeaChartsVersionNumber, _TeaChartsVersionString ]
+...

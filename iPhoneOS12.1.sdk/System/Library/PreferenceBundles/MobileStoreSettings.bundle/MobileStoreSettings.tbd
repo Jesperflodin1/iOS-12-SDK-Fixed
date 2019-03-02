@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5ECA912C-C648-369D-BEDC-AB5F659D4DBC' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AppStoreVideoSettingsController, _OBJC_CLASS_$_SUSettingsLinkHeaderFooterView, _OBJC_CLASS_$_SUSettingsPasswordEntryTableCell, _OBJC_CLASS_$_SUSettingsViewControllerFactory, _OBJC_CLASS_$_SUSettingsiForgotHeaderFooterView, _OBJC_CLASS_$_StorePasswordSettingsController, _OBJC_CLASS_$_StoreSettingsAccountCell, _OBJC_CLASS_$_StoreSettingsController, _OBJC_CLASS_$_StoreSettingsLinkButton, _OBJC_METACLASS_$_AppStoreVideoSettingsController, _OBJC_METACLASS_$_SUSettingsLinkHeaderFooterView, _OBJC_METACLASS_$_SUSettingsPasswordEntryTableCell, _OBJC_METACLASS_$_SUSettingsViewControllerFactory, _OBJC_METACLASS_$_SUSettingsiForgotHeaderFooterView, _OBJC_METACLASS_$_StorePasswordSettingsController, _OBJC_METACLASS_$_StoreSettingsAccountCell, _OBJC_METACLASS_$_StoreSettingsController, _OBJC_METACLASS_$_StoreSettingsLinkButton, _SUSettingsOpenURLBagKey, _SUSettingsSpecifierPropertyAttributedTitle, _SUSettingsSpecifierPropertyAttributedTitleHighlighted, _SUSettingsSpecifierPropertyURLBagKey ]
+...

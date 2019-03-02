@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 11F07CAE-F73C-365A-845F-DDFA0F51E065' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/KeyboardArbiter.framework/KeyboardArbiter
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__UIKeyboardArbiter, _OBJC_CLASS_$__UIKeyboardArbiter_ForSpringBoard, _OBJC_METACLASS_$__UIKeyboardArbiter, _OBJC_METACLASS_$__UIKeyboardArbiter_ForSpringBoard, __UIArbiterLog, __UIKeyboardArbiter_ForSpringBoard_WorkspaceIdentifier, __UIKeyboardArbiter_SceneIdentifier ]
+...

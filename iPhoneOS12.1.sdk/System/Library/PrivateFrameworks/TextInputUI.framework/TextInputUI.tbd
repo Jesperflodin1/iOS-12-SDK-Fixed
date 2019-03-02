@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FA50236D-9EE3-35B4-A432-FD46DF8A6ED8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TUIKBGraphSerialization, _OBJC_CLASS_$_TUIKeyboardLayoutFactory, _OBJC_METACLASS_$_TUIKBGraphSerialization, _OBJC_METACLASS_$_TUIKeyboardLayoutFactory ]
+...

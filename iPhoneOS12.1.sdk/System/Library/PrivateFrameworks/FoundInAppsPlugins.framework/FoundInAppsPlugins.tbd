@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6D55CFB0-7896-3EA8-A5DD-AC1616706A81' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FoundInAppsPlugins.framework/FoundInAppsPlugins
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FoundInAppsPluginsVersionNumber, _FoundInAppsPluginsVersionString, _OBJC_CLASS_$_FIAPEntity, _OBJC_CLASS_$_FIAPHistoricalDataRequest, _OBJC_CLASS_$_FIAPResult, _OBJC_METACLASS_$_FIAPEntity, _OBJC_METACLASS_$_FIAPHistoricalDataRequest, _OBJC_METACLASS_$_FIAPResult ]
+...

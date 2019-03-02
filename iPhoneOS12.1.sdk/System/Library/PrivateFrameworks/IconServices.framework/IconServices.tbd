@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 50E7B07A-5C97-377C-8F4A-ED23E1C936A7' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ISIcon, _OBJC_CLASS_$_ISIconLayer, _OBJC_CLASS_$_ISIconObserver, _OBJC_CLASS_$_ISImageDescriptor, _OBJC_METACLASS_$_ISIcon, _OBJC_METACLASS_$_ISIconLayer, _OBJC_METACLASS_$_ISIconObserver, _OBJC_METACLASS_$_ISImageDescriptor ]
+...

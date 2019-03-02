@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6DFD0294-036C-3333-95FF-036DB612238A' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MobileLookup.framework/MobileLookup
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MLULookupItem, _OBJC_METACLASS_$_MLULookupItem ]
+...

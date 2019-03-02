@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4900FBC7-5A13-3683-82E5-7C03E5EBB03F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ButtonResolver.framework/ButtonResolver
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _BRConfigAssertionKey, _BRConfigGainKey, _BRConfigMaxTimeKey, _BRConfigMinTimeKey, _BRConfigSpeedKey, _BRGlobalConfigForceFeelKey, _OBJC_CLASS_$_BRAsset, _OBJC_CLASS_$_BRButtonResolverController, _OBJC_CLASS_$_BRInterface, _OBJC_CLASS_$_BRInterfaceAOP, _OBJC_CLASS_$_BRInterfaceKeyboard, _OBJC_CLASS_$_BRInterfaceLegacy, _OBJC_CLASS_$_BRSlotData, _OBJC_CLASS_$_BRStateData, _OBJC_METACLASS_$_BRAsset, _OBJC_METACLASS_$_BRButtonResolverController, _OBJC_METACLASS_$_BRInterface, _OBJC_METACLASS_$_BRInterfaceAOP, _OBJC_METACLASS_$_BRInterfaceKeyboard, _OBJC_METACLASS_$_BRInterfaceLegacy, _OBJC_METACLASS_$_BRSlotData, _OBJC_METACLASS_$_BRStateData ]
+...

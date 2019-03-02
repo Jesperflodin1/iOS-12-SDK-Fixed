@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CE3EB658-97EB-3954-82FF-3DAA7593F8BB' ]
+platform:	ios
+install-name:  /System/Library/Messages/PlugIns/SMS.imservice/SMS
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _SMILPieceAudioTag, _SMILPieceContentLocationKey, _SMILPieceDataKey, _SMILPieceDurationKey, _SMILPieceFilenameKey, _SMILPieceImageTag, _SMILPieceRefTag, _SMILPieceTagNameKey, _SMILPieceTextTag, _SMILPieceTextTypeKey, _SMILPieceTypeKey, _SMILPieceVideoTag, _SMSCopySanitizedContentID, _SMSCopySanitizedContentLocation ]
+...

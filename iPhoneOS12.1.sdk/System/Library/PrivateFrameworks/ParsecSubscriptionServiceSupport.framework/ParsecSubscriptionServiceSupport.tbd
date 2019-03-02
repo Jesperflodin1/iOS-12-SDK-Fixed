@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 40E4BFEF-85D0-3D44-A32E-D037D7C4BAA3' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ParsecSubscriptionServiceSupport.framework/ParsecSubscriptionServiceSupport
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PSSSSubscriptionManager, _OBJC_CLASS_$_PSSSSubscriptionManagerInternal, _OBJC_METACLASS_$_PSSSSubscriptionManager, _OBJC_METACLASS_$_PSSSSubscriptionManagerInternal, _ParsecSubscriptionServiceSupportVersionNumber, _ParsecSubscriptionServiceSupportVersionString ]
+...

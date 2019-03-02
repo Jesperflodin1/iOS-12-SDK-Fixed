@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1AA64C55-B47B-399A-A93D-5743B018BF78' ]
+platform:	ios
+install-name:  /System/Library/VideoEncoders/JPEGH1.videoencoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _H1JPEGEncoder_CheckExistance, _H1JPEGEncoder_CreateInstance, _JPEGH1EncoderRegister ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 29CA9196-A93D-3696-B8A5-248FBEA5720E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_WFLAction, _OBJC_CLASS_$_WFLActionImplementation, _OBJC_CLASS_$_WFLHandleIntentAction, _OBJC_CLASS_$_WFLHandleIntentActionImplementation, _OBJC_CLASS_$_WFLOpenUserActivityAction, _OBJC_CLASS_$_WFLOpenUserActivityActionImplementation, _OBJC_CLASS_$_WFLWorkflow, _OBJC_CLASS_$_WFLWorkflowController, _OBJC_CLASS_$_WFLWorkflowSerialization, _OBJC_METACLASS_$_WFLAction, _OBJC_METACLASS_$_WFLActionImplementation, _OBJC_METACLASS_$_WFLHandleIntentAction, _OBJC_METACLASS_$_WFLHandleIntentActionImplementation, _OBJC_METACLASS_$_WFLOpenUserActivityAction, _OBJC_METACLASS_$_WFLOpenUserActivityActionImplementation, _OBJC_METACLASS_$_WFLWorkflow, _OBJC_METACLASS_$_WFLWorkflowController, _OBJC_METACLASS_$_WFLWorkflowSerialization, _WFLActionErrorDomain, _WFLErrorDomain, _WFLForceExecutionOnPhoneKey, _WFLHandleIntentActionIdentifier, _WFLIntentDataKey, _WFLLogContext, _WFLLogInitIfNeeded, _WFLOpenUserActivityActionIdentifier, _WFLUnderlyingIntentResponseKey, _WFLWorkflowActionIdentifierKey, _WFLWorkflowActionParametersKey, _WFLWorkflowActionsKey, _WFLWorkflowAssociatedAppBundleIdentifierKey, _WFLWorkflowDescriptionKey, _WFLWorkflowNameKey, _WorkflowKitVersionNumber, _WorkflowKitVersionString ]
+...

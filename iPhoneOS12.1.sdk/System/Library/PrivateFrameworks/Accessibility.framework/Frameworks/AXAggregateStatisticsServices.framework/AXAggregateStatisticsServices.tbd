@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DC05958C-5812-3624-B8C1-A6D9AEF878BF' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXAggregateStatisticsServices.framework/AXAggregateStatisticsServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXAggregateStatisticsServices, _OBJC_METACLASS_$_AXAggregateStatisticsServices ]
+...

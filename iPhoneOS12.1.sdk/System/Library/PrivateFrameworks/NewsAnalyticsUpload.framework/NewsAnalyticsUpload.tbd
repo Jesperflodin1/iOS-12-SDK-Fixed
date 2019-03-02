@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5A96148B-E6F8-3BFC-8170-7D986C2E968B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NewsAnalyticsUpload.framework/NewsAnalyticsUpload
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NDAnalyticsEntryCanBeUploaded, _NDAnalyticsEntryDeliveryWindow, _NDAnalyticsEntryDeliveryWindowEarlierDate, _NDAnalyticsEnvelopeContentTypesFromEntries, _NDAnalyticsEnvelopeStoreEntriesFromStringRepresentations, _NDAnalyticsEnvelopeStoreStringRepresentationsOfEntries, _NDAnalyticsEnvelopeSubmissionDatesByContentType, _NDSharedClientLog, _NDSharedServiceLog, _NewsAnalyticsUploadVersionNumber, _NewsAnalyticsUploadVersionString, _OBJC_CLASS_$_NDAnalyticsEnvelopeManager, _OBJC_CLASS_$_NDAnalyticsEnvelopeStore, _OBJC_CLASS_$_NDAnalyticsEnvelopeStoreEntry, _OBJC_CLASS_$_NDAnalyticsPayloadAssembler, _OBJC_CLASS_$_NDAnalyticsPayloadInfo, _OBJC_CLASS_$_NDAnalyticsPayloadUploader, _OBJC_CLASS_$_NDAnalyticsUploadScheduler, _OBJC_CLASS_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider, _OBJC_METACLASS_$_NDAnalyticsEnvelopeManager, _OBJC_METACLASS_$_NDAnalyticsEnvelopeStore, _OBJC_METACLASS_$_NDAnalyticsEnvelopeStoreEntry, _OBJC_METACLASS_$_NDAnalyticsPayloadAssembler, _OBJC_METACLASS_$_NDAnalyticsPayloadInfo, _OBJC_METACLASS_$_NDAnalyticsPayloadUploader, _OBJC_METACLASS_$_NDAnalyticsUploadScheduler, _OBJC_METACLASS_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider ]
+...

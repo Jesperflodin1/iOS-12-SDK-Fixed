@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E9F6F140-54F1-3590-B336-06CAFDFC879C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DABookmarkDAV.framework/DABookmarkDAV
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_BookmarkDAVAccount, _OBJC_CLASS_$_BookmarkDAVLocalDBHelper, _OBJC_METACLASS_$_BookmarkDAVAccount, _OBJC_METACLASS_$_BookmarkDAVLocalDBHelper ]
+...

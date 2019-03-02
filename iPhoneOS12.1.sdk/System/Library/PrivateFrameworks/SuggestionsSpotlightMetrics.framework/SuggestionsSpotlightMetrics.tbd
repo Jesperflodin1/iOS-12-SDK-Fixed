@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E26E1212-124A-3E45-896C-E80784820360' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SuggestionsSpotlightMetrics.framework/SuggestionsSpotlightMetrics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SGSMFeedbackListener, _OBJC_CLASS_$_SGSMMutableSearchState, _OBJC_METACLASS_$_SGSMFeedbackListener, _OBJC_METACLASS_$_SGSMMutableSearchState, _SuggestionsSpotlightMetricsVersionNumber, _SuggestionsSpotlightMetricsVersionString ]
+...

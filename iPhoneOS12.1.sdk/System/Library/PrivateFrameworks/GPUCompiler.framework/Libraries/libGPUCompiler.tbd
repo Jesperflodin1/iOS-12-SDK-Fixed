@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 540826F6-5A4F-3791-B7B7-8411C89C1C13' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompiler.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MTLDowngradeAIRModule, _MTLGPUCompilerCompileAndSplitFromSource, _MTLGPUCompilerCompileFromSource, _MTLGPUCompilerCreate, _MTLGPUCompilerDestroy, _MTLGPUCompilerSpecializeFunction, _MTLUpgradeAIRModule, _MTLVerifyAIRModule, _MTLWriteAIRBitcodeToMemoryBuffer ]
+...

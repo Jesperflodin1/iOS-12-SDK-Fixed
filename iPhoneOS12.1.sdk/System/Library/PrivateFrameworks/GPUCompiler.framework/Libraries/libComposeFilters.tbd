@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 88B5008C-B552-3B93-B2E4-4799934A0ED0' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libComposeFilters.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _composeImageFilterFunctionsFromModulesSPI, _composeImageFilterFunctionsSPI ]
+...

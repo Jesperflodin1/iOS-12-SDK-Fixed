@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F5E6A48E-E722-3BD9-9E1A-1E8EF76572BF' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NewsServices.framework/NewsServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NNHHeadlineLaunchURLComplicationPathPrefix, _NNHHeadlineLaunchURLHost, _NNHHeadlineLaunchURLScheme, _NNHHeadlineLaunchURLUpNextPathPrefix, _NNHLaunchedFromComplicationURLString, _NNHLaunchedFromNoStoriesPathString, _NNHLaunchedFromUpNextURLString, _NNHNewsTintColorAlpha, _NNHNewsTintColorBlue, _NNHNewsTintColorGreen, _NNHNewsTintColorRed, _NewsServicesVersionNumber, _NewsServicesVersionString, _NewsWidgetPolicyDaemonClientType, _NewsWidgetPolicyDaemonClientUUID, _OBJC_CLASS_$_NNCComplicationDataSource, _OBJC_CLASS_$_NNCLastNewsStoryResult, _OBJC_CLASS_$_NSSArticle, _OBJC_CLASS_$_NSSArticleViewController, _OBJC_CLASS_$_NSSComplicationDataSource, _OBJC_CLASS_$_NSSNewsArticlePrefetcher, _OBJC_CLASS_$_NSSNewsRemoteViewController, _OBJC_CLASS_$_NSSNewsViewController, _OBJC_CLASS_$_NWPNewsWidgetClientTypeLoader, _OBJC_METACLASS_$_NNCComplicationDataSource, _OBJC_METACLASS_$_NNCLastNewsStoryResult, _OBJC_METACLASS_$_NSSArticle, _OBJC_METACLASS_$_NSSArticleViewController, _OBJC_METACLASS_$_NSSComplicationDataSource, _OBJC_METACLASS_$_NSSNewsArticlePrefetcher, _OBJC_METACLASS_$_NSSNewsRemoteViewController, _OBJC_METACLASS_$_NSSNewsViewController, _OBJC_METACLASS_$_NWPNewsWidgetClientTypeLoader ]
+...

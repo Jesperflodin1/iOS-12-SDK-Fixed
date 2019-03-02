@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 042F9339-75A0-3009-B65B-2A81D29429D1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotification
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _INCreateError, _INCreateErrorWithKeychainError, _INCreateErrorWithMessage, _INDaemonBundleIdentifierKey, _INDaemonMachServiceName, _INErrorDomain, _INFamilyDidChangeNotification, _INFileLoggingEnabledKey, _INNextFreshmintRefreshDateKey, _INNextHeartbeatDateKey, _INSyslogOutputLevelKey, _OBJC_CLASS_$_INDaemonConnection, _OBJC_CLASS_$_INDaemonInterface, _OBJC_CLASS_$_INDiagnosticReport, _OBJC_CLASS_$_INManagedDefaults, _OBJC_METACLASS_$_INDaemonConnection, _OBJC_METACLASS_$_INDaemonInterface, _OBJC_METACLASS_$_INDiagnosticReport, _OBJC_METACLASS_$_INManagedDefaults, __INLogSystem ]
+...

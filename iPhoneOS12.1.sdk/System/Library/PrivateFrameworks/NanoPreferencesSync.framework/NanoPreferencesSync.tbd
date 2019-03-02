@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 49BE04B5-92EB-3C97-80E1-95B9CC2CE7CC' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NPSHasCompletedInitialSync, _NPSLoggingDaemonObjectInit, _NPSLoggingDomainAccessorObjectInit, _NPSLoggingFrameworkObjectInit, _NPSManagedConfigurationClientID, _OBJC_CLASS_$_NPSDomainAccessor, _OBJC_CLASS_$_NPSDomainAccessorFilePresenter, _OBJC_CLASS_$_NPSDomainAccessorInternal, _OBJC_CLASS_$_NPSDomainAccessorUtils, _OBJC_CLASS_$_NPSManager, _OBJC_METACLASS_$_NPSDomainAccessor, _OBJC_METACLASS_$_NPSDomainAccessorFilePresenter, _OBJC_METACLASS_$_NPSDomainAccessorInternal, _OBJC_METACLASS_$_NPSDomainAccessorUtils, _OBJC_METACLASS_$_NPSManager, _kNPSInitialSyncCompletionDarwinNotification, _kNPSInitialSyncKey, _kNPSPathComponentsToBackupFolderWithinPairingDataStore, _kNanoPreferencesSyncDomain, _nps_daemon_log, _nps_domain_accessor_log, _nps_framework_log ]
+...

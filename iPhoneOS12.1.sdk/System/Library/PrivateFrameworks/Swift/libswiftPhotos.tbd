@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 66C22388-2970-341D-A22B-45566D2EDB3B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Swift/libswiftPhotos.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _$SSo8PHChangeC6PhotosE13changeDetails3forSo014PHObjectChangeD0CyxGSgx_tSo0F0CRbzlF, _$SSo8PHChangeC6PhotosE13changeDetails3forSo019PHFetchResultChangeD0CyxGSgSo0fG0CyxG_tSo8PHObjectCRbzlF, __swift_FORCE_LOAD_$_swiftPhotos ]
+...

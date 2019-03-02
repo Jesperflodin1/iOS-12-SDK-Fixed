@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E99F6798-D09A-3548-B799-1EF9EF0AA1F5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoPhonePerfTesting.framework/NanoPhonePerfTesting
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NanoPhonePerfTestingVersionNumber, _NanoPhonePerfTestingVersionString, _OBJC_CLASS_$_NPHPerfTestingUtil, _OBJC_METACLASS_$_NPHPerfTestingUtil, _nph_general_log ]
+...

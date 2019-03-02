@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DF8897F0-8374-3B77-A5AA-89D60174F4FD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ActionPredictionHeuristics.framework/ActionPredictionHeuristics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ActionPredictionHeuristicsVersionNumber, _ActionPredictionHeuristicsVersionString, _OBJC_CLASS_$_ATXActionPredictionHeuristics, _OBJC_METACLASS_$_ATXActionPredictionHeuristics ]
+...

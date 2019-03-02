@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 02EFAA75-BE07-3FC4-9E24-7D9F397A8568' ]
+platform:	ios
+install-name:  /usr/lib/libMemoryResourceException.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MREBundleStringForUnbundledProcess, _MREErrorDomain, _MREExceptionTypeToString, _OBJC_CLASS_$_MemoryResourceException, _OBJC_CLASS_$_RMECacheEnumerator, _OBJC_METACLASS_$_MemoryResourceException, _OBJC_METACLASS_$_RMECacheEnumerator, _ReportMemoryExceptionFromTask ]
+...

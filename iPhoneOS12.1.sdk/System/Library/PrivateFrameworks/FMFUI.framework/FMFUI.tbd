@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E35E6DD4-0320-36D2-837E-AF5D29F76065' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FMFUI.framework/FMFUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ActiveDeviceLinkDetailsKey, _ActiveDeviceLinkNameKey, _OBJC_CLASS_$_ActiveDeviceLinkCell, _OBJC_CLASS_$_FMFActiveDeviceSelectionViewController, _OBJC_CLASS_$_FMFLocationSharingViewController, _OBJC_CLASS_$_FMFMapViewController, _OBJC_CLASS_$_FMFSpecifierProvider, _OBJC_CLASS_$_FollowerDetailsLinkCell, _OBJC_METACLASS_$_ActiveDeviceLinkCell, _OBJC_METACLASS_$_FMFActiveDeviceSelectionViewController, _OBJC_METACLASS_$_FMFLocationSharingViewController, _OBJC_METACLASS_$_FMFMapViewController, _OBJC_METACLASS_$_FMFSpecifierProvider, _OBJC_METACLASS_$_FollowerDetailsLinkCell, _PSFollowerDetailsTitleTextColorKey ]
+...

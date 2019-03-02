@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: ABE2BD2A-7DEC-34DB-89A3-77A53158774F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Engram.framework/Engram
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ENCypherErrorDomain, _ENGroupContextErrorDomain, _ENGroupContextErrorItemKey, _ENGroupIDErrorDomain, _OBJC_CLASS_$_ENAccountIdentity, _OBJC_CLASS_$_ENAsyncReducer, _OBJC_CLASS_$_ENAsyncReducerState, _OBJC_CLASS_$_ENCypher, _OBJC_CLASS_$_ENCypher_AES128, _OBJC_CLASS_$_ENGroup, _OBJC_CLASS_$_ENGroupContext, _OBJC_CLASS_$_ENGroupContextCoreDataCache, _OBJC_CLASS_$_ENGroupContextInMemoryCache, _OBJC_CLASS_$_ENGroupContextNotifyingObserver, _OBJC_CLASS_$_ENGroupID, _OBJC_CLASS_$_ENKeyClassRegister, _OBJC_CLASS_$_ENLog, _OBJC_CLASS_$_ENPair, _OBJC_CLASS_$_ENParticipant, _OBJC_CLASS_$_ENParticipantDevice, _OBJC_CLASS_$_ENStableGroupID, _OBJC_CLASS_$__ENGroupInfo, _OBJC_IVAR_$_ENGroupContextCoreDataCache._container, _OBJC_IVAR_$_ENGroupContextCoreDataCache._queue, _OBJC_IVAR_$_ENParticipant._accountPublicKey, _OBJC_IVAR_$_ENParticipant._aliases, _OBJC_IVAR_$_ENParticipant._devices, _OBJC_IVAR_$_ENParticipantDevice._cypher, _OBJC_IVAR_$_ENParticipantDevice._devicePublicKey, _OBJC_IVAR_$_ENParticipantDevice._identifier, _OBJC_METACLASS_$_ENAccountIdentity, _OBJC_METACLASS_$_ENAsyncReducer, _OBJC_METACLASS_$_ENAsyncReducerState, _OBJC_METACLASS_$_ENCypher, _OBJC_METACLASS_$_ENCypher_AES128, _OBJC_METACLASS_$_ENGroup, _OBJC_METACLASS_$_ENGroupContext, _OBJC_METACLASS_$_ENGroupContextCoreDataCache, _OBJC_METACLASS_$_ENGroupContextInMemoryCache, _OBJC_METACLASS_$_ENGroupContextNotifyingObserver, _OBJC_METACLASS_$_ENGroupID, _OBJC_METACLASS_$_ENKeyClassRegister, _OBJC_METACLASS_$_ENLog, _OBJC_METACLASS_$_ENPair, _OBJC_METACLASS_$_ENParticipant, _OBJC_METACLASS_$_ENParticipantDevice, _OBJC_METACLASS_$_ENStableGroupID, _OBJC_METACLASS_$__ENGroupInfo ]
+...

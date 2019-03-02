@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 47731D4D-B749-3FC3-93DB-5CC556CD2F53' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/EmojiKit.framework/EmojiKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _EMKEmojiConversionDisabledNotificationName, _EMKEmojiConversionLanguageAttributeName, _EMKEmojiSignifierAttributeName, _EMKEmojiTokenListAttributeName, _EMKStartTimerNotificationName, _EMKStopTimerNotificationName, _EmojiKitVersionNumber, _EmojiKitVersionString, _OBJC_CLASS_$_EMKEmojiSignifier, _OBJC_CLASS_$_EMKEmojiTokenList, _OBJC_CLASS_$_EMKGestureRecognizerDelegate, _OBJC_CLASS_$_EMKGlyphRippler, _OBJC_CLASS_$_EMKLayoutManager, _OBJC_CLASS_$_EMKOverlayView, _OBJC_CLASS_$_EMKTextEnumerator, _OBJC_CLASS_$_EMKTextView, _OBJC_METACLASS_$_EMKEmojiSignifier, _OBJC_METACLASS_$_EMKEmojiTokenList, _OBJC_METACLASS_$_EMKGestureRecognizerDelegate, _OBJC_METACLASS_$_EMKGlyphRippler, _OBJC_METACLASS_$_EMKLayoutManager, _OBJC_METACLASS_$_EMKOverlayView, _OBJC_METACLASS_$_EMKTextEnumerator, _OBJC_METACLASS_$_EMKTextView ]
+...

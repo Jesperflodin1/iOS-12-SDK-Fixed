@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4EACF909-798B-3FD6-AE39-3ADB16E61A3A' ]
+platform:	ios
+install-name:  /System/Library/DataClassMigrators/DAAccount.migrator/DAAccount
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_DAAccountMigrator, _OBJC_METACLASS_$_DAAccountMigrator ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 739657CC-565D-3EA2-8062-12237ADF48DE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RapportUI.framework/RapportUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_RPPINEntryView, _OBJC_CLASS_$_RPPairingManagerUIController, _OBJC_CLASS_$_RPPairingPromptViewController, _OBJC_CLASS_$_RPPairingShowViewController, _OBJC_CLASS_$_RPPairingUIController, _OBJC_CLASS_$_RPUICloudServer, _OBJC_CLASS_$_RPUICloudSession, _OBJC_METACLASS_$_RPPINEntryView, _OBJC_METACLASS_$_RPPairingManagerUIController, _OBJC_METACLASS_$_RPPairingPromptViewController, _OBJC_METACLASS_$_RPPairingShowViewController, _OBJC_METACLASS_$_RPPairingUIController, _OBJC_METACLASS_$_RPUICloudServer, _OBJC_METACLASS_$_RPUICloudSession, _RPImageForDeviceModel, _RPUILocalizedString, _RPUILocalizedStringF, _RPUILocalizedStringV ]
+...

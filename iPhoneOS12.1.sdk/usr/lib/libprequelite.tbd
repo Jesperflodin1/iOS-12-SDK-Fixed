@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: A2D4F18A-8740-3BC5-A130-727CF77B10D3' ]
+platform:	ios
+install-name:  /usr/lib/libprequelite.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PQLConnection, _OBJC_CLASS_$_PQLFormatInjection, _OBJC_CLASS_$_PQLNameInjection, _OBJC_CLASS_$_PQLRawInjection, _OBJC_CLASS_$_PQLResultSet, _OBJC_METACLASS_$_PQLConnection, _OBJC_METACLASS_$_PQLFormatInjection, _OBJC_METACLASS_$_PQLNameInjection, _OBJC_METACLASS_$_PQLRawInjection, _OBJC_METACLASS_$_PQLResultSet, _PQLSqliteErrorDomain, _pql_sqlite3_bind_pointer, _pql_sqlite3_value_object, _pql_sqlite3_value_pointer ]
+...

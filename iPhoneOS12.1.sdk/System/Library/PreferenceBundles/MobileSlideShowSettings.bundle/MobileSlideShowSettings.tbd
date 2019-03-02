@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B8565957-837C-3E89-8EDD-B1410E6707F3' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/MobileSlideShowSettings.bundle/MobileSlideShowSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MSSCameraCodecSettingsController, _OBJC_CLASS_$_MSSCameraPreserveSettingsController, _OBJC_CLASS_$_MSSCameraSlomoSettingsController, _OBJC_CLASS_$_MSSCameraVideoSettingsController, _OBJC_CLASS_$_MSSCellularDataSettingsController, _OBJC_CLASS_$_MSSPhotoStreamInAccountSettingsController, _OBJC_CLASS_$_MSSSettingsController, _OBJC_CLASS_$_SettingsBaseController, _OBJC_CLASS_$__MSSCellularDataEnabledInvocation, _OBJC_METACLASS_$_MSSCameraCodecSettingsController, _OBJC_METACLASS_$_MSSCameraPreserveSettingsController, _OBJC_METACLASS_$_MSSCameraSlomoSettingsController, _OBJC_METACLASS_$_MSSCameraVideoSettingsController, _OBJC_METACLASS_$_MSSCellularDataSettingsController, _OBJC_METACLASS_$_MSSPhotoStreamInAccountSettingsController, _OBJC_METACLASS_$_MSSSettingsController, _OBJC_METACLASS_$_SettingsBaseController, _OBJC_METACLASS_$__MSSCellularDataEnabledInvocation, _kCPLExistNonLocalOriginalsKey, _kCPLNonLocalOriginalsCountKey, _kCPLNonLocalOriginalsFileSizeKey, _kCPLNonLocalOriginalsPhotoCountKey, _kCPLNonLocalOriginalsVideoCountKey, _kCameraCaptureGroupSpecifierID ]
+...

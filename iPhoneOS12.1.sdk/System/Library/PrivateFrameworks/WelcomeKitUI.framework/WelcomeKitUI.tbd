@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 961B2C70-534F-37F2-B180-82DEDD92B496' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WelcomeKitUI.framework/WelcomeKitUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_WLAvailabilityRequestController, _OBJC_CLASS_$_WLIntroViewController, _OBJC_CLASS_$_WLMigrationCompletedViewController, _OBJC_CLASS_$_WLMigrationProgressViewController, _OBJC_CLASS_$_WLPairingViewController, _OBJC_CLASS_$_WLWelcomeGroupViewController, _OBJC_CLASS_$_WLWelcomeViewController, _OBJC_CLASS_$_WLWelcomeViewControllerMetrics, _OBJC_METACLASS_$_WLAvailabilityRequestController, _OBJC_METACLASS_$_WLIntroViewController, _OBJC_METACLASS_$_WLMigrationCompletedViewController, _OBJC_METACLASS_$_WLMigrationProgressViewController, _OBJC_METACLASS_$_WLPairingViewController, _OBJC_METACLASS_$_WLWelcomeGroupViewController, _OBJC_METACLASS_$_WLWelcomeViewController, _OBJC_METACLASS_$_WLWelcomeViewControllerMetrics, _WelcomeKitUIVersionNumber, _WelcomeKitUIVersionString ]
+...

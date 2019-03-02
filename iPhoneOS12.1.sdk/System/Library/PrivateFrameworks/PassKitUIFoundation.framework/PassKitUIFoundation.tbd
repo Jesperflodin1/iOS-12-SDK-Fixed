@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CE7846AC-447C-3D68-8D1F-81B5704E010C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PassKitUIFoundation.framework/PassKitUIFoundation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PK3DCardView, _OBJC_CLASS_$_PKAuthenticator, _OBJC_CLASS_$_PKAuthenticatorEvaluationContext, _OBJC_CLASS_$_PKAuthenticatorEvaluationRequest, _OBJC_CLASS_$_PKAuthenticatorEvaluationResponse, _OBJC_CLASS_$_PKAuthenticatorSharedRootContext, _OBJC_CLASS_$_PKCheckGlyphLayer, _OBJC_CLASS_$_PKFingerprintGlyphView, _OBJC_CLASS_$_PKGlyphView, _OBJC_CLASS_$_PKMotionManager, _OBJC_CLASS_$_PKPaymentRemoteInstrumentThumbnailView, _OBJC_CLASS_$_PKPeerPayment3DCharacter, _OBJC_CLASS_$_PKPeerPayment3DScene, _OBJC_CLASS_$_PKPeerPayment3DStore, _OBJC_CLASS_$_PKPeerPayment3DTextView, _OBJC_CLASS_$_PKPhoneGlyphLayer, _OBJC_CLASS_$_PKUISpringAnimationFactory, _OBJC_METACLASS_$_PK3DCardView, _OBJC_METACLASS_$_PKAuthenticator, _OBJC_METACLASS_$_PKAuthenticatorEvaluationContext, _OBJC_METACLASS_$_PKAuthenticatorEvaluationRequest, _OBJC_METACLASS_$_PKAuthenticatorEvaluationResponse, _OBJC_METACLASS_$_PKAuthenticatorSharedRootContext, _OBJC_METACLASS_$_PKCheckGlyphLayer, _OBJC_METACLASS_$_PKFingerprintGlyphView, _OBJC_METACLASS_$_PKGlyphView, _OBJC_METACLASS_$_PKMotionManager, _OBJC_METACLASS_$_PKPaymentRemoteInstrumentThumbnailView, _OBJC_METACLASS_$_PKPeerPayment3DCharacter, _OBJC_METACLASS_$_PKPeerPayment3DScene, _OBJC_METACLASS_$_PKPeerPayment3DStore, _OBJC_METACLASS_$_PKPeerPayment3DTextView, _OBJC_METACLASS_$_PKPhoneGlyphLayer, _OBJC_METACLASS_$_PKUISpringAnimationFactory, _PKGlyphViewSize, _PKGlyphViewSmallSize, _PKMatrixForRotationAroundXAxis, _PKMatrixForRotationAroundYAxis, _PKMatrixIdentity ]
+...

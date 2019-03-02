@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 95BCECC9-3E5C-38E1-91A6-A26139AEF2A9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DiagnosticExtensionsVersionNumber, _DiagnosticExtensionsVersionString, _OBJC_CLASS_$_DEArchive, _OBJC_CLASS_$_DEArchiveReader, _OBJC_CLASS_$_DEArchiver, _OBJC_CLASS_$_DEAttachmentGroup, _OBJC_CLASS_$_DEAttachmentItem, _OBJC_CLASS_$_DEExtension, _OBJC_CLASS_$_DEExtensionContext, _OBJC_CLASS_$_DEExtensionHostContext, _OBJC_CLASS_$_DEExtensionManager, _OBJC_CLASS_$_DEExtensionProvider, _OBJC_CLASS_$_DELogMover, _OBJC_CLASS_$_DELogging, _OBJC_CLASS_$_DEUtils, _OBJC_METACLASS_$_DEArchive, _OBJC_METACLASS_$_DEArchiveReader, _OBJC_METACLASS_$_DEArchiver, _OBJC_METACLASS_$_DEAttachmentGroup, _OBJC_METACLASS_$_DEAttachmentItem, _OBJC_METACLASS_$_DEExtension, _OBJC_METACLASS_$_DEExtensionContext, _OBJC_METACLASS_$_DEExtensionHostContext, _OBJC_METACLASS_$_DEExtensionManager, _OBJC_METACLASS_$_DEExtensionProvider, _OBJC_METACLASS_$_DELogMover, _OBJC_METACLASS_$_DELogging, _OBJC_METACLASS_$_DEUtils, _pgrep, _signal_USR2 ]
+...

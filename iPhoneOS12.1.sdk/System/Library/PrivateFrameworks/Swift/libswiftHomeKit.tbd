@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D96C32F6-C61B-363A-BBB5-709A479A09CA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Swift/libswiftHomeKit.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _$S7HomeKit49HMCharacteristicPropertySupportsEventNotificationSSvg, _$S7HomeKit49HMCharacteristicPropertySupportsEventNotificationSSvp, __swift_FORCE_LOAD_$_swiftHomeKit ]
+...

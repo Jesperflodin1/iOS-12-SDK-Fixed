@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CC953C8D-D5B5-3F62-9EF6-B59455C2DE2C' ]
+platform:	ios
+install-name:  /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSRayIntersector.framework/MPSRayIntersector
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MPSAccelerationStructureOptionBatchSize, _MPSAccelerationStructureOptionBinExponent, _MPSAccelerationStructureOptionComputeStatistics, _MPSAccelerationStructureOptionFragmentCost, _MPSAccelerationStructureOptionMaxDepth, _MPSAccelerationStructureOptionMaxFragmentsPerLeaf, _MPSAccelerationStructureOptionMaximumConcurrentNodeSize, _MPSAccelerationStructureOptionMinFragmentsPerLeaf, _MPSAccelerationStructureOptionMinimumOverlap, _MPSAccelerationStructureOptionSplitHeuristic, _MPSAccelerationStructureSplitHeuristicBinnedSAH, _MPSAccelerationStructureSplitHeuristicBinnedSpatialSAH, _MPSAccelerationStructureSplitHeuristicObjectMedian, _MPSAccelerationStructureSplitHeuristicSAH, _OBJC_CLASS_$_MPSAccelerationStructure, _OBJC_CLASS_$_MPSAccelerationStructureGroup, _OBJC_CLASS_$_MPSInstanceAccelerationStructure, _OBJC_CLASS_$_MPSRayIntersector, _OBJC_CLASS_$_MPSTriangleAccelerationStructure, _OBJC_METACLASS_$_MPSAccelerationStructure, _OBJC_METACLASS_$_MPSAccelerationStructureGroup, _OBJC_METACLASS_$_MPSInstanceAccelerationStructure, _OBJC_METACLASS_$_MPSRayIntersector, _OBJC_METACLASS_$_MPSTriangleAccelerationStructure ]
+...

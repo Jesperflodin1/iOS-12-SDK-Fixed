@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 16B56794-1A42-3192-B016-EDF4B7E4E656' ]
+platform:	ios
+install-name:  /System/Library/BulletinBoardPlugins/MPDataProvider.bundle/MPDataProvider
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MPBBDataProvider, _OBJC_CLASS_$_MPBBFaceTimeDataProvider, _OBJC_CLASS_$_MPBBPhoneDataProvider, _OBJC_CLASS_$_MPBBSortMapping, _OBJC_IVAR_$_MPBBDataProvider._hasVisualVoicemail, _OBJC_IVAR_$_MPBBDataProvider._nonVisualVoicemailBulletinDate, _OBJC_IVAR_$_MPBBDataProvider._nonVisualVoicemailCount, _OBJC_IVAR_$_MPBBDataProvider._queue, _OBJC_IVAR_$_MPBBDataProvider._sortMapping, _OBJC_METACLASS_$_MPBBDataProvider, _OBJC_METACLASS_$_MPBBFaceTimeDataProvider, _OBJC_METACLASS_$_MPBBPhoneDataProvider, _OBJC_METACLASS_$_MPBBSortMapping, _PHDefaultLog, _PHFaceTimeApplicationIsRemoved, _PHFormatDialerLCDViewText, _PHGetEmergencyDialerPresenceTokenValue, _PHIncrementWifiCallingAlertShowCount, _PHIsInAirplaneMode, _PHLaunchFieldTestApplicationIfNecessaryForDestinationID, _PHPreferencesGetValue, _PHPreferencesGetValueInDomain, _PHPreferencesSetValue, _PHPreferencesSetValueInDomain, _PHSetEmergencyDialerPresenceTokenValue, _PHShouldAttemptCallWithDialRequest, _PHShouldAttemptFaceTimeCall, _PHShouldAttemptTelephonyCallWithDialTypeAndSenderIdentityUUID, _PHShouldShowWifiCallingAlert, _PHStringShouldAutoDialGivenLastCharacter, _PhoneSettingsGetFormattedNumberBySIMCountry, _PhoneSettingsGetFormattedNumberWithSIMCountryCode, _PhoneSettingsGetMyNumber, __emergencyDialerPresenceToken, _kMPMissedCallsBadgeClearedNotification, _sMPBBSortMappingNextSortIdentifierKey ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2403BD77-41D2-37E1-97D4-4CD4624D4949' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/AXActionSheetUIServer.axuiservice/AXActionSheetUIServer
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXActionSheetUIServer, _OBJC_METACLASS_$_AXActionSheetUIServer ]
+...

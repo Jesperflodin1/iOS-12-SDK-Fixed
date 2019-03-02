@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4332076B-5A11-3058-9422-3F946CD11FD5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SOS.framework/SOS
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CTSUServerConnectionRef, _CTSUServerQueue, _OBJC_CLASS_$_NPHSOSPersistentTimerLocationManager, _OBJC_CLASS_$_SOSContact, _OBJC_CLASS_$_SOSContactsManager, _OBJC_CLASS_$_SOSEngine, _OBJC_CLASS_$_SOSEntitlement, _OBJC_CLASS_$_SOSLegacyContactsManager, _OBJC_CLASS_$_SOSManager, _OBJC_CLASS_$_SOSNewtonManager, _OBJC_CLASS_$_SOSUtilities, _OBJC_METACLASS_$_NPHSOSPersistentTimerLocationManager, _OBJC_METACLASS_$_SOSContact, _OBJC_METACLASS_$_SOSContactsManager, _OBJC_METACLASS_$_SOSEngine, _OBJC_METACLASS_$_SOSEntitlement, _OBJC_METACLASS_$_SOSLegacyContactsManager, _OBJC_METACLASS_$_SOSManager, _OBJC_METACLASS_$_SOSNewtonManager, _OBJC_METACLASS_$_SOSUtilities, _SOSClientInterface, _SOSContactsChangedNotification, _SOSContactsEntitlement, _SOSD_CONNECTION_REQUEST_NOTIFICATION_NAME, _SOSDefaultLog, _SOSDismissSOSNotification, _SOSFriendsChangedNotification, _SOSInitiationStateChangedNotification, _SOSInteractiveStateChangedNotification, _SOSLegacyContactsChangedNotification, _SOSLocationBundle, _SOSMachService, _SOSManagerErrorDomain, _SOSMostRecentLocationSentChangedNotification, _SOSNewtonStateChangedNotification, _SOSSendingLocationUpdateChangedNotification, _SOSSendingLocationUpdateValueKey, _SOSServerInterface, _SOSTriggerEntitlement, _SOSTriggerMechanismChangedNotification, _SOSTriggerMechanismKey, _SOSVersionNumber, _SOSVersionString ]
+...

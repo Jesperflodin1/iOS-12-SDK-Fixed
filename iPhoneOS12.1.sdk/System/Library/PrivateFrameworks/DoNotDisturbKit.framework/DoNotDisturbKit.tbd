@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9CEAAEA0-8928-39C6-A052-495890A97A16' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DoNotDisturbKit.framework/DoNotDisturbKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DNDEndOfEventAssertionIdentifier, _DNDKitRegisterLogging, _DNDLogNotifications, _DNDOneHourLifetimeIdentifier, _DNDUntilEveningAssertionIdentifier, _DNDUntilILeaveAssertionIdentifier, _DNDUntilMorningAssertionIdentifier, _DoNotDisturbKitVersionNumber, _DoNotDisturbKitVersionString, _OBJC_CLASS_$_DNDAWDMetricsService, _OBJC_CLASS_$_DNDLifetimeDetails, _OBJC_CLASS_$_DNDLifetimeDetailsProvider, _OBJC_CLASS_$_DNDNotificationsService, _OBJC_METACLASS_$_DNDAWDMetricsService, _OBJC_METACLASS_$_DNDLifetimeDetails, _OBJC_METACLASS_$_DNDLifetimeDetailsProvider, _OBJC_METACLASS_$_DNDNotificationsService, _kEventSearchTime, _kLOIHighConfidence ]
+...

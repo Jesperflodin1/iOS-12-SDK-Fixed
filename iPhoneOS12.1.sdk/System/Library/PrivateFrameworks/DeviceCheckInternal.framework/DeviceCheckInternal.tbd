@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 58330A04-595C-392D-8B75-C775A28B12DC' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DeviceCheckInternal.framework/DeviceCheckInternal
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DCCryptoErrorDomain, _DCFetchErrorDomain, _DeviceCheckInternalVersionNumber, _DeviceCheckInternalVersionString, _OBJC_CLASS_$_DCAsset, _OBJC_CLASS_$_DCAssetFetcher, _OBJC_CLASS_$_DCAssetFetcherContext, _OBJC_CLASS_$_DCCertificateGenerator, _OBJC_CLASS_$_DCCryptoProxyImpl, _OBJC_CLASS_$_DCDDeviceMetadata, _OBJC_CLASS_$_DCXPCActivityController, _OBJC_METACLASS_$_DCAsset, _OBJC_METACLASS_$_DCAssetFetcher, _OBJC_METACLASS_$_DCAssetFetcherContext, _OBJC_METACLASS_$_DCCertificateGenerator, _OBJC_METACLASS_$_DCCryptoProxyImpl, _OBJC_METACLASS_$_DCDDeviceMetadata, _OBJC_METACLASS_$_DCXPCActivityController, _fallback_server_pubkey ]
+...

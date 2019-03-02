@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 79CAAD0F-E53F-3FDE-9F54-0C47D50F3865' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iOSDiagnostics.framework/iOSDiagnostics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_DADiagnosticResponder, _OBJC_CLASS_$_DADiagnosticsRemoteHostViewController, _OBJC_METACLASS_$_DADiagnosticResponder, _OBJC_METACLASS_$_DADiagnosticsRemoteHostViewController, _iOSDiagnosticsVersionNumber, _iOSDiagnosticsVersionString ]
+...

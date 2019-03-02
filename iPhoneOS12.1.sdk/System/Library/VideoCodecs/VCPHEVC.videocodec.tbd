@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C7A484D5-704E-38D3-A24F-5896A94895CB' ]
+platform:	ios
+install-name:  /System/Library/VideoCodecs/VCPHEVC.videocodec
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _HEVCVideoDecoder_CreateInstance, _VCPHEVCRegisterDecoder, _VCPHEVCRegisterEncoder ]
+...

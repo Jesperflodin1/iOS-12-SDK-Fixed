@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9558411F-54D2-382C-BED6-CC2B72DE7242' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NCLaunchStats.framework/NCLaunchStats
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _KeepAppsUpToDateEnabledChangedNotification, _OBJC_CLASS_$_NCLaunchStats, _OBJC_METACLASS_$_NCLaunchStats, _kMGQueryhas ]
+...

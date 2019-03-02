@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B0793E4D-F24F-38EF-848B-C95D89D2E160' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/AssetExplorer.axbundle/AssetExplorer
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AEExplorerViewControllerAccessibility, _OBJC_CLASS_$_AEMessagesShelfRoundButtonAccessibility, _OBJC_CLASS_$_AEMessagesShelfViewControllerAccessibility, _OBJC_CLASS_$_AERoundedCornerButtonAccessibility, _OBJC_CLASS_$_AXAssetExplorerGlue, _OBJC_CLASS_$___AEExplorerViewControllerAccessibility_super, _OBJC_CLASS_$___AEMessagesShelfRoundButtonAccessibility_super, _OBJC_CLASS_$___AEMessagesShelfViewControllerAccessibility_super, _OBJC_CLASS_$___AERoundedCornerButtonAccessibility_super, _OBJC_METACLASS_$_AEExplorerViewControllerAccessibility, _OBJC_METACLASS_$_AEMessagesShelfRoundButtonAccessibility, _OBJC_METACLASS_$_AEMessagesShelfViewControllerAccessibility, _OBJC_METACLASS_$_AERoundedCornerButtonAccessibility, _OBJC_METACLASS_$_AXAssetExplorerGlue, _OBJC_METACLASS_$___AEExplorerViewControllerAccessibility_super, _OBJC_METACLASS_$___AEMessagesShelfRoundButtonAccessibility_super, _OBJC_METACLASS_$___AEMessagesShelfViewControllerAccessibility_super, _OBJC_METACLASS_$___AERoundedCornerButtonAccessibility_super, _accessibilityLocalizedString ]
+...

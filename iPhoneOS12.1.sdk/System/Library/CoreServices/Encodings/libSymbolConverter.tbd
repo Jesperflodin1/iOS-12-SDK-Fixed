@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 20156A22-09DA-3671-81F7-0C0E1C0EADC2' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libSymbolConverter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetSymbolConverterDefinition ]
+...

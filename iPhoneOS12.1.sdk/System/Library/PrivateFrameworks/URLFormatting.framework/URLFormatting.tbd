@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 534DA5BC-1CD5-3CD3-9D59-B0A8C764A621' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

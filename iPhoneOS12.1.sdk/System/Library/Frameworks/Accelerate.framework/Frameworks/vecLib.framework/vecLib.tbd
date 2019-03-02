@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0041874C-E19F-3D47-906B-23024B685ABF' ]
+platform:	ios
+install-name:  /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

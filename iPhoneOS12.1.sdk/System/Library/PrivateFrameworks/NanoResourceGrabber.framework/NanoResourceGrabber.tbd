@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7ACB7471-093F-3799-A178-77852435592E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoResourceGrabber.framework/NanoResourceGrabber
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NRGResourcePropertyFilePathSuffix, _NRGResourcePropertyIconVariant, _OBJC_CLASS_$_NRGResourceCache, _OBJC_CLASS_$_NanoResourceGrabber, _OBJC_METACLASS_$_NRGResourceCache, _OBJC_METACLASS_$_NanoResourceGrabber, _mapLIIconVariantToNRG, _mapNRGIconVariantToLI, _nrg_daemon_log, _nrg_framework_log ]
+...

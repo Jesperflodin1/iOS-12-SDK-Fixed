@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C2387179-2583-3FFA-81FB-905FEA3A6980' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/LoginKit.framework/LoginKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _LKCourseDescriptionKey, _LKCourseEnrolledStudentIdentifiersKey, _LKCourseGroupNameKey, _LKCourseGroupsKey, _LKCourseIDKey, _LKCourseIDsKey, _LKCourseInstructorIdentifiersKey, _LKCourseNameKey, _LKCoursesKey, _LKErrorDomain, _LKErrorPasscodeBackOffInterval, _LKLogParsing, _LKLogSubsystem, _LKLoginDaemonClientEntitlement, _LKLoginDaemonClientServiceName, _LKLoginDaemonLoginUIEntitlement, _LKLoginDaemonLoginUIServiceName, _LKOrganizationDisplayNameKey, _LKPayloadCertificatePersistentID, _LKRegisterLoginKitLogging, _LKUserAppleIDKey, _LKUserFamilyNameKey, _LKUserFullNameKey, _LKUserGivenNameKey, _LKUserIdentifierKey, _LKUserLargeImageURLKey, _LKUserMediumImageURLKey, _LKUserPasswordTypeKey, _LKUserPhoneticFamilyNameKey, _LKUserPhoneticGivenNameKey, _LKUsersKey, _OBJC_CLASS_$_LKClass, _OBJC_CLASS_$_LKClassConfiguration, _OBJC_CLASS_$_LKClassGroup, _OBJC_CLASS_$_LKClasses, _OBJC_CLASS_$_LKError, _OBJC_CLASS_$_LKLoginController, _OBJC_CLASS_$_LKNamingSimilarity, _OBJC_CLASS_$_LKUser, _OBJC_CLASS_$_LKUsers, _OBJC_METACLASS_$_LKClass, _OBJC_METACLASS_$_LKClassConfiguration, _OBJC_METACLASS_$_LKClassGroup, _OBJC_METACLASS_$_LKClasses, _OBJC_METACLASS_$_LKError, _OBJC_METACLASS_$_LKLoginController, _OBJC_METACLASS_$_LKNamingSimilarity, _OBJC_METACLASS_$_LKUser, _OBJC_METACLASS_$_LKUsers ]
+...

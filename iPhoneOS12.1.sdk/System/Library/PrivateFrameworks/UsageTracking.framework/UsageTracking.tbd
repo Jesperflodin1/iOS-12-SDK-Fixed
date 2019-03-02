@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 80AF1123-54FB-319E-87F7-BB3DBEDA7045' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_USApplicationUsageReport, _OBJC_CLASS_$_USBudget, _OBJC_CLASS_$_USCategoryUsageReport, _OBJC_CLASS_$_USDomainNormalization, _OBJC_CLASS_$_USTrackingAgentProxy, _OBJC_CLASS_$_USUsageMonitor, _OBJC_CLASS_$_USUsageQuerying, _OBJC_CLASS_$_USUsageReport, _OBJC_CLASS_$_USUsageReporter, _OBJC_CLASS_$_USUsageStorage, _OBJC_CLASS_$_USUsageTrackingBundle, _OBJC_CLASS_$_USWebHistory, _OBJC_CLASS_$_USWebUsageReport, _OBJC_CLASS_$_USWebpageUsage, _OBJC_METACLASS_$_USApplicationUsageReport, _OBJC_METACLASS_$_USBudget, _OBJC_METACLASS_$_USCategoryUsageReport, _OBJC_METACLASS_$_USDomainNormalization, _OBJC_METACLASS_$_USTrackingAgentProxy, _OBJC_METACLASS_$_USUsageMonitor, _OBJC_METACLASS_$_USUsageQuerying, _OBJC_METACLASS_$_USUsageReport, _OBJC_METACLASS_$_USUsageReporter, _OBJC_METACLASS_$_USUsageStorage, _OBJC_METACLASS_$_USUsageTrackingBundle, _OBJC_METACLASS_$_USWebHistory, _OBJC_METACLASS_$_USWebUsageReport, _OBJC_METACLASS_$_USWebpageUsage, _USDuetClientNameUsageTracking, _USErrorDomain, _USNotificationReceivedValue, _USUsageTrackingMachServiceName, _USUsageTrackingVersionNumber, _USUsageTrackingVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 24D5B32A-C2B0-3EEA-8D68-C9235EA061B0' ]
+platform:	ios
+install-name:  /usr/lib/updaters/libSavageUpdater_iOS.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _SavageUpdaterCreate, _SavageUpdaterExecCmd, _SavageUpdaterExecCommand, _SavageUpdaterIsDone, _SavageUpdaterSupported, _kSavageCmdPerformNextStage, _kSavageCmdQueryInfo, _kYonkersCmdPerformNextStage, _kYonkersCmdQueryInfo ]
+...

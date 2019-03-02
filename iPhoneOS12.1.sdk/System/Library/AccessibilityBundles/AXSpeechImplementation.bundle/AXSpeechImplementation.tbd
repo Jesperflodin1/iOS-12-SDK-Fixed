@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0D6B7F25-8268-3158-8A5C-2AFA0CE33BD7' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/AXSpeechImplementation.bundle/AXSpeechImplementation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXPublicSpeechLanguageCanonicalFormToGeneralLanguage, _OBJC_CLASS_$_AXSPEECHTEST, _OBJC_CLASS_$_AXSpeechActionPublicImplementation, _OBJC_CLASS_$_AXSpeechPublicInterface, _OBJC_CLASS_$___AXSpeechActionPublicImplementation_super, _OBJC_METACLASS_$_AXSPEECHTEST, _OBJC_METACLASS_$_AXSpeechActionPublicImplementation, _OBJC_METACLASS_$_AXSpeechPublicInterface, _OBJC_METACLASS_$___AXSpeechActionPublicImplementation_super, __AXSortAVSpeechSynthesisVoices ]
+...

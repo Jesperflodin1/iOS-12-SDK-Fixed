@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B31F2483-EA4D-30BB-B168-44776212DFFB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UserManagementUI.framework/UserManagementUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

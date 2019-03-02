@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0B8A8CCA-5A3E-3088-8F56-DF35770ECFE3' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iMessageApps.framework/iMessageApps
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_IMADockViewController, _OBJC_CLASS_$_IMADropTarget, _OBJC_CLASS_$_IMASticker, _OBJC_METACLASS_$_IMADockViewController, _OBJC_METACLASS_$_IMADropTarget, _OBJC_METACLASS_$_IMASticker ]
+...

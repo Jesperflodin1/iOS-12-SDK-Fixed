@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 451EE41F-8D66-3857-B771-FCE065B1CA1F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Email.framework/Email
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _EMDirectoryNameMail, _EMVIPsDidChangeNotification, _EMVIPsRemovedKey, _EMVIPsUpdatedKey, _EmailVersionNumber, _EmailVersionString, _OBJC_CLASS_$_EMAccountAuthentication, _OBJC_CLASS_$_EMPersistenceLayoutManager, _OBJC_CLASS_$_EMVIP, _OBJC_CLASS_$_EMVIPManager, _OBJC_METACLASS_$_EMAccountAuthentication, _OBJC_METACLASS_$_EMPersistenceLayoutManager, _OBJC_METACLASS_$_EMVIP, _OBJC_METACLASS_$_EMVIPManager ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0241059A-4F2D-385C-BF86-234D71110BC8' ]
+platform:	ios
+install-name:  /usr/lib/libAppleSSEExt.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

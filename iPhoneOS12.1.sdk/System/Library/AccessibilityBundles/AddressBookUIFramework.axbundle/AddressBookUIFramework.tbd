@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0FC82D4E-503A-3651-B0D7-E2191E76DEFB' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/AddressBookUIFramework.axbundle/AddressBookUIFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ABDynamicLoaderAccessibility, _OBJC_CLASS_$_AXAddressBookUIGlue, _OBJC_CLASS_$___ABDynamicLoaderAccessibility_super, _OBJC_METACLASS_$_ABDynamicLoaderAccessibility, _OBJC_METACLASS_$_AXAddressBookUIGlue, _OBJC_METACLASS_$___ABDynamicLoaderAccessibility_super, __Failover, _accessibilityLocalizedString ]
+...

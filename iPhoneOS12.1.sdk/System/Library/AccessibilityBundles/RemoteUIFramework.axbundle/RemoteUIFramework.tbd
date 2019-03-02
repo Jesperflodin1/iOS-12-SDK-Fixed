@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AF81C9A9-3CF4-39AC-BE05-953AEB75F21C' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/RemoteUIFramework.axbundle/RemoteUIFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXRemoteUIGlue, _OBJC_CLASS_$_RUIPageAccessibility, _OBJC_CLASS_$_RUITableViewRowAccessibility, _OBJC_CLASS_$_RemoteUITableViewCellAccessibility, _OBJC_CLASS_$___RUIPageAccessibility_super, _OBJC_CLASS_$___RUITableViewRowAccessibility_super, _OBJC_CLASS_$___RemoteUITableViewCellAccessibility_super, _OBJC_METACLASS_$_AXRemoteUIGlue, _OBJC_METACLASS_$_RUIPageAccessibility, _OBJC_METACLASS_$_RUITableViewRowAccessibility, _OBJC_METACLASS_$_RemoteUITableViewCellAccessibility, _OBJC_METACLASS_$___RUIPageAccessibility_super, _OBJC_METACLASS_$___RUITableViewRowAccessibility_super, _OBJC_METACLASS_$___RemoteUITableViewCellAccessibility_super, __Failover, _accessibilityLocalizedString ]
+...

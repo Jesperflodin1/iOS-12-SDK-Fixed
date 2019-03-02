@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1CDC8347-F861-3D34-95D8-2D53E271CB92' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ParsecModel.framework/ParsecModel
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PARCategory, _OBJC_CLASS_$_PARCollectionStartEvent, _OBJC_CLASS_$_PARDeviceContext, _OBJC_CLASS_$_PAREvent, _OBJC_CLASS_$_PARFlushEvent, _OBJC_CLASS_$_PARUsageEvent, _OBJC_METACLASS_$_PARCategory, _OBJC_METACLASS_$_PARCollectionStartEvent, _OBJC_METACLASS_$_PARDeviceContext, _OBJC_METACLASS_$_PAREvent, _OBJC_METACLASS_$_PARFlushEvent, _OBJC_METACLASS_$_PARUsageEvent, _ParsecModelVersionNumber, _ParsecModelVersionString ]
+...

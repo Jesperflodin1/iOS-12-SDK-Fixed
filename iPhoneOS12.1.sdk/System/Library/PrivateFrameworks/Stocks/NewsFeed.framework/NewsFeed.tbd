@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C84EB8DE-B538-3D40-BAB5-45ABA3E27594' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/NewsFeed.framework/NewsFeed
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NewsFeedVersionNumber, _NewsFeedVersionString, _OBJC_CLASS_$_NENewsFeedAssembly, _OBJC_CLASS_$_NERendererAssembly, _OBJC_CLASS_$_NEStylerAssembly, _OBJC_CLASS_$__TtC8NewsFeed14GapOfflineView, _OBJC_CLASS_$__TtC8NewsFeed17ImageHeadlineView, _OBJC_CLASS_$__TtC8NewsFeed18HeadlineFooterView, _OBJC_CLASS_$__TtC8NewsFeed7GapView, _OBJC_CLASS_$__TtC8NewsFeed9EmptyView, _OBJC_METACLASS_$_NENewsFeedAssembly, _OBJC_METACLASS_$_NERendererAssembly, _OBJC_METACLASS_$_NEStylerAssembly, _OBJC_METACLASS_$__TtC8NewsFeed14GapOfflineView, _OBJC_METACLASS_$__TtC8NewsFeed17ImageHeadlineView, _OBJC_METACLASS_$__TtC8NewsFeed18HeadlineFooterView, _OBJC_METACLASS_$__TtC8NewsFeed7GapView, _OBJC_METACLASS_$__TtC8NewsFeed9EmptyView ]
+...

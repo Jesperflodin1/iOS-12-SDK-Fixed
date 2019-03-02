@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 402F07B7-94F4-3276-8ADD-60FD742F407B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AccessoryVoiceOver.framework/AccessoryVoiceOver
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ACCVoiceOverActionParameterPointXKey, _ACCVoiceOverActionParameterPointYKey, _ACCVoiceOverActionParameterScaleKey, _ACCVoiceOverActionParameterTextKey, _ACCVoiceOverActionParameterTouchTypeKey, _ACCVoiceOverCursorInformationUpdateContextKey, _ACCVoiceOverCursorInformationUpdateFrameBottomXKey, _ACCVoiceOverCursorInformationUpdateFrameBottomYKey, _ACCVoiceOverCursorInformationUpdateFrameKey, _ACCVoiceOverCursorInformationUpdateFrameTopXKey, _ACCVoiceOverCursorInformationUpdateFrameTopYKey, _ACCVoiceOverCursorInformationUpdateHintKey, _ACCVoiceOverCursorInformationUpdateLabelKey, _ACCVoiceOverCursorInformationUpdateTraitsKey, _ACCVoiceOverCursorInformationUpdateValueKey, _ACCVoiceOverInformationUpdateContextKey, _ACCVoiceOverInformationUpdateEnabledKey, _ACCVoiceOverInformationUpdateSpeakingRateKey, _ACCVoiceOverInformationUpdateSpeakingVolumeKey, _AccessoryVoiceOverVersionNumber, _AccessoryVoiceOverVersionString, _OBJC_CLASS_$_ACCVoiceOverAccessory, _OBJC_CLASS_$_ACCVoiceOverProvider, _OBJC_METACLASS_$_ACCVoiceOverAccessory, _OBJC_METACLASS_$_ACCVoiceOverProvider ]
+...

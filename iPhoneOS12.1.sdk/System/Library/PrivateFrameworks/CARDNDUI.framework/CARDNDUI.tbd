@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 46832D8F-7AE7-3635-8E3D-21A2F4AA7330' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CARDNDUI.framework/CARDNDUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CARDNDUIVersionNumber, _CARDNDUIVersionString, _OBJC_CLASS_$_CARDNDLearnMoreViewController, _OBJC_METACLASS_$_CARDNDLearnMoreViewController ]
+...

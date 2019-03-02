@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4F8ADB1F-20D4-3A06-86C4-CAA00ED863CD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PersonaUI.framework/PersonaUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CGSizeFromPRLikenessCacheSize, _NSStringFromMD5, _NSStringFromPRLikenessCacheSize, _OBJC_CLASS_$_PRImageView, _OBJC_CLASS_$_PRLikenessCache, _OBJC_CLASS_$_PRLikenessCacheContext, _OBJC_CLASS_$_PRLikenessView, _OBJC_CLASS_$_PRLocalization, _OBJC_CLASS_$_PRMonogram, _OBJC_CLASS_$_PRMonogramView, _OBJC_CLASS_$__PRMonogramFontSpec, _OBJC_METACLASS_$_PRImageView, _OBJC_METACLASS_$_PRLikenessCache, _OBJC_METACLASS_$_PRLikenessCacheContext, _OBJC_METACLASS_$_PRLikenessView, _OBJC_METACLASS_$_PRLocalization, _OBJC_METACLASS_$_PRMonogram, _OBJC_METACLASS_$_PRMonogramView, _OBJC_METACLASS_$__PRMonogramFontSpec, _PRImageCreateCircularImageInRect, _PRImageCreateWithImageInRect, _PRImageForceDecompress, _PRLikenessCacheSizeClosestToSize, _PRLikenessCacheSizeGetCost, _PRLikenessSnapshotOptionCircular, _PRLikenessSnapshotOptionForceDecode, _PRRectGetMaxLength, _PRRectGetMinLength, _PRRectScale, _PRSizeScale, _PersonaUIVersionNumber, _PersonaUIVersionString, __InvalidPRLikenessCacheSize ]
+...

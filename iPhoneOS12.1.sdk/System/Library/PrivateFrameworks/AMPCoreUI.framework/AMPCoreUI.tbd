@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7E452590-C949-3691-9B4E-2E75389C5BEB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AMPCoreUI.framework/AMPCoreUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AMPOnboardingFeature, _OBJC_CLASS_$_AMPOnboardingViewController, _OBJC_CLASS_$_AMPPrivacyViewController, _OBJC_METACLASS_$_AMPOnboardingFeature, _OBJC_METACLASS_$_AMPOnboardingViewController, _OBJC_METACLASS_$_AMPPrivacyViewController ]
+...

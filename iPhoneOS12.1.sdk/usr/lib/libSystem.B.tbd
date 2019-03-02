@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CB8C1B2D-743F-35A6-AB42-D1BA08356FD1' ]
+platform:	ios
+install-name:  /usr/lib/libSystem.B.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___crashreporter_info__, _libSystem_atfork_child, _libSystem_atfork_parent, _libSystem_atfork_prepare, _mach_init_routine ]
+...

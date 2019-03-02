@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: ED1F973A-9128-363E-BF81-7284FD9563D9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PairedUnlock.framework/PairedUnlock
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PUConnection, _OBJC_CLASS_$_PUError, _OBJC_CLASS_$_PURemoteDeviceState, _OBJC_METACLASS_$_PUConnection, _OBJC_METACLASS_$_PUError, _OBJC_METACLASS_$_PURemoteDeviceState, _PURemoteActionToString, _kPUDidRemoveLockoutNotification, _pu_log ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9E937E83-D45C-36BD-B343-80E7E916A2A2' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/QueryPredictionInternal.framework/QueryPredictionInternal
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__QPExpertParameters, _OBJC_CLASS_$__QPMetrics, _OBJC_CLASS_$__QPParameters, _OBJC_CLASS_$__QPQueryFilter, _OBJC_CLASS_$__QPQueryRank, _OBJC_CLASS_$__QPQueryRankScore, _OBJC_CLASS_$__QPQueryRanker, _OBJC_CLASS_$__QPQueryRankerConfiguration, _OBJC_CLASS_$__QPQueryRankerConfigurationNotifyRegistration, _OBJC_CLASS_$__QPQueryRankerParameters, _OBJC_CLASS_$__QPSearchFeedbackListener, _OBJC_CLASS_$__QPSearchFeedbackListenerParameters, _OBJC_CLASS_$__WeightedString, _OBJC_METACLASS_$__QPExpertParameters, _OBJC_METACLASS_$__QPMetrics, _OBJC_METACLASS_$__QPParameters, _OBJC_METACLASS_$__QPQueryFilter, _OBJC_METACLASS_$__QPQueryRank, _OBJC_METACLASS_$__QPQueryRankScore, _OBJC_METACLASS_$__QPQueryRanker, _OBJC_METACLASS_$__QPQueryRankerConfiguration, _OBJC_METACLASS_$__QPQueryRankerConfigurationNotifyRegistration, _OBJC_METACLASS_$__QPQueryRankerParameters, _OBJC_METACLASS_$__QPSearchFeedbackListener, _OBJC_METACLASS_$__QPSearchFeedbackListenerParameters, _OBJC_METACLASS_$__WeightedString, _QueryPredictionInternalVersionNumber, _QueryPredictionInternalVersionString, _kDaySeconds, _kHourSeconds, _kLookupIdentifier, _kQueryDatabaseChangeNotification, _kQueryDeleteDataNotification, _kQuerySuggestionModelChangedSignificantlyNotification, _kSafariIdentifier, _kSpotlightIdentifier, _kWeekSeconds, _shortAggdCodeForInteractionType, _shortAggdCodeForReason, _shortAggdCodeForReasonType, _shortAggdCodeForSuggestionType, _stringForInteractionType, _stringForModel, _stringForReason, _stringForReasonType, _stringForSuggestionType ]
+...

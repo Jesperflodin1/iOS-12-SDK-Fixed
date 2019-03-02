@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CC67657D-B4D2-34CA-9799-C1BD8AA2C1ED' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libGreekConverter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetGreekConverterDefinition ]
+...

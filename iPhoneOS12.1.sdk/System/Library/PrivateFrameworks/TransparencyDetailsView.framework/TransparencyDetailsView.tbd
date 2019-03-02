@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2FECB07A-C8BB-387C-AC93-5AE8737B4AD9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/TransparencyDetailsView.framework/TransparencyDetailsView
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ADTransparencyViewControllerErrorDomain, _NewsTransparencyViewControllerErrorDomain, _OBJC_CLASS_$_ADTransparencyViewController, _OBJC_CLASS_$_NewsTransparencyViewController, _OBJC_CLASS_$_TDVHomeButtonHandler, _OBJC_CLASS_$_UserTransparencyViewController, _OBJC_METACLASS_$_ADTransparencyViewController, _OBJC_METACLASS_$_NewsTransparencyViewController, _OBJC_METACLASS_$_TDVHomeButtonHandler, _OBJC_METACLASS_$_UserTransparencyViewController, _TransparencyDetailsViewVersionNumber, _TransparencyDetailsViewVersionString, _UserTransparencyViewControllerErrorDomain ]
+...

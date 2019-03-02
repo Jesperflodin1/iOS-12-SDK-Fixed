@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2A8885AA-0420-3E7A-BFCA-8A8108D5AA46' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IntentsUICardKitProviderSupport.framework/IntentsUICardKitProviderSupport
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _INUICKPInterfaceSectionsFromCard, _INUICKPProviderIdentifier, _IntentsUICardKitProviderSupportVersionNumber, _IntentsUICardKitProviderSupportVersionString, _OBJC_CLASS_$_INUICKPCardInterfaceSection, _OBJC_CLASS_$_INUICKPCardSectionViewProvider, _OBJC_CLASS_$_INUICKPEntryPoint, _OBJC_CLASS_$_INUICKPExtensionCardSectionViewController, _OBJC_CLASS_$_INUICKPInterfaceSectionConverter, _OBJC_CLASS_$_INUICKPSynchronousRemoteView, _OBJC_CLASS_$_INUICKPSynchronousRemoteViewController, _OBJC_CLASS_$_INUICKPSynchronousRemoteViewControllerAllocator, _OBJC_METACLASS_$_INUICKPCardInterfaceSection, _OBJC_METACLASS_$_INUICKPCardSectionViewProvider, _OBJC_METACLASS_$_INUICKPEntryPoint, _OBJC_METACLASS_$_INUICKPExtensionCardSectionViewController, _OBJC_METACLASS_$_INUICKPInterfaceSectionConverter, _OBJC_METACLASS_$_INUICKPSynchronousRemoteView, _OBJC_METACLASS_$_INUICKPSynchronousRemoteViewController, _OBJC_METACLASS_$_INUICKPSynchronousRemoteViewControllerAllocator, __INUICKPInteractionMatchingCardSectionInCard, __INUICKPIntrinsicInteractiveBehaviorForCardSection ]
+...

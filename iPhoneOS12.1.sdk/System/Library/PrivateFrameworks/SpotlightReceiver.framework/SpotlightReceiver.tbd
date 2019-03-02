@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5C49E3F0-670C-3842-B735-C8F4F380F2A8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SpotlightReceiver.framework/SpotlightReceiver
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CSRecieverConnection, _OBJC_METACLASS_$_CSRecieverConnection, _SpotlightReceiverEntitlement, _SpotlightReceiverRegister, _SpotlightReceiverVersionNumber, _SpotlightReceiverVersionString, _SpotlightSenderEntitlement ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C688660D-E842-37D9-B277-04AF58BB0CEB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ActivityAchievementsUI.framework/ActivityAchievementsUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AAUIFormatCount, _AAUIFormatDateWithStyle, _AAUIFormatDistance, _AAUIFormatDistanceWithUserUnit, _AAUIFormatEnergyUnit, _AAUIFormatEnergyWithUserUnit, _AAUIFormatMinutes, _AAUIFormatNumberOfDays, _AAUIFormatOrdinal, _AAUIFormatPercent, _ActivityAchievementsUIVersionNumber, _ActivityAchievementsUIVersionString, _OBJC_CLASS_$_AAUIAchievementFormatter, _OBJC_CLASS_$_AAUIAchievementLocalizationProvider, _OBJC_CLASS_$_AAUIAchievementResourceProvider, _OBJC_CLASS_$_AAUIBadge, _OBJC_CLASS_$_AAUIBadgeImageFactory, _OBJC_CLASS_$_AAUIBadgeModelConfiguration, _OBJC_CLASS_$_AAUIBadgeModelLoader, _OBJC_CLASS_$_AAUIBadgeView, _OBJC_METACLASS_$_AAUIAchievementFormatter, _OBJC_METACLASS_$_AAUIAchievementLocalizationProvider, _OBJC_METACLASS_$_AAUIAchievementResourceProvider, _OBJC_METACLASS_$_AAUIBadge, _OBJC_METACLASS_$_AAUIBadgeImageFactory, _OBJC_METACLASS_$_AAUIBadgeModelConfiguration, _OBJC_METACLASS_$_AAUIBadgeModelLoader, _OBJC_METACLASS_$_AAUIBadgeView ]
+...

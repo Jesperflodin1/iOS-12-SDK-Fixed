@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B6624807-B6CD-394B-BC65-1CFAE10511E3' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/AccountSettings/SubscribedCalendarSettings.bundle/SubscribedCalendarSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SubCalSettingsAccountsUIController, _OBJC_CLASS_$_SubCalSettingsPlugin, _OBJC_METACLASS_$_SubCalSettingsAccountsUIController, _OBJC_METACLASS_$_SubCalSettingsPlugin, _kSubCalAccountSetupPlist ]
+...

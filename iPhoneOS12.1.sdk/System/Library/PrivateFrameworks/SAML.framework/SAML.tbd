@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DAAC8291-8E6C-3462-B7AB-819CB7526977' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SAML.framework/SAML
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SAMLAttributeQuery, _OBJC_CLASS_$_SAMLAuthNRequest, _OBJC_CLASS_$_SAMLAuthZDecisionQuery, _OBJC_CLASS_$_SAMLLogoutRequest, _OBJC_CLASS_$_SAMLParserController, _OBJC_CLASS_$_SAMLResponse, _OBJC_CLASS_$_XMLWrapperDoc, _OBJC_METACLASS_$_SAMLAttributeQuery, _OBJC_METACLASS_$_SAMLAuthNRequest, _OBJC_METACLASS_$_SAMLAuthZDecisionQuery, _OBJC_METACLASS_$_SAMLLogoutRequest, _OBJC_METACLASS_$_SAMLParserController, _OBJC_METACLASS_$_SAMLResponse, _OBJC_METACLASS_$_XMLWrapperDoc, _SAMLAttributePropertyNameAccountProviderID, _SAMLAttributePropertyNameAuthenticationTTL, _SAMLAttributePropertyNameChannelIDs, _SAMLAttributePropertyNameHBAStatus, _SAMLAttributePropertyNameHouseholdID, _SAMLAttributePropertyNameLanguage, _SAMLAttributePropertyNameMaxMPAAContentRating, _SAMLAttributePropertyNameMaxVCHIPContentRating, _SAMLAttributePropertyNamePostalCodes, _SAMLAttributePropertyNameTransientID, _SAMLAttributePropertyNameUserID, _SAMLAuthZDecisionQueryActionPlay, _SAMLParserDetailedErrorsKey, _SAMLParserErrorDomain ]
+...

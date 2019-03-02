@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 455A6369-67ED-3C46-ACD6-94F2119536B1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _GetNSFriendlySeparator, _IntlPreferencesValue, _IntlSetPreferencesValue, _NSPersonNameDefaultDisplayNameOrderKey, _NSPersonNameDefaultNamePreferencesDomain, _NSPersonNameDefaultShortNameEnabledKey, _NSPersonNameDefaultShortNameFormatKey, _NSPersonNameDefaultShouldPreferNicknamesKey, _NSPersonNamePreferencesDidChangeNotification, _OBJC_CLASS_$_ISMigrator, _OBJC_CLASS_$_IntlUtility, _OBJC_CLASS_$_NSPersonNameComponentsFormatterPreferences, _OBJC_IVAR_$_ISMigrator._currentVersion, _OBJC_IVAR_$_ISMigrator._platform, _OBJC_IVAR_$_ISMigrator._preferencesAfterMigration, _OBJC_IVAR_$_ISMigrator._preferencesBeforeMigration, _OBJC_IVAR_$_ISMigrator._previousVersion, _OBJC_IVAR_$_IntlUtility.mBidiLanguagesArray, _OBJC_IVAR_$_IntlUtility.mBidiTestedLanguagesArray, _OBJC_IVAR_$_IntlUtility.mDisplayLanguageCachePtr, _OBJC_IVAR_$_IntlUtility.mDisplayLanguageCacheUsed, _OBJC_METACLASS_$_ISMigrator, _OBJC_METACLASS_$_IntlUtility, _OBJC_METACLASS_$_NSPersonNameComponentsFormatterPreferences ]
+...

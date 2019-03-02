@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C9F3A832-7E26-3A9A-BFB4-D4C13E7EE860' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXSpeechAssetServices.framework/AXSpeechAssetServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AVSpeechSynthesisVoiceIdentifierVictoria, _OBJC_CLASS_$_AXSettingsVoiceAssetManager, _OBJC_CLASS_$_AXSpeechAssetMonitorHelper, _OBJC_CLASS_$_AXSpeechPronunciationHelper, _OBJC_CLASS_$_AXSpeechPronunciationOptions, _OBJC_METACLASS_$_AXSettingsVoiceAssetManager, _OBJC_METACLASS_$_AXSpeechAssetMonitorHelper, _OBJC_METACLASS_$_AXSpeechPronunciationHelper, _OBJC_METACLASS_$_AXSpeechPronunciationOptions, __AXSettingsSortedAssetsFromAssets ]
+...

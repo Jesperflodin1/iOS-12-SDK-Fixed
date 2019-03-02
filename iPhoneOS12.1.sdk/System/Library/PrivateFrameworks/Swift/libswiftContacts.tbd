@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 35963ACB-9311-3608-9187-DC3BF99F3A50' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Swift/libswiftContacts.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _$SSC11CNErrorCodeLeV8ContactsE15affectedRecordsSayyXlGSgvg, _$SSC11CNErrorCodeLeV8ContactsE25affectedRecordIdentifiersSaySSGSgvg, _$SSC11CNErrorCodeLeV8ContactsE8keyPathsSaySSGSgvg, __swift_FORCE_LOAD_$_swiftContacts ]
+...

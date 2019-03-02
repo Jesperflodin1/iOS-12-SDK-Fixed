@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F30C45C1-1CED-38B6-A9D2-57B4453F6BAB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXLocalizationCaptionService.framework/AXLocalizationCaptionService
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXLocalizationCaptionService, _OBJC_METACLASS_$_AXLocalizationCaptionService ]
+...

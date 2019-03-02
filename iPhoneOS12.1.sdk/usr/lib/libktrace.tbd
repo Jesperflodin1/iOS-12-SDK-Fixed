@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2F0C5F2C-DCF9-3833-A100-3315D85B780F' ]
+platform:	ios
+install-name:  /usr/lib/libktrace.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___ktraceVersionNumber, ___ktraceVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B843F1BF-B613-3D73-B58C-7571407F6348' ]
+platform:	ios
+install-name:  /usr/lib/libInFieldCollection.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NAAP, _ZshgJnRaSlwn, _vsPHbdGf ]
+...

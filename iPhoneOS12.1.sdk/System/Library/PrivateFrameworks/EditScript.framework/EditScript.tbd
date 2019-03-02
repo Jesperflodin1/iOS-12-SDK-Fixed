@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 694F3E8C-9EBC-3F91-9A60-3C8254E07DBD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/EditScript.framework/EditScript
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _EditScriptVersionNumber, _EditScriptVersionString, _OBJC_CLASS_$_ESAtomIndexed, _OBJC_CLASS_$_ESAtomRanged, _OBJC_CLASS_$_ESEditScript, _OBJC_CLASS_$_ESEditScriptDataArray, _OBJC_CLASS_$_ESEditScriptIndexed, _OBJC_CLASS_$_ESEditScriptRanged, _OBJC_CLASS_$_ESIntArray2D, _OBJC_IVAR_$_ESEditScript._currentOperation, _OBJC_IVAR_$_ESEditScript._distanceMatrix, _OBJC_IVAR_$_ESEditScript._itemAData, _OBJC_IVAR_$_ESEditScript._itemBData, _OBJC_IVAR_$_ESEditScript._orderAtomsAscending, _OBJC_IVAR_$_ESEditScriptIndexed._currentScriptAtom, _OBJC_IVAR_$_ESEditScriptRanged._currentScriptAtom, _OBJC_IVAR_$_ESEditScriptRanged._options, _OBJC_IVAR_$_ESIntArray2D._arrayData, _OBJC_IVAR_$_ESIntArray2D._iSize, _OBJC_IVAR_$_ESIntArray2D._jSize, _OBJC_METACLASS_$_ESAtomIndexed, _OBJC_METACLASS_$_ESAtomRanged, _OBJC_METACLASS_$_ESEditScript, _OBJC_METACLASS_$_ESEditScriptDataArray, _OBJC_METACLASS_$_ESEditScriptIndexed, _OBJC_METACLASS_$_ESEditScriptRanged, _OBJC_METACLASS_$_ESIntArray2D, _TestEditScript, _TestEditScriptDataArray, _TestEditScriptIndexed, _TestEditScriptRanged, _TestEditScriptSmallestSingleEditRanged, _TestSmallestEditThinkLikeAHuman, _main ]
+...

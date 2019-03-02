@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AF6C8D66-0534-3FD6-8D11-0EA032A2F539' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMTranscoderAgent.framework/IMTranscoderAgent
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMTranscodeErrorDomain, _OBJC_CLASS_$_IMEmbeddedHardwareJPEGTranscoder, _OBJC_CLASS_$_IMFallbackTranscoder, _OBJC_CLASS_$_IMTranscoder, _OBJC_CLASS_$_IMTranscoderImageSizeEstimator, _OBJC_CLASS_$_IMTranscoderTelemetry, _OBJC_CLASS_$_IMTranscoder_AV, _OBJC_CLASS_$_IMTranscoder_Image, _OBJC_CLASS_$_IMTranscodingAgentController, _OBJC_IVAR_$_IMEmbeddedHardwareJPEGTranscoder._canHardwareScaleImage, _OBJC_IVAR_$_IMEmbeddedHardwareJPEGTranscoder._imageData, _OBJC_IVAR_$_IMEmbeddedHardwareJPEGTranscoder._imageProperties, _OBJC_IVAR_$_IMEmbeddedHardwareJPEGTranscoder._ioSurfaceRef, _OBJC_IVAR_$_IMTranscodingAgentController._fallbackTranscoders, _OBJC_IVAR_$_IMTranscodingAgentController._previewGenerationQueue, _OBJC_IVAR_$_IMTranscodingAgentController._queue, _OBJC_IVAR_$_IMTranscodingAgentController._textValidationQueue, _OBJC_IVAR_$_IMTranscodingAgentController._transcoders, _OBJC_METACLASS_$_IMEmbeddedHardwareJPEGTranscoder, _OBJC_METACLASS_$_IMFallbackTranscoder, _OBJC_METACLASS_$_IMTranscoder, _OBJC_METACLASS_$_IMTranscoderImageSizeEstimator, _OBJC_METACLASS_$_IMTranscoderTelemetry, _OBJC_METACLASS_$_IMTranscoder_AV, _OBJC_METACLASS_$_IMTranscoder_Image, _OBJC_METACLASS_$_IMTranscodingAgentController, __IMTranscoderLinkFile ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6030D10A-F832-394E-B9B9-2EA065B5CECB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _KPRRequestInfoStoreSalableParent, _OBJC_CLASS_$_AskPermissionBag, _OBJC_CLASS_$_PRRequest, _OBJC_CLASS_$_PRRequestQueue, _OBJC_METACLASS_$_AskPermissionBag, _OBJC_METACLASS_$_PRRequest, _OBJC_METACLASS_$_PRRequestQueue, _PRCurrentRegionIsUS, _PRFrameworkBundle, _PRLocalizedString, _PRRequestErrorDomain, __PRLogSystem, _kPRRequestInfoStoreAdamID, _kPRRequestInfoStoreApprovalStatus, _kPRRequestInfoStoreApprovalWindowHeight, _kPRRequestInfoStoreApprovalWindowWidth, _kPRRequestInfoStoreApproveButtonTitle, _kPRRequestInfoStoreApprovedMessageString, _kPRRequestInfoStoreApproverDSID, _kPRRequestInfoStoreBuyParams, _kPRRequestInfoStoreDeclineButtonTitle, _kPRRequestInfoStoreDeclinedMessageString, _kPRRequestInfoStoreItemPrice, _kPRRequestInfoStoreParentSalableLocalizedName, _kPRRequestInfoStorePreviewURL, _kPRRequestInfoStorePriceString, _kPRRequestInfoStorePricingParameters, _kPRRequestInfoStoreProductTypeCode, _kPRRequestInfoStoreRequestID, _kPRRequestInfoStoreRequestMessageString, _kPRRequestInfoStoreRequestNotificationString, _kPRRequestInfoStoreRequesterDSID, _kPRRequestInfoStoreSalableAdamID, _kPRRequestInfoStoreSalableAppVersionID, _kPRRequestInfoStoreSalableLocalizedDefinitiveProductType, _kPRRequestInfoStoreSalableLocalizedProductType, _kPRRequestInfoStoreSalableProductName, _kPRRequestInfoStoreSalableProductType, _kPRRequestInfoStoreSalableProductTypeID, _kPRRequestInfoStoreSalableURL, _kPRRequestInfoStoreSalables, _kPRRequestInfoStoreSandboxRequest, _kPRRequestQueueiTunesStoreIdentifier ]
+...

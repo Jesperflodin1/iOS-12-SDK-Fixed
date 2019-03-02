@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2E08E91A-6DBA-3A14-B7B5-052EEAA4846D' ]
+platform:	ios
+install-name:  /System/Library/VideoDecoders/JPEGH1.videodecoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _JPEGH1Register ]
+...

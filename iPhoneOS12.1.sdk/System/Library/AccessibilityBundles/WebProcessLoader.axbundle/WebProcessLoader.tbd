@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 23DC54B1-FD8A-3958-9B00-50920EFA0A91' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/WebProcessLoader.axbundle/WebProcessLoader
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXWebProcessLoader, _OBJC_METACLASS_$_AXWebProcessLoader ]
+...

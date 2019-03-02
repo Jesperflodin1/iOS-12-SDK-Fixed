@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 60D0F05F-719A-32C7-A5A5-5E04430E0F63' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/AppAnalytics.framework/AppAnalytics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AppAnalyticsVersionNumber, _AppAnalyticsVersionString, _OBJC_CLASS_$_AAAccessSessionManager, _OBJC_CLASS_$_AAAccessTracker, _OBJC_CLASS_$_AAClient, _OBJC_CLASS_$_AADataEventTraits, _OBJC_CLASS_$_AADelayedToken, _OBJC_CLASS_$_AAEndpoint, _OBJC_CLASS_$_AAEventData, _OBJC_CLASS_$_AAEventProperty, _OBJC_CLASS_$_AAGroup, _OBJC_CLASS_$_AAJSON, _OBJC_CLASS_$_AALoggingEventProcessor, _OBJC_CLASS_$_AAProcessEvent, _OBJC_CLASS_$_AAProcessorManager, _OBJC_CLASS_$_AARawDataEvent, _OBJC_CLASS_$_AARawEvent, _OBJC_CLASS_$_AARawEventProperty, _OBJC_CLASS_$_AASession, _OBJC_CLASS_$_AASessionData, _OBJC_CLASS_$_AASessionManager, _OBJC_CLASS_$_AASessionObserver, _OBJC_CLASS_$_AATimedData, _OBJC_CLASS_$_AATracker, _OBJC_CLASS_$_AAUploadBatchEventConfig, _OBJC_CLASS_$_AAUploadBatchEventProcessor, _OBJC_METACLASS_$_AAAccessSessionManager, _OBJC_METACLASS_$_AAAccessTracker, _OBJC_METACLASS_$_AAClient, _OBJC_METACLASS_$_AADataEventTraits, _OBJC_METACLASS_$_AADelayedToken, _OBJC_METACLASS_$_AAEndpoint, _OBJC_METACLASS_$_AAEventData, _OBJC_METACLASS_$_AAEventProperty, _OBJC_METACLASS_$_AAGroup, _OBJC_METACLASS_$_AAJSON, _OBJC_METACLASS_$_AALoggingEventProcessor, _OBJC_METACLASS_$_AAProcessEvent, _OBJC_METACLASS_$_AAProcessorManager, _OBJC_METACLASS_$_AARawDataEvent, _OBJC_METACLASS_$_AARawEvent, _OBJC_METACLASS_$_AARawEventProperty, _OBJC_METACLASS_$_AASession, _OBJC_METACLASS_$_AASessionData, _OBJC_METACLASS_$_AASessionManager, _OBJC_METACLASS_$_AASessionObserver, _OBJC_METACLASS_$_AATimedData, _OBJC_METACLASS_$_AATracker, _OBJC_METACLASS_$_AAUploadBatchEventConfig, _OBJC_METACLASS_$_AAUploadBatchEventProcessor ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8F228341-D895-3134-B5E2-D3A0023858B2' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/MobileSafariSettings.bundle/MobileSafariSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

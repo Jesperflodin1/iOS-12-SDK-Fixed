@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 54329DE5-F112-3449-9E40-E6838DCBF36E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IDSHashPersistence.framework/IDSHashPersistence
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_IDSMessageHashStore, _OBJC_METACLASS_$_IDSMessageHashStore ]
+...

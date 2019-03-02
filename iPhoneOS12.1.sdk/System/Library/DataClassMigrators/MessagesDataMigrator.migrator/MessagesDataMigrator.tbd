@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D682EBDC-CAD4-31C1-A7E9-B12D65EC156B' ]
+platform:	ios
+install-name:  /System/Library/DataClassMigrators/MessagesDataMigrator.migrator/MessagesDataMigrator
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

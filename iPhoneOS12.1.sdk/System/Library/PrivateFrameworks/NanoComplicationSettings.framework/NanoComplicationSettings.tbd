@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6DEC2CAF-9DE8-3B0B-AFA1-69AAE6424C64' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoComplicationSettings.framework/NanoComplicationSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ApplicationsChanged, _ComplicationSettingsChanged, _NCSActiveKey, _NCSAppBundleIdentifierKey, _NCSComplicationBundleIdentifierKey, _NCSComplicationDefinitionsKey, _NCSComplicationNameKey, _NCSDomainKey, _NCSInstallStateKey, _NCSNanoComplicationSettingsVersionNumber, _NCSNanoComplicationSettingsVersionString, _NCSSelectedComplicationIdentifierKey, _NCSSettingsChangedNotification, _NCSSockPuppetAppIdentifierKey, _NCSSockPuppetBundleIdentifier, _OBJC_CLASS_$_NCSComplication, _OBJC_CLASS_$_NCSInternalSettingsManager, _OBJC_CLASS_$_NCSSettingsManager, _OBJC_METACLASS_$_NCSComplication, _OBJC_METACLASS_$_NCSInternalSettingsManager, _OBJC_METACLASS_$_NCSSettingsManager, _PairedDeviceChanged, _SPApplicationsChanged ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 40903211-8D1B-3CDD-854A-BA0B024A2FF1' ]
+platform:	ios
+install-name:  /System/Library/VideoProcessors/GNR.videoprocessor
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FigSampleBufferProcessorCreateForGNR ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 14BBE5A7-DD9E-36A0-86EC-1956C789BD05' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _InternationalSupportVersionNumber, _InternationalSupportVersionString, _OBJC_CLASS_$_ISUtilities, _OBJC_METACLASS_$_ISUtilities ]
+...

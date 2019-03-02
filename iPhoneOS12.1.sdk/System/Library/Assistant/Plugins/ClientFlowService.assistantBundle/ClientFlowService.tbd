@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 73F02127-B09D-322E-9A47-8A92660E55DE' ]
+platform:	ios
+install-name:  /System/Library/Assistant/Plugins/ClientFlowService.assistantBundle/ClientFlowService
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _LastBackgroundActivityDateUserDefaultsKnowledgeStoreKey, _MinimumWaitInSecondsBeforeNextBackgroundActivityUserDefaultsKnowledgeStoreKey, _OBJC_CLASS_$_CFAppAuthorizationRequestHandler, _OBJC_CLASS_$_CFAppVocabularySearchRequestHandler, _OBJC_CLASS_$_CFBackgroundActionService, _OBJC_CLASS_$_CFFileCacheStore, _OBJC_CLASS_$_CFGetActiveWorkoutApplicationIdentifierHandler, _OBJC_CLASS_$_CFLogQueuer, _OBJC_CLASS_$_CFPEXQueryHandler, _OBJC_CLASS_$_CFRemoveScriptCommandHandler, _OBJC_CLASS_$_CFRequestHandler, _OBJC_CLASS_$_CFScriptDownloadManager, _OBJC_CLASS_$_CFSecurityUtils, _OBJC_CLASS_$_CFServiceConnector, _OBJC_CLASS_$_CFServiceHelper, _OBJC_CLASS_$_CFSiriKitVocabularyRetriever, _OBJC_CLASS_$_CFUpdateScriptsCommandHandler, _OBJC_METACLASS_$_CFAppAuthorizationRequestHandler, _OBJC_METACLASS_$_CFAppVocabularySearchRequestHandler, _OBJC_METACLASS_$_CFBackgroundActionService, _OBJC_METACLASS_$_CFFileCacheStore, _OBJC_METACLASS_$_CFGetActiveWorkoutApplicationIdentifierHandler, _OBJC_METACLASS_$_CFLogQueuer, _OBJC_METACLASS_$_CFPEXQueryHandler, _OBJC_METACLASS_$_CFRemoveScriptCommandHandler, _OBJC_METACLASS_$_CFRequestHandler, _OBJC_METACLASS_$_CFScriptDownloadManager, _OBJC_METACLASS_$_CFSecurityUtils, _OBJC_METACLASS_$_CFServiceConnector, _OBJC_METACLASS_$_CFServiceHelper, _OBJC_METACLASS_$_CFSiriKitVocabularyRetriever, _OBJC_METACLASS_$_CFUpdateScriptsCommandHandler, _kAlgorithm, _kAlgorithmBlockSize, _kAlgorithmIVSize, _kAlgorithmKeySize, _kCFSecurityUtilsErrorDomain, _kPBKDFRounds, _kPBKDFSaltSize ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 37857E8F-6696-3CBE-A197-64FE9A225E09' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMDMessageServices.framework/IMDMessageServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMDMessageServicesCallbackIntervalKey, _IMDMessageServicesExpireStateDictionaryKey, _IMDMessageServicesExpireStateKey, _IMDMessageServicesExpireStateShouldDeleteKey, _IMDMessageServicesFlagsKey, _IMDMessageServicesRoutingDictionaryKey, _IMDMessageServicesServiceKey, _IMDMessageServicesUpdateDowngradePropertiesKey, _IMDMessageServicesWatchdogDictionaryKey, _IMDMessageServicesWatchdogShouldFailSendKey, _OBJC_CLASS_$_IMDMessageServicesCenter, _OBJC_METACLASS_$_IMDMessageServicesCenter ]
+...

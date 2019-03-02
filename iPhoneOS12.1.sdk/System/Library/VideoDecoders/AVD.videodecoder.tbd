@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 14BCB306-5BC5-3F22-A601-3CEDDA11DD57' ]
+platform:	ios
+install-name:  /System/Library/VideoDecoders/AVD.videodecoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AVDRegister ]
+...

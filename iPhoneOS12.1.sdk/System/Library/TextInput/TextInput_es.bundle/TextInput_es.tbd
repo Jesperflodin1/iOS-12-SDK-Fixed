@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5956F6EA-FE3B-34E8-BD9F-D437EEDE1F19' ]
+platform:	ios
+install-name:  /System/Library/TextInput/TextInput_es.bundle/TextInput_es
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TIKeyboardFeatureSpecialization_es_419, _OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_es_419 ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7FEFF267-AE68-3EA1-B250-DE42EA911E6B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DuetRecommendation.framework/DuetRecommendation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DuetRecommendationVersionNumber, _DuetRecommendationVersionString, _OBJC_CLASS_$__DRInMemoryTopicInterestModel, _OBJC_CLASS_$__DRPaths, _OBJC_CLASS_$__DRTopicActionEntry, _OBJC_CLASS_$__DRTopicEnumerationQuery, _OBJC_CLASS_$__DRTopicInterestModel, _OBJC_CLASS_$__DRTopicInterestSummary, _OBJC_CLASS_$__DRTopicStatisticsQuery, _OBJC_METACLASS_$__DRInMemoryTopicInterestModel, _OBJC_METACLASS_$__DRPaths, _OBJC_METACLASS_$__DRTopicActionEntry, _OBJC_METACLASS_$__DRTopicEnumerationQuery, _OBJC_METACLASS_$__DRTopicInterestModel, _OBJC_METACLASS_$__DRTopicInterestSummary, _OBJC_METACLASS_$__DRTopicStatisticsQuery ]
+...

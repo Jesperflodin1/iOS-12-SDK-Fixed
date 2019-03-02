@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 171EA5A2-5D4A-31D2-B0FA-21FADC950ACB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PhotosEditUI.framework/PhotosEditUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PUAutoAdjustmentController, _OBJC_CLASS_$_PUEditViewController, _OBJC_CLASS_$_PUPhotoEditLayoutSupport, _OBJC_CLASS_$_PUPhotoEditPortraitSupport, _OBJC_CLASS_$_PUPhotoEditValuesCalculator, _OBJC_CLASS_$_PUPhotoEditViewController, _OBJC_CLASS_$_PUVideoEditViewController, _OBJC_METACLASS_$_PUAutoAdjustmentController, _OBJC_METACLASS_$_PUEditViewController, _OBJC_METACLASS_$_PUPhotoEditLayoutSupport, _OBJC_METACLASS_$_PUPhotoEditPortraitSupport, _OBJC_METACLASS_$_PUPhotoEditValuesCalculator, _OBJC_METACLASS_$_PUPhotoEditViewController, _OBJC_METACLASS_$_PUVideoEditViewController, _PUAutoWhiteBalanceFaceIKey, _PUAutoWhiteBalanceFaceQKey, _PUAutoWhiteBalanceFaceStrengthKey, _PUAutoWhiteBalanceFaceWarmthKey ]
+...

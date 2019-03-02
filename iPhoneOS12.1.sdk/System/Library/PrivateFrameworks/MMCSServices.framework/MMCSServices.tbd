@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FD416C99-403A-340B-A494-02FF360658D3' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MMCSServices.framework/MMCSServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MMCSController, _OBJC_CLASS_$_MMCSGetFile, _OBJC_CLASS_$_MMCSPutFile, _OBJC_CLASS_$_MMCSRequestorContext, _OBJC_CLASS_$_MMCSSimpleFile, _OBJC_METACLASS_$_MMCSController, _OBJC_METACLASS_$_MMCSGetFile, _OBJC_METACLASS_$_MMCSPutFile, _OBJC_METACLASS_$_MMCSRequestorContext, _OBJC_METACLASS_$_MMCSSimpleFile, _failReasonStringForMMCSError, _parseMMCSError ]
+...

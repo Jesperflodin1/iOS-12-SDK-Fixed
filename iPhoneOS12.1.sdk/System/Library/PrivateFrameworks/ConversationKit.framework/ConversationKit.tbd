@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8E592CEB-DE62-301D-9D4A-2D6A0BBC04B4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ConversationKitVersionNumber, _ConversationKitVersionString, _OBJC_CLASS_$_CNKBuzzedAnimator, _OBJC_CLASS_$_CNKCrossFadeAnimator, _OBJC_CLASS_$_CNKEffectsLayoutController, _OBJC_CLASS_$_CNKFaceTimeCameraViewController, _OBJC_CLASS_$_CNKFaceTimeConstraintsController, _OBJC_CLASS_$_CNKFaceTimeInCallControlsDragController, _OBJC_CLASS_$_CNKFaceTimeInCallControlsViewController, _OBJC_CLASS_$_CNKFaceTimeMultiwayConversationViewController, _OBJC_CLASS_$_CNKStagingAreaAnimator, _OBJC_CLASS_$_CNKStagingAreaViewController, _OBJC_METACLASS_$_CNKBuzzedAnimator, _OBJC_METACLASS_$_CNKCrossFadeAnimator, _OBJC_METACLASS_$_CNKEffectsLayoutController, _OBJC_METACLASS_$_CNKFaceTimeCameraViewController, _OBJC_METACLASS_$_CNKFaceTimeConstraintsController, _OBJC_METACLASS_$_CNKFaceTimeInCallControlsDragController, _OBJC_METACLASS_$_CNKFaceTimeInCallControlsViewController, _OBJC_METACLASS_$_CNKFaceTimeMultiwayConversationViewController, _OBJC_METACLASS_$_CNKStagingAreaAnimator, _OBJC_METACLASS_$_CNKStagingAreaViewController, _notifyRegisterDispatch ]
+...

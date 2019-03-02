@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4143146A-89ED-36C0-96BD-11979537EA47' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WeatherUI.framework/WeatherUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AlternativeFontColorAlpha, _ClearGraphicQuality, _CreateWeatherLabel, _DayOfYear, _DegreesFromRadians, _GraphicQuality, _HairlineThickness, _HourAngle, _OBJC_CLASS_$_WUIAsynchronousAssetLoader, _OBJC_CLASS_$_WUIDynamicWeatherBackground, _OBJC_CLASS_$_WUIWeatherCondition, _OBJC_CLASS_$_WUIWeatherConditionBackgroundView, _OBJC_METACLASS_$_WUIAsynchronousAssetLoader, _OBJC_METACLASS_$_WUIDynamicWeatherBackground, _OBJC_METACLASS_$_WUIWeatherCondition, _OBJC_METACLASS_$_WUIWeatherConditionBackgroundView, _RadiansFromDegrees, _RoundToPixel, _SunHeight, _WAGrayColor, _WAPrecipitationColor, _WAShadowColor, _WATealColor, _WATextColor, _WAWeatherMathResetForTimeChange, _WatchSystemTealColor, _WeatherUIFrameworkBundle ]
+...

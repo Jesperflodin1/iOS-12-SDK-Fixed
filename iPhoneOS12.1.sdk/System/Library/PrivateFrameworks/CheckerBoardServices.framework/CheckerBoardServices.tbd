@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B83E00AD-1FB5-3166-8186-3FB81DA1D70F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CheckerBoardServices.framework/CheckerBoardServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CheckerBoardLogHandleForCategory, _CheckerBoardServicesVersionNumber, _CheckerBoardServicesVersionString, _OBJC_CLASS_$_CBSClient, _OBJC_CLASS_$_CBSPaneViewController, _OBJC_CLASS_$_CBSTableViewController, _OBJC_CLASS_$_CBSUIAlert, _OBJC_CLASS_$_CBSUIAlertAction, _OBJC_CLASS_$_CBSUtilities, _OBJC_METACLASS_$_CBSClient, _OBJC_METACLASS_$_CBSPaneViewController, _OBJC_METACLASS_$_CBSTableViewController, _OBJC_METACLASS_$_CBSUIAlert, _OBJC_METACLASS_$_CBSUIAlertAction, _OBJC_METACLASS_$_CBSUtilities, _kCellIdentifier, _kCheckerBoardIdentifier, _kCheckerBoardRemoteAlertsEntitlement, _kCheckerBoardRemoteServerMachName, _kCheckerBoardServicesEntitlement, _kCheckerBoardSystemServicesEntitlement ]
+...

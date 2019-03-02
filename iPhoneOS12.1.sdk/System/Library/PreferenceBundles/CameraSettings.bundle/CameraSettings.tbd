@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7AD76B19-BE7F-38C6-853C-51827DC5F18A' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/CameraSettings.bundle/CameraSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CameraSettingsController, _OBJC_CLASS_$_MSSCameraCodecSettingsController, _OBJC_CLASS_$_MSSCameraPreserveSettingsController, _OBJC_CLASS_$_MSSCameraSlomoSettingsController, _OBJC_CLASS_$_MSSCameraVideoSettingsController, _OBJC_CLASS_$_MSSCellularDataSettingsController, _OBJC_CLASS_$_SettingsBaseController, _OBJC_CLASS_$__MSSCellularDataEnabledInvocation, _OBJC_METACLASS_$_CameraSettingsController, _OBJC_METACLASS_$_MSSCameraCodecSettingsController, _OBJC_METACLASS_$_MSSCameraPreserveSettingsController, _OBJC_METACLASS_$_MSSCameraSlomoSettingsController, _OBJC_METACLASS_$_MSSCameraVideoSettingsController, _OBJC_METACLASS_$_MSSCellularDataSettingsController, _OBJC_METACLASS_$_SettingsBaseController, _OBJC_METACLASS_$__MSSCellularDataEnabledInvocation, _kCPLExistNonLocalOriginalsKey, _kCPLNonLocalOriginalsCountKey, _kCPLNonLocalOriginalsFileSizeKey, _kCPLNonLocalOriginalsPhotoCountKey, _kCPLNonLocalOriginalsVideoCountKey, _kCameraCaptureGroupSpecifierID ]
+...

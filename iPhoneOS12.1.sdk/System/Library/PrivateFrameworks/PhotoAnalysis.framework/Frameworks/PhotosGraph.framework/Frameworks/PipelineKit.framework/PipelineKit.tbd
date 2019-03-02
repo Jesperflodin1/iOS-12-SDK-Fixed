@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 988C5ECF-C03D-37F8-8F63-48AD946CDF59' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Frameworks/PhotosGraph.framework/Frameworks/PipelineKit.framework/PipelineKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PICLGeocoderOperation, _OBJC_CLASS_$_PIEKEventStoreOperation, _OBJC_CLASS_$_PIError, _OBJC_CLASS_$_PIGroup, _OBJC_CLASS_$_PILogging, _OBJC_CLASS_$_PIMKLocalSearchOperation, _OBJC_CLASS_$_PIOperation, _OBJC_CLASS_$_PIOperationSubclass, _OBJC_CLASS_$_PIPipeline, _OBJC_CLASS_$_PIReachability, _OBJC_CLASS_$_PIStatisticsElapsedTime, _OBJC_CLASS_$_PIURLDataOperation, _OBJC_CLASS_$_PIURLDownloadOperation, _OBJC_CLASS_$_PIURLSessionOperationSubclass, _OBJC_METACLASS_$_PICLGeocoderOperation, _OBJC_METACLASS_$_PIEKEventStoreOperation, _OBJC_METACLASS_$_PIError, _OBJC_METACLASS_$_PIGroup, _OBJC_METACLASS_$_PILogging, _OBJC_METACLASS_$_PIMKLocalSearchOperation, _OBJC_METACLASS_$_PIOperation, _OBJC_METACLASS_$_PIOperationSubclass, _OBJC_METACLASS_$_PIPipeline, _OBJC_METACLASS_$_PIReachability, _OBJC_METACLASS_$_PIStatisticsElapsedTime, _OBJC_METACLASS_$_PIURLDataOperation, _OBJC_METACLASS_$_PIURLDownloadOperation, _OBJC_METACLASS_$_PIURLSessionOperationSubclass, _PIErrorDomain, _PipelineKitVersionNumber, _PipelineKitVersionString, _kPIReachabilityChangedNotification ]
+...

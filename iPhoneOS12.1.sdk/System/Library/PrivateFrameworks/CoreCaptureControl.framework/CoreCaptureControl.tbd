@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 305C2ECA-1D5A-3FA0-B259-D90B6B56BF82' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreCaptureControl.framework/CoreCaptureControl
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CoreCaptureControlCapture, _CoreCaptureControlCaptureWithComponentDirectory, _CoreCaptureControlConfigurePipe, _CoreCaptureControlConfigureProfile, _CoreCaptureControlConfigureStream, _CoreCaptureControlCreate, _CoreCaptureControlGetTypeID, _CoreCaptureControlStart, _CoreCaptureControlStop ]
+...

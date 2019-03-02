@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BE6C6E07-8E3D-3214-8B63-AC659664A24B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreSuggestionsUI.framework/CoreSuggestionsUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CoreSuggestionsUIVersionNumber, _CoreSuggestionsUIVersionString, _OBJC_CLASS_$_SGUIAddAllTableViewCell, _OBJC_CLASS_$_SGUIBannerStringGenerator, _OBJC_CLASS_$_SGUIBannerView, _OBJC_CLASS_$_SGUIContactConfirmationController, _OBJC_CLASS_$_SGUIContactSuggestionTableViewCell, _OBJC_CLASS_$_SGUIDateFormatting, _OBJC_CLASS_$_SGUIEventConfirmationController, _OBJC_CLASS_$_SGUIEventSuggestionTableViewCell, _OBJC_CLASS_$_SGUIEventsAndContactsTableViewController, _OBJC_CLASS_$_SGUISuggestionConfirmationController, _OBJC_IVAR_$_SGUIContactConfirmationController._finished, _OBJC_IVAR_$_SGUIContactConfirmationController._realtimeContact, _OBJC_IVAR_$_SGUIEventConfirmationController._finished, _OBJC_IVAR_$_SGUIEventConfirmationController._realtimeEvent, _OBJC_METACLASS_$_SGUIAddAllTableViewCell, _OBJC_METACLASS_$_SGUIBannerStringGenerator, _OBJC_METACLASS_$_SGUIBannerView, _OBJC_METACLASS_$_SGUIContactConfirmationController, _OBJC_METACLASS_$_SGUIContactSuggestionTableViewCell, _OBJC_METACLASS_$_SGUIDateFormatting, _OBJC_METACLASS_$_SGUIEventConfirmationController, _OBJC_METACLASS_$_SGUIEventSuggestionTableViewCell, _OBJC_METACLASS_$_SGUIEventsAndContactsTableViewController, _OBJC_METACLASS_$_SGUISuggestionConfirmationController ]
+...

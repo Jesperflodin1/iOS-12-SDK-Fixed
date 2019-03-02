@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5F23F104-558A-3B91-867A-7FA0EEEA7E8E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MobileStoreDemoKit.framework/MobileStoreDemoKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MSDLogToFile, _MobileStoreDemoKitVersionNumber, _MobileStoreDemoKitVersionString, _OBJC_CLASS_$_MSDKManagedDevice, _OBJC_CLASS_$_MSDLogModel, _OBJC_METACLASS_$_MSDKManagedDevice, _OBJC_METACLASS_$_MSDLogModel, _defaultLogObj, _logInit, _messageLogObj ]
+...

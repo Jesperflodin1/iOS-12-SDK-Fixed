@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CDD601A8-10AE-33F6-B0A7-3386E023350D' ]
+platform:	ios
+install-name:  /usr/lib/log/liblog_AppleLDAPTypes.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OSLogCopyFormattedString ]
+...

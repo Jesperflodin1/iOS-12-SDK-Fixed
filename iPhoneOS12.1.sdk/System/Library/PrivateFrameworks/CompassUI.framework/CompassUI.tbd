@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8720B46C-F742-3A63-B017-5D22396000E1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CompassUI.framework/CompassUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CGPointRoundToPixel, _CompassHeadingFormatterKey, _CompassUIVersionNumber, _CompassUIVersionString, _ConvertDecimalDegreesToDMS, _ConvertDegreeSignToString, _CoordinateOffset, _CreateCoordinateComponentString, _DegreesInACircle, _OBJC_CLASS_$_CUICalibration, _OBJC_CLASS_$_CalibrationBallView, _OBJC_CLASS_$_CalibrationViewController, _OBJC_CLASS_$_CompassAtlas, _OBJC_CLASS_$_CompassAtlasManifest, _OBJC_CLASS_$_CompassBackgroundView, _OBJC_CLASS_$_CompassImageNode, _OBJC_CLASS_$_CompassRotatingView, _OBJC_CLASS_$_CompassShader, _OBJC_METACLASS_$_CUICalibration, _OBJC_METACLASS_$_CalibrationBallView, _OBJC_METACLASS_$_CalibrationViewController, _OBJC_METACLASS_$_CompassAtlas, _OBJC_METACLASS_$_CompassAtlasManifest, _OBJC_METACLASS_$_CompassBackgroundView, _OBJC_METACLASS_$_CompassImageNode, _OBJC_METACLASS_$_CompassRotatingView, _OBJC_METACLASS_$_CompassShader, _RoundHeading, _StringWithLocationDirection, _addLine, _bearingInnerRadius, _bearingLabelRadius, _bearingLength, _bearingOuterRadius, _bubbleDiameter, _cardinalLabelRadius, _compassMediumFont20, _compassRadius, _compassThinFont70G2, _compassTicLength, _crosshairWidth, _currentHeadingLength, _degreeLabelRadius, _distanceBetweenAngles, _gaussian_filter, _generateHorizontalLine, _generateTic, _generateVerticalLine, _isARKitSupported, _kCompassHeadingFilterKey, _kCompassNoBearing, _kCompassPageKey, _kConsoleEnabledKey, _kLevelZeroRange, _kUseTrueNorthKey, _lerp, _normalizedRotation, _northTriangleRadius, _sharedHeadingFormatter, _smallCrosshairWidth ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4B3020FA-BE4A-35F1-9F59-F01224F79323' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AdminLite.framework/AdminLite
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AdminLiteNVRAMSet, _nvram_set ]
+...

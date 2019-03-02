@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8BF3FECF-069F-379E-B11D-2005EA343A84' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMTransferAgent.framework/IMTransferAgent
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMOptOutOfOptimizedMadridAttachmentDownloadPath, _IMOptOutOfOptimizedMadridAttachmentUploadPath, _IMSetOptOutOfOptimizedMadridAttachmentDownloadPath, _IMSetOptOutOfOptimizedMadridAttachmentUploadPath, _OBJC_CLASS_$_FTiMessageRequestMMCSDownloadToken, _OBJC_CLASS_$_FTiMessageRequestMMCSUploadToken, _OBJC_CLASS_$_IMTransferAgentController, _OBJC_CLASS_$_IMTransferAgentDeliveryController, _OBJC_CLASS_$_IMTransferAgentIDSInterface, _OBJC_CLASS_$_IMTransferEncryptionController, _OBJC_CLASS_$_IMTransferEncryptionHelpers, _OBJC_METACLASS_$_FTiMessageRequestMMCSDownloadToken, _OBJC_METACLASS_$_FTiMessageRequestMMCSUploadToken, _OBJC_METACLASS_$_IMTransferAgentController, _OBJC_METACLASS_$_IMTransferAgentDeliveryController, _OBJC_METACLASS_$_IMTransferAgentIDSInterface, _OBJC_METACLASS_$_IMTransferEncryptionController, _OBJC_METACLASS_$_IMTransferEncryptionHelpers ]
+...

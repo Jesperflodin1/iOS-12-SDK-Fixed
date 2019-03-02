@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D01294F5-1B66-3376-9097-ADDE82178717' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PowerUI.framework/PowerUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _PowerUIVersionNumber, _PowerUIVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 74ED7C64-935A-3B59-9326-BF14896703D5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IOImageLoaderDaemon.framework/IOImageLoaderDaemon
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

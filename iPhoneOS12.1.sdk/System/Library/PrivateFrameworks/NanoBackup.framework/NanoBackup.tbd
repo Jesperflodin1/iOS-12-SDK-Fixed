@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BCBB9120-7B79-369E-BF59-5617AFC550F7' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoBackup.framework/NanoBackup
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NBBackupDirectoryPath, _NBLoggingDaemonObjectInit, _NBLoggingFrameworkObjectInit, _OBJC_CLASS_$_NBBackup, _OBJC_CLASS_$_NBManager, _OBJC_METACLASS_$_NBBackup, _OBJC_METACLASS_$_NBManager, _nb_daemon_log, _nb_framework_log ]
+...

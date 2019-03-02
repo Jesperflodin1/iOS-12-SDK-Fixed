@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 597885CB-2013-3B57-861D-32EABE295773' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/LocalAuthenticationPrivateUI.framework/LocalAuthenticationPrivateUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _LAUIPhysicalButtonNormalizedFrame, _OBJC_CLASS_$_LAUICheckmarkLayer, _OBJC_CLASS_$_LAUIHorizontalArrowView, _OBJC_CLASS_$_LAUIPearlGlyphLabel, _OBJC_CLASS_$_LAUIPearlGlyphView, _OBJC_CLASS_$_LAUIPhysicalButtonView, _OBJC_CLASS_$_LAUIRadialPingView, _OBJC_METACLASS_$_LAUICheckmarkLayer, _OBJC_METACLASS_$_LAUIHorizontalArrowView, _OBJC_METACLASS_$_LAUIPearlGlyphLabel, _OBJC_METACLASS_$_LAUIPearlGlyphView, _OBJC_METACLASS_$_LAUIPhysicalButtonView, _OBJC_METACLASS_$_LAUIRadialPingView ]
+...

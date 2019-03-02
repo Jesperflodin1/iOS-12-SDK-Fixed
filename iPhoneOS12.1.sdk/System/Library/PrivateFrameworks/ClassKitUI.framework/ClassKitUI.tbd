@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 269170C4-94D1-395F-9F73-460A90D35C77' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ClassKitUI.framework/ClassKitUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CLSNotificationBanner, _OBJC_CLASS_$_CLSNotificationBannerDisplayManager, _OBJC_METACLASS_$_CLSNotificationBanner, _OBJC_METACLASS_$_CLSNotificationBannerDisplayManager ]
+...

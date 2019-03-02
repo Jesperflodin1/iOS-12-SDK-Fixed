@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 61ABD7A7-0038-3648-A577-3077EA8132FA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/News/TeaFoundation.framework/TeaFoundation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TFCapabilities, _OBJC_METACLASS_$_TFCapabilities, _TeaFoundationVersionNumber, _TeaFoundationVersionString ]
+...

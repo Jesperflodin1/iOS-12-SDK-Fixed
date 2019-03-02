@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D26113CC-B9E2-35D2-A6F4-5B5EA9C18BD9' ]
+platform:	ios
+install-name:  /System/Library/Frameworks/UIKit.framework/UIKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

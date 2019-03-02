@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 960B6111-5968-32E3-825B-2B7443C0EF57' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MarkupUI.framework/MarkupUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MUAnimationIconImage, _MUAnimationMaskRect, _MUAnimationSourceRect, _MUAnimationTargetRect, _MUDisplayAsFullScreen, _MUEncryptPrivateMetadata, _MUFileDisplayName, _OBJC_CLASS_$_MUCGPDFAnnotationAdaptor, _OBJC_CLASS_$_MUCGPDFNukeAndPaveWriter, _OBJC_CLASS_$_MUImageContentViewController, _OBJC_CLASS_$_MUImageDownsamplingUtilities, _OBJC_CLASS_$_MUPDFContentViewController, _OBJC_CLASS_$_MURemoteViewController, _OBJC_CLASS_$_MarkupViewController, _OBJC_METACLASS_$_MUCGPDFAnnotationAdaptor, _OBJC_METACLASS_$_MUCGPDFNukeAndPaveWriter, _OBJC_METACLASS_$_MUImageContentViewController, _OBJC_METACLASS_$_MUImageDownsamplingUtilities, _OBJC_METACLASS_$_MUPDFContentViewController, _OBJC_METACLASS_$_MURemoteViewController, _OBJC_METACLASS_$_MarkupViewController ]
+...

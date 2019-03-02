@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4F9B6283-F1D3-3320-8711-1F203BF86E68' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FMClient.framework/FMClient
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__TtC8FMClient10HttpClient, _OBJC_CLASS_$__TtC8FMClient11SessionInfo, _OBJC_CLASS_$__TtC8FMClient12SearchFilter, _OBJC_CLASS_$__TtC8FMClient12SearchResult, _OBJC_CLASS_$__TtC8FMClient15PlaySoundDevice, _OBJC_CLASS_$__TtC8FMClient16DiscoveredDevice, _OBJC_CLASS_$__TtC8FMClient18SearchFilterDevice, _OBJC_CLASS_$__TtC8FMClient18SearchResultDevice, _OBJC_CLASS_$__TtC8FMClient19ClientConfiguration, _OBJC_CLASS_$__TtC8FMClient24AuthenticationCredential, _OBJC_CLASS_$__TtC8FMClient24VoiceAssistantDeviceName, _OBJC_CLASS_$__TtC8FMClient24VoiceAssistantSyncResult, _OBJC_CLASS_$__TtC8FMClient7Session, _OBJC_METACLASS_$__TtC8FMClient10HttpClient, _OBJC_METACLASS_$__TtC8FMClient11SessionInfo, _OBJC_METACLASS_$__TtC8FMClient12SearchFilter, _OBJC_METACLASS_$__TtC8FMClient12SearchResult, _OBJC_METACLASS_$__TtC8FMClient15PlaySoundDevice, _OBJC_METACLASS_$__TtC8FMClient16DiscoveredDevice, _OBJC_METACLASS_$__TtC8FMClient18SearchFilterDevice, _OBJC_METACLASS_$__TtC8FMClient18SearchResultDevice, _OBJC_METACLASS_$__TtC8FMClient19ClientConfiguration, _OBJC_METACLASS_$__TtC8FMClient24AuthenticationCredential, _OBJC_METACLASS_$__TtC8FMClient24VoiceAssistantDeviceName, _OBJC_METACLASS_$__TtC8FMClient24VoiceAssistantSyncResult, _OBJC_METACLASS_$__TtC8FMClient7Session ]
+...

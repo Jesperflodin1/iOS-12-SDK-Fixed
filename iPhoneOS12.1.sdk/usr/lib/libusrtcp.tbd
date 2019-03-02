@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 167416A9-A721-3CFB-92A6-564DC35DEB7A' ]
+platform:	ios
+install-name:  /usr/lib/libusrtcp.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _nw_protocol_sfotcp_identifier, _nw_protocol_tcp_identifier, _nw_tcp_destroy_globals, _nw_tcp_init_globals, _tcp_next_mtu ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 404429A7-EC79-3006-A9BB-C4FFEBA61A3D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PersonaKit.framework/PersonaKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PRLikeness, _OBJC_CLASS_$_PRLikenessChange, _OBJC_CLASS_$_PRManagedLikeness, _OBJC_CLASS_$_PRManagedLikenessChange, _OBJC_CLASS_$_PRManagedPropagationEvent, _OBJC_CLASS_$_PRManagedScreenName, _OBJC_CLASS_$_PRPersonaServiceInterface, _OBJC_CLASS_$_PRPersonaStore, _OBJC_METACLASS_$_PRLikeness, _OBJC_METACLASS_$_PRLikenessChange, _OBJC_METACLASS_$_PRManagedLikeness, _OBJC_METACLASS_$_PRManagedLikenessChange, _OBJC_METACLASS_$_PRManagedPropagationEvent, _OBJC_METACLASS_$_PRManagedScreenName, _OBJC_METACLASS_$_PRPersonaServiceInterface, _OBJC_METACLASS_$_PRPersonaStore, _PRCachedOtherValuesDidChangeNotification, _PRCachedSelfValuesDidChangeNotification, _PRLikenessPropertyCropRect, _PRLikenessPropertyCurrent, _PRLikenessPropertyExternalID, _PRLikenessPropertyRecipe, _PRLikenessPropertyStaticRepresentation, _PRNilLikenessIdentifier, _PROtherLikenessesDidChangeNotification, _PRPersonaErrorDomain, _PRPersonaServiceMachName, _PRSelfLikenessesDidChangeNotification, _PersonaKitVersionNumber, _PersonaKitVersionString, __PRGetLogSystem, _kPRNilLikenessVersion ]
+...

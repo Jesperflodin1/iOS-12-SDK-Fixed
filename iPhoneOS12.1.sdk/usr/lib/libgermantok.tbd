@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E32BD81E-1B42-3E2F-BEA2-8051E00DDA33' ]
+platform:	ios
+install-name:  /usr/lib/libgermantok.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___gt_mutex, _btrie_build, _btrie_close, _btrie_common_prefix_search, _btrie_data, _btrie_exact_match_search, _btrie_open, _btrie_prefix_match_search, _btrie_wildcard_match_search, _germantok_tokenize ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BD95BF60-5F37-32BF-BE2A-26A1682F9721' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MOCreateCFTypeFromSerializedBuffer, _MOCreateSerializedData, _MOLogClose, _MOLogEnableDiskLogging, _MOLogGetLogLevel, _MOLogOpen, _MOLogSetLogLevel, _MOLogWrite, _MOLogWriteV, _MOXPCTransportClose, _MOXPCTransportOpen, _MOXPCTransportReceiveMessage, _MOXPCTransportResume, _MOXPCTransportRunTransactionalTask, _MOXPCTransportSendMessage, _MOXPCTransportSendMessageOnConnection, _MOXPCTransportSetConnectionAuthHandler, _MOXPCTransportSetMessageHandler, _OBJC_CLASS_$_MOSplunkLogger ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6BB484F6-6718-3BE0-85E3-86A5F99C5AA2' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUI.framework/AccessibilityUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXUIClient, _OBJC_CLASS_$_AXUIClientConnection, _OBJC_METACLASS_$_AXUIClient, _OBJC_METACLASS_$_AXUIClientConnection ]
+...

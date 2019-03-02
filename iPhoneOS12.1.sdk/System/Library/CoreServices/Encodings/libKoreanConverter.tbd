@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F22316F6-7FD3-3550-A310-D909BC591925' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libKoreanConverter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetKoreanConverterDefinition ]
+...

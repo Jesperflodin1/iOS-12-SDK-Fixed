@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 52C6BF33-539B-3C99-AF12-56BB0FCE917D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/C2.framework/C2
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _C2VersionNumber, _C2VersionString, _OBJC_CLASS_$_C2DeviceInfo, _OBJC_CLASS_$_C2Logging, _OBJC_CLASS_$_C2Metric, _OBJC_CLASS_$_C2MetricOperationGroupOptions, _OBJC_CLASS_$_C2MetricOperationOptions, _OBJC_CLASS_$_C2MetricOptions, _OBJC_CLASS_$_C2MetricRequestOptions, _OBJC_CLASS_$_C2ReportMetrics, _OBJC_CLASS_$_C2RequestManager, _OBJC_CLASS_$_C2RequestOptions, _OBJC_CLASS_$_C2Route, _OBJC_CLASS_$_C2RoutingTable, _OBJC_CLASS_$_C2Session, _OBJC_CLASS_$_C2SessionGroup, _OBJC_CLASS_$_C2SessionPool, _OBJC_CLASS_$_C2SessionTLSCache, _OBJC_CLASS_$_C2SessionTask, _OBJC_CLASS_$_C2Time, _OBJC_METACLASS_$_C2DeviceInfo, _OBJC_METACLASS_$_C2Logging, _OBJC_METACLASS_$_C2Metric, _OBJC_METACLASS_$_C2MetricOperationGroupOptions, _OBJC_METACLASS_$_C2MetricOperationOptions, _OBJC_METACLASS_$_C2MetricOptions, _OBJC_METACLASS_$_C2MetricRequestOptions, _OBJC_METACLASS_$_C2ReportMetrics, _OBJC_METACLASS_$_C2RequestManager, _OBJC_METACLASS_$_C2RequestOptions, _OBJC_METACLASS_$_C2Route, _OBJC_METACLASS_$_C2RoutingTable, _OBJC_METACLASS_$_C2Session, _OBJC_METACLASS_$_C2SessionGroup, _OBJC_METACLASS_$_C2SessionPool, _OBJC_METACLASS_$_C2SessionTLSCache, _OBJC_METACLASS_$_C2SessionTask, _OBJC_METACLASS_$_C2Time, _kServerTimeBeginning ]
+...

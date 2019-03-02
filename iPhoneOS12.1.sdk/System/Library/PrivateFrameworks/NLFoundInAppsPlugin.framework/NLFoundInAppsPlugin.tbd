@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0DD4D367-4A5D-386E-821A-D3F901E795BE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NLFoundInAppsPlugin.framework/NLFoundInAppsPlugin
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_NLFoundInAppsPlugin, _OBJC_METACLASS_$_NLFoundInAppsPlugin ]
+...

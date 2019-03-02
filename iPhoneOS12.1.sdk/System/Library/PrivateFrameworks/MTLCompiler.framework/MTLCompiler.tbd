@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 13AAEE36-9CCD-302F-A373-565B05281974' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MTLCompiler.framework/MTLCompiler
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MTLCodeGenServiceBuildRequest, _MTLCodeGenServiceCreate, _MTLCodeGenServiceDestroy, _MTLCodeGenServiceSetPluginPath ]
+...

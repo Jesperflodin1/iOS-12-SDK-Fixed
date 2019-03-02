@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F06BB8C4-8BA7-3DDA-B05D-C3CDF79219C5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SlideshowKit.framework/SlideshowKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SlideshowKit, _OBJC_METACLASS_$_SlideshowKit, _SlideshowKitUmbrellaString, _SlideshowKitVersionNumber, _SlideshowKitVersionString ]
+...

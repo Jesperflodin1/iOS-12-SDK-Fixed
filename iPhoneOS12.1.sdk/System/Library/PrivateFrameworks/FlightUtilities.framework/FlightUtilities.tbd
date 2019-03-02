@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FCCFBF8B-C0AC-37FC-8D55-3FB50A0E99F5' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FlightUtilities.framework/FlightUtilities
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FUFactoryProvider_Default, _FUFactoryProvider_FlightStats, _FUFactoryProvider_FlyteComm, _OBJC_CLASS_$_FUAirline, _OBJC_CLASS_$_FUAirport, _OBJC_CLASS_$_FUFlight, _OBJC_CLASS_$_FUFlightFactory, _OBJC_CLASS_$_FUFlightFactory_Parsec, _OBJC_CLASS_$_FUFlightLeg, _OBJC_CLASS_$_FUFlightStep, _OBJC_CLASS_$_FUFlightView, _OBJC_CLASS_$_FUFlightViewController, _OBJC_CLASS_$_FUStepTime, _OBJC_CLASS_$_FUUtils, _OBJC_IVAR_$_FUFlightStep._delayFromSchedule, _OBJC_IVAR_$_FUFlightView._displayStyle, _OBJC_IVAR_$_FUFlightView._ignoreMapUpdate, _OBJC_IVAR_$_FUFlightViewController._compactFlightView, _OBJC_IVAR_$_FUFlightViewController._regularFlightView, _OBJC_IVAR_$_FUFlightViewController._requiresDataLoad, _OBJC_IVAR_$_FUFlightViewController._viewLoaded, _OBJC_METACLASS_$_FUAirline, _OBJC_METACLASS_$_FUAirport, _OBJC_METACLASS_$_FUFlight, _OBJC_METACLASS_$_FUFlightFactory, _OBJC_METACLASS_$_FUFlightFactory_Parsec, _OBJC_METACLASS_$_FUFlightLeg, _OBJC_METACLASS_$_FUFlightStep, _OBJC_METACLASS_$_FUFlightView, _OBJC_METACLASS_$_FUFlightViewController, _OBJC_METACLASS_$_FUStepTime, _OBJC_METACLASS_$_FUUtils ]
+...

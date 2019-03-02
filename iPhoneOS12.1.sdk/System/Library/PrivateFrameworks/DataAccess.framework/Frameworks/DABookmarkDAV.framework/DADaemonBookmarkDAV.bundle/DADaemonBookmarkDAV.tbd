@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 896E6AFF-1F85-34B4-9DD7-A0E3AD3BF5E1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DABookmarkDAV.framework/DADaemonBookmarkDAV.bundle/DADaemonBookmarkDAV
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_BookmarkDAVAgent, _OBJC_CLASS_$_BookmarkDAVDaemonAccount, _OBJC_CLASS_$_BookmarkDAViCloudDaemonAccount, _OBJC_IVAR_$_BookmarkDAVAgent._containerPushKey, _OBJC_IVAR_$_BookmarkDAVAgent._isSyncing, _OBJC_IVAR_$_BookmarkDAVAgent._isSyncingHierarchy, _OBJC_IVAR_$_BookmarkDAVAgent._isWaitingToSync, _OBJC_IVAR_$_BookmarkDAVAgent._serverTokenRegistrationURL, _OBJC_IVAR_$_BookmarkDAVDaemonAccount._syncDriver, _OBJC_IVAR_$_BookmarkDAViCloudDaemonAccount._host, _OBJC_IVAR_$_BookmarkDAViCloudDaemonAccount._port, _OBJC_IVAR_$_BookmarkDAViCloudDaemonAccount._useSSL, _OBJC_METACLASS_$_BookmarkDAVAgent, _OBJC_METACLASS_$_BookmarkDAVDaemonAccount, _OBJC_METACLASS_$_BookmarkDAViCloudDaemonAccount ]
+...

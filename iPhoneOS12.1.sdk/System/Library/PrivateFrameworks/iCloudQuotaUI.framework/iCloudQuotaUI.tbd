@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 57CFA66D-21E8-393A-8FDC-91A1031D15F9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ICQPhotosOptimizeEnable, _OBJC_CLASS_$_ICQAlertController, _OBJC_CLASS_$_ICQBannerView, _OBJC_CLASS_$_ICQPageView, _OBJC_CLASS_$_ICQUpgradeButton, _OBJC_CLASS_$_ICQUpgradeCloudStorageFlowManager, _OBJC_CLASS_$_ICQUpgradeFlowManager, _OBJC_CLASS_$_ICQUpgradeFlowOptions, _OBJC_CLASS_$_ICQUpgradeOfferView, _OBJC_CLASS_$_ICQUpgradeOfferViewController, _OBJC_CLASS_$_ICQUpgradePhotosCloudEnableFlowManager, _OBJC_CLASS_$_ICQUpgradePhotosCloudUpgradeEnableFlowManager, _OBJC_CLASS_$_ICQUpgradePhotosOptimizeEnableFlowManager, _OBJC_CLASS_$_ICQViewController, _OBJC_CLASS_$__ICQTextView, _OBJC_CLASS_$_icqImageAdditionsDummyClass, _OBJC_METACLASS_$_ICQAlertController, _OBJC_METACLASS_$_ICQBannerView, _OBJC_METACLASS_$_ICQPageView, _OBJC_METACLASS_$_ICQUpgradeButton, _OBJC_METACLASS_$_ICQUpgradeCloudStorageFlowManager, _OBJC_METACLASS_$_ICQUpgradeFlowManager, _OBJC_METACLASS_$_ICQUpgradeFlowOptions, _OBJC_METACLASS_$_ICQUpgradeOfferView, _OBJC_METACLASS_$_ICQUpgradeOfferViewController, _OBJC_METACLASS_$_ICQUpgradePhotosCloudEnableFlowManager, _OBJC_METACLASS_$_ICQUpgradePhotosCloudUpgradeEnableFlowManager, _OBJC_METACLASS_$_ICQUpgradePhotosOptimizeEnableFlowManager, _OBJC_METACLASS_$_ICQViewController, _OBJC_METACLASS_$__ICQTextView, _OBJC_METACLASS_$_icqImageAdditionsDummyClass, _iCloudQuotaUIVersionNumber, _iCloudQuotaUIVersionString ]
+...

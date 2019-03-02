@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CA3C022C-ACF3-3603-839C-5307E23B9C81' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AccessibilityPlatformTranslation.framework/AccessibilityPlatformTranslation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXPConvertIncomingValue, _AXPCustomActionIdentifier, _AXPCustomActionName, _AXPCustomRotorDirection, _AXPCustomRotorName, _AXPCustomRotorSystemType, _AXPCustomRotorTargetElement, _AXPCustomRotorTargetRange, _AXPCustomRotorUUID, _AccessibilityPlatformTranslationVersionNumber, _AccessibilityPlatformTranslationVersionString, _OBJC_CLASS_$_AXPIOSPlatformElement, _OBJC_CLASS_$_AXPTranslationObject, _OBJC_CLASS_$_AXPTranslator, _OBJC_CLASS_$_AXPTranslatorRequest, _OBJC_CLASS_$_AXPTranslatorResponse, _OBJC_CLASS_$_AXPTranslator_iOS, _OBJC_CLASS_$_AXPiOSElementData, _OBJC_METACLASS_$_AXPIOSPlatformElement, _OBJC_METACLASS_$_AXPTranslationObject, _OBJC_METACLASS_$_AXPTranslator, _OBJC_METACLASS_$_AXPTranslatorRequest, _OBJC_METACLASS_$_AXPTranslatorResponse, _OBJC_METACLASS_$_AXPTranslator_iOS, _OBJC_METACLASS_$_AXPiOSElementData, __AXPActionToString, __AXPAttributeToString, __AXPNotificationToString ]
+...

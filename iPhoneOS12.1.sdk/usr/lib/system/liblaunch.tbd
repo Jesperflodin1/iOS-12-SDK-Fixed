@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1D67B51F-0938-398A-B2A0-EB8CBA4105C4' ]
+platform:	ios
+install-name:  /usr/lib/system/liblaunch.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

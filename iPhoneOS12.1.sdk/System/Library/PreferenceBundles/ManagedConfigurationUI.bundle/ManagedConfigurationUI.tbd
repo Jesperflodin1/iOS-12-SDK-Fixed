@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6F22270E-2E51-39C1-A978-224AA3A32D8E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ManagedConfigurationUI.framework/ManagedConfigurationUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MCInstallProfileViewController, _OBJC_CLASS_$_MCItemSummaryCell, _OBJC_CLASS_$_MCProfileSummaryCell, _OBJC_CLASS_$_MCProfileViewController, _OBJC_CLASS_$_MCUIBundleController, _OBJC_CLASS_$_MCUIProfile, _OBJC_METACLASS_$_MCInstallProfileViewController, _OBJC_METACLASS_$_MCItemSummaryCell, _OBJC_METACLASS_$_MCProfileSummaryCell, _OBJC_METACLASS_$_MCProfileViewController, _OBJC_METACLASS_$_MCUIBundleController, _OBJC_METACLASS_$_MCUIProfile ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4690EF74-C36B-305F-AD6E-3B6B8F59BF63' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/StoreKitFramework.axbundle/StoreKitFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXStoreKitGlue, _OBJC_CLASS_$_SKStarRatingControlAccessibility, _OBJC_CLASS_$_SKStoreReviewPresentationWindowAccessibility, _OBJC_CLASS_$___SKStarRatingControlAccessibility_super, _OBJC_CLASS_$___SKStoreReviewPresentationWindowAccessibility_super, _OBJC_METACLASS_$_AXStoreKitGlue, _OBJC_METACLASS_$_SKStarRatingControlAccessibility, _OBJC_METACLASS_$_SKStoreReviewPresentationWindowAccessibility, _OBJC_METACLASS_$___SKStarRatingControlAccessibility_super, _OBJC_METACLASS_$___SKStoreReviewPresentationWindowAccessibility_super, __Failover, _accessibilityLocalizedString ]
+...

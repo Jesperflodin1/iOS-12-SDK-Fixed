@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6EAA42C4-4C17-31FF-9F24-EBB0B94DDB77' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreDuetContext.framework/CoreDuetContext
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CoreDuetContextVersionNumber, _CoreDuetContextVersionString, _OBJC_CLASS_$__CDClientContext, _OBJC_CLASS_$__CDContextMonitorManager, _OBJC_CLASS_$__CDContextPredictionQueries, _OBJC_CLASS_$__CDContextQueries, _OBJC_CLASS_$__CDContextValue, _OBJC_CLASS_$__CDContextualChangeRegistration, _OBJC_CLASS_$__CDContextualChangeRegistrationMO, _OBJC_CLASS_$__CDContextualKeyPath, _OBJC_CLASS_$__CDContextualKeyPathAndValue, _OBJC_CLASS_$__CDContextualKeyPathMO, _OBJC_CLASS_$__CDContextualPredicate, _OBJC_CLASS_$__CDCoreDataContextPersisting, _OBJC_CLASS_$__CDDevice, _OBJC_CLASS_$__CDInMemoryContext, _OBJC_CLASS_$__CDInMemoryUserContext, _OBJC_CLASS_$__CDNetworkContext, _OBJC_CLASS_$__CDSharedMemoryContextPersisting, _OBJC_CLASS_$__CDUserContextQueries, _OBJC_CLASS_$__CDUserContextServerClient, _OBJC_CLASS_$__CDUserContextService, _OBJC_METACLASS_$__CDClientContext, _OBJC_METACLASS_$__CDContextMonitorManager, _OBJC_METACLASS_$__CDContextPredictionQueries, _OBJC_METACLASS_$__CDContextQueries, _OBJC_METACLASS_$__CDContextValue, _OBJC_METACLASS_$__CDContextualChangeRegistration, _OBJC_METACLASS_$__CDContextualChangeRegistrationMO, _OBJC_METACLASS_$__CDContextualKeyPath, _OBJC_METACLASS_$__CDContextualKeyPathAndValue, _OBJC_METACLASS_$__CDContextualKeyPathMO, _OBJC_METACLASS_$__CDContextualPredicate, _OBJC_METACLASS_$__CDCoreDataContextPersisting, _OBJC_METACLASS_$__CDDevice, _OBJC_METACLASS_$__CDInMemoryContext, _OBJC_METACLASS_$__CDInMemoryUserContext, _OBJC_METACLASS_$__CDNetworkContext, _OBJC_METACLASS_$__CDSharedMemoryContextPersisting, _OBJC_METACLASS_$__CDUserContextQueries, _OBJC_METACLASS_$__CDUserContextServerClient, _OBJC_METACLASS_$__CDUserContextService, __CDContextDataMetadataKey, __CDContextFirstKPValueAfterRebootKey, __CDContextServiceName, __CDContextTransitionDateMetadataKey, __CDContextualChangeRegistrationEntityName, __CDContextualKeyPathEntityName ]
+...

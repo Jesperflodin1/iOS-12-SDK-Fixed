@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D6F628F3-AA03-3955-9EAF-BCF371F1557C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AdID.framework/AdID
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ADSimulatedCrashKillCode_InternalInconsistency, _AdIDVersionNumber, _AdIDVersionString, _OBJC_CLASS_$_ADAMSBagManager, _OBJC_CLASS_$_ADAdTrackingSchedulingManager, _OBJC_CLASS_$_ADClientDPIDManager, _OBJC_CLASS_$_ADIDManagerService, _OBJC_CLASS_$_ADJingleOptOutRequest, _OBJC_CLASS_$_ADJingleRequest, _OBJC_CLASS_$_ADJingleRequestManager, _OBJC_CLASS_$_ADJingleSegmentRequest, _OBJC_CLASS_$_ADLATStatusManager, _OBJC_CLASS_$_ADOptInStatusService, _OBJC_CLASS_$_ADSegmentDataManager, _OBJC_METACLASS_$_ADAMSBagManager, _OBJC_METACLASS_$_ADAdTrackingSchedulingManager, _OBJC_METACLASS_$_ADClientDPIDManager, _OBJC_METACLASS_$_ADIDManagerService, _OBJC_METACLASS_$_ADJingleOptOutRequest, _OBJC_METACLASS_$_ADJingleRequest, _OBJC_METACLASS_$_ADJingleRequestManager, _OBJC_METACLASS_$_ADJingleSegmentRequest, _OBJC_METACLASS_$_ADLATStatusManager, _OBJC_METACLASS_$_ADOptInStatusService, _OBJC_METACLASS_$_ADSegmentDataManager ]
+...

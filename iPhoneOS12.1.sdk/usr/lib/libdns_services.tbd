@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 23640A9D-F932-3AFA-BE8B-24CC2500F3F7' ]
+platform:	ios
+install-name:  /usr/lib/libdns_services.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DNSXEnableProxy, _DNSXRefDeAlloc ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 62436D80-9601-3CEF-AC0F-19C101DF4F57' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IMTranscoding.framework/IMTranscoding
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IMTranscodeContextResponseDuration, _IMTranscodeErrorDomain, _OBJC_CLASS_$_IMTranscodeController, _OBJC_METACLASS_$_IMTranscodeController ]
+...

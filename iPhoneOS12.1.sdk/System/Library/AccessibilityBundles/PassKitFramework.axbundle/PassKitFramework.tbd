@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: A233110C-2575-3D99-B02C-5C7CB90CDA80' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/PassKitFramework.axbundle/PassKitFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXPassKitFrameworkGlue, _OBJC_CLASS_$_PKPaymentButtonAccessibility, _OBJC_CLASS_$___PKPaymentButtonAccessibility_super, _OBJC_METACLASS_$_AXPassKitFrameworkGlue, _OBJC_METACLASS_$_PKPaymentButtonAccessibility, _OBJC_METACLASS_$___PKPaymentButtonAccessibility_super, __Failover, _accessibilityLocalizedString ]
+...

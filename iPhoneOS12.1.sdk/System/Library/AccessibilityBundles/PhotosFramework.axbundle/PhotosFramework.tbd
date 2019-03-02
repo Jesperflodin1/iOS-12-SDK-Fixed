@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 978CAA51-C7BA-3103-9188-63097B2A193A' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/PhotosFramework.axbundle/PhotosFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PHAssetAccessibility, _OBJC_CLASS_$_PhotosAXGlue, _OBJC_CLASS_$___PHAssetAccessibility_super, _OBJC_METACLASS_$_PHAssetAccessibility, _OBJC_METACLASS_$_PhotosAXGlue, _OBJC_METACLASS_$___PHAssetAccessibility_super, _accessibilityCameraUILocalizedString, _accessibilityPLServicesLocalizedString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 43837BF5-F5D8-37DE-8360-075551D8F7CA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Calculate.framework/Calculate
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CalculateExpression, _CalculateExpressionError, _CalculateInternationalExpression, _CalculatePerformExpression, _OBJC_CLASS_$_Converter, _OBJC_CLASS_$_CurrencyCache, _OBJC_IVAR_$_Converter._additionalResults, _OBJC_IVAR_$_Converter._conversionType, _OBJC_IVAR_$_Converter._currencyUpdateTimeOut, _OBJC_IVAR_$_Converter._inputString, _OBJC_IVAR_$_Converter._inputUnit, _OBJC_IVAR_$_Converter._inputValue, _OBJC_IVAR_$_Converter._isCurrency, _OBJC_IVAR_$_Converter._localizedInputValueAndUnit, _OBJC_IVAR_$_Converter._localizedOutputUnit, _OBJC_IVAR_$_Converter._localizedOutputValue, _OBJC_IVAR_$_Converter._localizedOutputValueAndUnit, _OBJC_IVAR_$_Converter._outputUnit, _OBJC_IVAR_$_Converter._outputValue, _OBJC_IVAR_$_CurrencyCache._currencyData, _OBJC_IVAR_$_CurrencyCache._currentCurrency, _OBJC_IVAR_$_CurrencyCache._currentRate, _OBJC_IVAR_$_CurrencyCache._currentString, _OBJC_IVAR_$_CurrencyCache._lastRefreshDate, _OBJC_IVAR_$_CurrencyCache._mutableCurrencyCache, _OBJC_IVAR_$_CurrencyCache._serializer, _OBJC_IVAR_$_CurrencyCache._uuid, _OBJC_METACLASS_$_Converter, _OBJC_METACLASS_$_CurrencyCache ]
+...

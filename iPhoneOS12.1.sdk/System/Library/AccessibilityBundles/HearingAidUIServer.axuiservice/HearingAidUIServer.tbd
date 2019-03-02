@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BE1A42E8-4FEF-3D08-9C43-BCDCC0C610D3' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/HearingAidUIServer.axuiservice/HearingAidUIServer
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXHearingAidDisplayController, _OBJC_CLASS_$_HearingAidUIServer, _OBJC_METACLASS_$_AXHearingAidDisplayController, _OBJC_METACLASS_$_HearingAidUIServer ]
+...

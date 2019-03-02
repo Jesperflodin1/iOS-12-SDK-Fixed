@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C53E4AEF-CF92-3DDD-A37A-D8D2C6C43A36' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/TeaTemplate.framework/TeaTemplate
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__TtC11TeaTemplate15ColumnDebugView, _OBJC_METACLASS_$__TtC11TeaTemplate15ColumnDebugView, _TeaTemplateVersionNumber, _TeaTemplateVersionString ]
+...

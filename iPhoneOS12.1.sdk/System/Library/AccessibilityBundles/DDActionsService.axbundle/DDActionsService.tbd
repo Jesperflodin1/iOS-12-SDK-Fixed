@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6942847A-4E26-3AE9-8678-3E1B3BA0605D' ]
+platform:	ios
+install-name:  /System/Library/AccessibilityBundles/DDActionsService.axbundle/DDActionsService
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXDDActionsServiceGlue, _OBJC_CLASS_$_DDParsecServiceCollectionViewControllerAccessibility, _OBJC_CLASS_$___DDParsecServiceCollectionViewControllerAccessibility_super, _OBJC_METACLASS_$_AXDDActionsServiceGlue, _OBJC_METACLASS_$_DDParsecServiceCollectionViewControllerAccessibility, _OBJC_METACLASS_$___DDParsecServiceCollectionViewControllerAccessibility_super, __Failover ]
+...

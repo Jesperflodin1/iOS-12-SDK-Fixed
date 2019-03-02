@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 892228EE-3D9C-3385-92B5-EFB604A83A6D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/GraphVisualizer.framework/GraphVisualizer
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_GVEdge, _OBJC_CLASS_$_GVGraph, _OBJC_CLASS_$_GVInternalRenderer, _OBJC_CLASS_$_GVLayout, _OBJC_CLASS_$_GVNode, _OBJC_IVAR_$_GVNode.h, _OBJC_IVAR_$_GVNode.inNodes, _OBJC_IVAR_$_GVNode.inPriority, _OBJC_IVAR_$_GVNode.index, _OBJC_IVAR_$_GVNode.next, _OBJC_IVAR_$_GVNode.outNodes, _OBJC_IVAR_$_GVNode.outPriority, _OBJC_IVAR_$_GVNode.prev, _OBJC_IVAR_$_GVNode.rank, _OBJC_IVAR_$_GVNode.w, _OBJC_IVAR_$_GVNode.x, _OBJC_IVAR_$_GVNode.y, _OBJC_METACLASS_$_GVEdge, _OBJC_METACLASS_$_GVGraph, _OBJC_METACLASS_$_GVInternalRenderer, _OBJC_METACLASS_$_GVLayout, _OBJC_METACLASS_$_GVNode ]
+...

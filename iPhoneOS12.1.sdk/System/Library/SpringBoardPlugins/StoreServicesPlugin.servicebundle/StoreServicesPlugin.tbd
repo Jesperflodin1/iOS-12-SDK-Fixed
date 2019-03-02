@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 927AEF5C-B17F-36BE-BA80-FDCC0E187CAD' ]
+platform:	ios
+install-name:  /System/Library/SpringBoardPlugins/StoreServicesPlugin.servicebundle/StoreServicesPlugin
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SSVSBCFUserNotification, _OBJC_CLASS_$_SSVSBFullScreenAlertViewController, _OBJC_CLASS_$_SSVSBPluginController, _OBJC_METACLASS_$_SSVSBCFUserNotification, _OBJC_METACLASS_$_SSVSBFullScreenAlertViewController, _OBJC_METACLASS_$_SSVSBPluginController, _SSVSBStoreKitFramework, _SSVSBWeakLinkedClassForString, _SSVSBWeakLinkedSymbolForString ]
+...

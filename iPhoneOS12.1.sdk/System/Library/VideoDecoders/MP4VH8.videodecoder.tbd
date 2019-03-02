@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D48F4F3B-2853-3878-8365-506A575CA06A' ]
+platform:	ios
+install-name:  /System/Library/VideoDecoders/MP4VH8.videodecoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MP4VH8Register ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 3F51E116-B75E-3142-9E2E-65D40F6756BA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SyncedDefaults.framework/SyncedDefaults
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SYDRemotePreferencesSource, _OBJC_METACLASS_$_SYDRemotePreferencesSource, _SYDRemotePreferencesSourceConfigurationDidChangeNotification, _SYDRemotePreferencesSourceDidChangeNotification ]
+...

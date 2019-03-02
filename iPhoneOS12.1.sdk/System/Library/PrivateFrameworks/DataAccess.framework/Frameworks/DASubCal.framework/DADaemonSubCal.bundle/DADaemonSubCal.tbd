@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B1EE3735-3515-33B0-8977-3657CDDD3D35' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DASubCal.framework/DADaemonSubCal.bundle/DADaemonSubCal
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_HolidayCalDaemonAccount, _OBJC_CLASS_$_SubCalAgent, _OBJC_CLASS_$_SubCalChangeTracker, _OBJC_CLASS_$_SubCalDaemonAccount, _OBJC_CLASS_$_SubCalICSDataActor, _OBJC_CLASS_$_SubCalRefreshTask, _OBJC_CLASS_$_SubCalWebcalHandler, _OBJC_METACLASS_$_HolidayCalDaemonAccount, _OBJC_METACLASS_$_SubCalAgent, _OBJC_METACLASS_$_SubCalChangeTracker, _OBJC_METACLASS_$_SubCalDaemonAccount, _OBJC_METACLASS_$_SubCalICSDataActor, _OBJC_METACLASS_$_SubCalRefreshTask, _OBJC_METACLASS_$_SubCalWebcalHandler ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9EA02D92-8FBA-37A4-9E26-BBFBF6E2866E' ]
+platform:	ios
+install-name:  /System/Library/BulletinBoardPlugins/SMSBBPlugin.bundle/SMSBBPlugin
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CKChatConversationListSuppressionContext, _OBJC_CLASS_$_SMSBBPlugin, _OBJC_IVAR_$_SMSBBPlugin._bbPluginLock, _OBJC_IVAR_$_SMSBBPlugin._lastAlertedMessageDate, _OBJC_IVAR_$_SMSBBPlugin._lastFailedAlertDate, _OBJC_IVAR_$_SMSBBPlugin._queue, _OBJC_IVAR_$_SMSBBPlugin._wasUnderFirstUnlock, _OBJC_METACLASS_$_SMSBBPlugin, _SMSBBPluginCategory, _SMSBBPluginFirstLockPreferencesDomain, _SMSBBPluginLastPostedDateKey, _SMSBBPluginLastPostedRowIDKey, _SMSBBPluginMigratedRowIDToDateKey, _SMSBBPluginPreferencesDomain, _SMSBBPluginSectionIdentifier, _kCarrierPreferencesDomain, _kHandleDeclineAndMessageRecordID, _kSMSBBClearFailureBadgeNotification, _kSMSBBIncomingMessageAlertCountChangedNotification, _kSpringBoardSettingsChangedNotificationName ]
+...

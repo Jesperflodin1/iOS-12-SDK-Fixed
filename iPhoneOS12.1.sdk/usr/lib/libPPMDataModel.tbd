@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 05349786-3B9C-34FE-BCE3-D37C6FDEAB81' ]
+platform:	ios
+install-name:  /usr/lib/libPPMDataModel.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_OTABMUResistance, _OBJC_CLASS_$_OTAParam3RC, _OBJC_CLASS_$_OTAResistanceData, _OBJC_IVAR_$_OTABMUResistance._has, _OBJC_IVAR_$_OTABMUResistance._traceResistance25C, _OBJC_IVAR_$_OTABMUResistance._traceResistanceTemperatureCoeff, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR0TemperatureCoeffs, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR0s, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR1TemperatureCoeffs, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR1s, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR2TemperatureCoeffs, _OBJC_IVAR_$_OTAParam3RC._agingCoeffForR2s, _OBJC_IVAR_$_OTAParam3RC._baselineR0, _OBJC_IVAR_$_OTAParam3RC._baselineR1, _OBJC_IVAR_$_OTAParam3RC._baselineR2, _OBJC_IVAR_$_OTAParam3RC._baselineR3, _OBJC_IVAR_$_OTAParam3RC._baselineRdcs, _OBJC_IVAR_$_OTAParam3RC._bmuResistance, _OBJC_IVAR_$_OTAParam3RC._chemID, _OBJC_IVAR_$_OTAParam3RC._gridOCVs, _OBJC_IVAR_$_OTAParam3RC._r0, _OBJC_IVAR_$_OTAParam3RC._r1, _OBJC_IVAR_$_OTAParam3RC._r2, _OBJC_IVAR_$_OTAParam3RC._rCFreq1, _OBJC_IVAR_$_OTAParam3RC._rCFreq2, _OBJC_IVAR_$_OTAParam3RC._rCFreq3, _OBJC_IVAR_$_OTAResistanceData._resistance25Cs, _OBJC_IVAR_$_OTAResistanceData._temperatureCoeffs, _OBJC_METACLASS_$_OTABMUResistance, _OBJC_METACLASS_$_OTAParam3RC, _OBJC_METACLASS_$_OTAResistanceData, _OTABMUResistanceReadFrom, _OTAParam3RCReadFrom, _OTAResistanceDataReadFrom ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 3F8194F8-11B9-3309-8436-C8D6C92B9B93' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RevealCore.framework/RevealCore
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_RVDocumentContext, _OBJC_CLASS_$_RVItem, _OBJC_METACLASS_$_RVDocumentContext, _OBJC_METACLASS_$_RVItem, _RevealCoreVersionNumber, _RevealCoreVersionString ]
+...

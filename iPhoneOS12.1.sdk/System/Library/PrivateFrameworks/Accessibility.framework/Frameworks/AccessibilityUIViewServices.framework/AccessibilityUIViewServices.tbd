@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B9D30ED0-8A3C-3413-B57D-39D63E25E8B8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUIViewServices.framework/AccessibilityUIViewServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXVSBaseService, _OBJC_CLASS_$_AXVSVoiceOverItemChooserService, _OBJC_METACLASS_$_AXVSBaseService, _OBJC_METACLASS_$_AXVSVoiceOverItemChooserService ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8558F005-8072-3B15-9499-613C178F55C9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/PLShutdown.framework/PLShutdown
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _logShutdown ]
+...

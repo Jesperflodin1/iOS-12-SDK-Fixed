@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 871BF257-1D4C-306D-837B-76A00D4338B8' ]
+platform:	ios
+install-name:  /usr/lib/libTelephonyDebugDynamic.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _TelephonyBasebandWatchdogStart, _TelephonyBasebandWatchdogStartWithStackshot, _TelephonyBasebandWatchdogStop ]
+...

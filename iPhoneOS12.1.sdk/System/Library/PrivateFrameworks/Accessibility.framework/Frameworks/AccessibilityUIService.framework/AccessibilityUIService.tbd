@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7F301D9C-CF2D-3E9E-9C4C-A5EFD17CE58B' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUIService.framework/AccessibilityUIService
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXUIAlertDefaultDelayBetweenSubsequentAlerts, _AXUIAlertDisplayTimeDefaultForAlerts, _AXUIAlertDisplayTimeDefaultForBanners, _AXUIAlertDisplayTimeForever, _AXUIAlertSizeMetricFillingContainer, _AXUIAlertSizeMetricFitting, _AXUISetMainBundleFakesSystemExtension, _OBJC_CLASS_$_AXStaticFrameView, _OBJC_CLASS_$_AXStyleProviderUIAlert, _OBJC_CLASS_$_AXUIActiveWindow, _OBJC_CLASS_$_AXUIAlert, _OBJC_CLASS_$_AXUIAlertContext, _OBJC_CLASS_$_AXUIAlertStyleProvider, _OBJC_CLASS_$_AXUIClientMessenger, _OBJC_CLASS_$_AXUIDisplayManager, _OBJC_CLASS_$_AXUINSBundleOverride, _OBJC_CLASS_$_AXUINubbitContext, _OBJC_CLASS_$_AXUIPassiveWindow, _OBJC_CLASS_$_AXUIRootViewController, _OBJC_CLASS_$_AXUIServiceContext, _OBJC_CLASS_$_AXUIServiceEntitlementChecker, _OBJC_CLASS_$_AXUIServiceManager, _OBJC_CLASS_$_AXUIUIScreenOverride, _OBJC_CLASS_$_AXUIWindow, _OBJC_CLASS_$___AXUINSBundleOverride_super, _OBJC_CLASS_$___AXUIUIScreenOverride_super, _OBJC_METACLASS_$_AXStaticFrameView, _OBJC_METACLASS_$_AXStyleProviderUIAlert, _OBJC_METACLASS_$_AXUIActiveWindow, _OBJC_METACLASS_$_AXUIAlert, _OBJC_METACLASS_$_AXUIAlertContext, _OBJC_METACLASS_$_AXUIAlertStyleProvider, _OBJC_METACLASS_$_AXUIClientMessenger, _OBJC_METACLASS_$_AXUIDisplayManager, _OBJC_METACLASS_$_AXUINSBundleOverride, _OBJC_METACLASS_$_AXUINubbitContext, _OBJC_METACLASS_$_AXUIPassiveWindow, _OBJC_METACLASS_$_AXUIRootViewController, _OBJC_METACLASS_$_AXUIServiceContext, _OBJC_METACLASS_$_AXUIServiceEntitlementChecker, _OBJC_METACLASS_$_AXUIServiceManager, _OBJC_METACLASS_$_AXUIUIScreenOverride, _OBJC_METACLASS_$_AXUIWindow, _OBJC_METACLASS_$___AXUINSBundleOverride_super, _OBJC_METACLASS_$___AXUIUIScreenOverride_super ]
+...

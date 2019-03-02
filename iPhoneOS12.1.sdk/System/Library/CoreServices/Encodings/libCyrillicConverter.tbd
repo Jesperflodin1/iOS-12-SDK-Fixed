@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C2A82775-C07E-3402-8A59-9887D88EEBBE' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libCyrillicConverter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetCyrillicConverterDefinition ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F6AC08AD-9F4A-37F2-9856-509C4A535C93' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/GameCenter.framework/GameCenter
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _GKGameCenterUmbrellaFrameworkStub, _kGameCenterGameCenterVersionNumber, _kGameCenterGameCenterVersionString ]
+...

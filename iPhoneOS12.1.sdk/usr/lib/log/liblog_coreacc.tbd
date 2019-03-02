@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B48864A8-7105-3B89-96A3-A77E3704890C' ]
+platform:	ios
+install-name:  /usr/lib/log/liblog_coreacc.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NSObjectIfNotNull, _OSLogCopyFormattedString, _base64DecodeArray, _base64EncodeArray, _classImplementsMethodsInProtocol, _convertNSDataToNSString, _convertNSStringToNSData, _isNSObjectEqual, _isNSObjectNull, _kACCConnection_Type_Strings, _kACCEndpoint_Protocol_Strings, _kACCEndpoint_TransportType_Strings, _readJSONFile, _trimBidirectionalUnicodeCharacters, _writeJSONFile ]
+...

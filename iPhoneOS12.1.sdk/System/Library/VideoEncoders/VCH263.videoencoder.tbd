@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F828E048-6657-34A8-AA65-836F877089AD' ]
+platform:	ios
+install-name:  /System/Library/VideoEncoders/VCH263.videoencoder
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _VCH263EncoderRegister, _VCH263VideoEncoder_CreateInstance ]
+...

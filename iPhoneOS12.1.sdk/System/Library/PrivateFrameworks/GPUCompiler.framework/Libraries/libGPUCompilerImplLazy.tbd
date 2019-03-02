@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B218F85E-AEB9-304A-900E-D38CE6740267' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImplLazy.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___clang_metalfe_GPUCompiler_compileFromSourceWrapper, ___clang_metalfe_GPUCompiler_splitModuleWrapper, _metal2module ]
+...

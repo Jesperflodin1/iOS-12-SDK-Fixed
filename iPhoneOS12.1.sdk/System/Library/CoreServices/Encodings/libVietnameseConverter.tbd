@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5B54E83A-9848-32B9-B692-CF25B13CCE97' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libVietnameseConverter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetVietnameseConverterDefinition ]
+...

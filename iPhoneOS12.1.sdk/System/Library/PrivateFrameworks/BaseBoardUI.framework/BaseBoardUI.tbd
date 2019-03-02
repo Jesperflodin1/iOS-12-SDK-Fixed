@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D5E041DA-969F-310E-B2AE-101B3EFE9DA1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _BSIntervalInterpolatorInvertUIRubberBanding, _BSIntervalInterpolatorUIRubberBanding, _BSUIBaseBoardUIVersionNumber, _BSUIBaseBoardUIVersionString, _BSUIConstrainValueToIntervalWithRubberBand, _BSUIConstrainValueWithRubberBand, _BSUICreateIOSurface, _BSUICreateUISurfaceWithColorSpaceAndDrawBlock, _BSUIInvertRubberBandValue, _BSUIInvertRubberBandValueForInterval, _BSUISurfaceImageWithColorSpaceAndDrawBlock, _OBJC_CLASS_$_BSUIAnimationFactory, _OBJC_CLASS_$_BSUIAnimationFactoryDomain, _OBJC_CLASS_$_BSUIAnimationFactorySettings, _OBJC_CLASS_$_BSUIBackdropView, _OBJC_CLASS_$_BSUIDateLabelFactory, _OBJC_CLASS_$_BSUIDefaultDateLabel, _OBJC_CLASS_$_BSUIEmojiLabelView, _OBJC_CLASS_$_BSUIFontProvider, _OBJC_CLASS_$_BSUIMappedImageCache, _OBJC_CLASS_$_BSUIMappedImageCacheFuture, _OBJC_CLASS_$_BSUIMappedImageCacheOptions, _OBJC_CLASS_$_BSUIMappedSurfaceImage, _OBJC_CLASS_$_BSUIRelativeDateLabel, _OBJC_CLASS_$_BSUIResolutionClass, _OBJC_CLASS_$_BSUIScrollView, _OBJC_CLASS_$__BSUIAnimationAttributesFactory, _OBJC_METACLASS_$_BSUIAnimationFactory, _OBJC_METACLASS_$_BSUIAnimationFactoryDomain, _OBJC_METACLASS_$_BSUIAnimationFactorySettings, _OBJC_METACLASS_$_BSUIBackdropView, _OBJC_METACLASS_$_BSUIDateLabelFactory, _OBJC_METACLASS_$_BSUIDefaultDateLabel, _OBJC_METACLASS_$_BSUIEmojiLabelView, _OBJC_METACLASS_$_BSUIFontProvider, _OBJC_METACLASS_$_BSUIMappedImageCache, _OBJC_METACLASS_$_BSUIMappedImageCacheFuture, _OBJC_METACLASS_$_BSUIMappedImageCacheOptions, _OBJC_METACLASS_$_BSUIMappedSurfaceImage, _OBJC_METACLASS_$_BSUIRelativeDateLabel, _OBJC_METACLASS_$_BSUIResolutionClass, _OBJC_METACLASS_$_BSUIScrollView, _OBJC_METACLASS_$__BSUIAnimationAttributesFactory ]
+...

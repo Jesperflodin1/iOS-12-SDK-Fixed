@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 91569E6B-3239-3B7D-BADA-BE1B3A36870D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AdAnalytics.framework/AdAnalytics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AdAnalyticsErrorDomain, _AdAnalyticsVersionNumber, _AdAnalyticsVersionString, _OBJC_CLASS_$_AdAnalyticsCommon, _OBJC_CLASS_$_AdAnalyticsEventInfo, _OBJC_CLASS_$_AdAnalyzer, _OBJC_METACLASS_$_AdAnalyticsCommon, _OBJC_METACLASS_$_AdAnalyticsEventInfo, _OBJC_METACLASS_$_AdAnalyzer ]
+...

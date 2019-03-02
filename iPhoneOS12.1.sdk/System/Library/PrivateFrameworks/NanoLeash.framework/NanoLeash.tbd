@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CD4DA1A1-11D0-39FB-BC77-86ED3801E4D7' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoLeash.framework/NanoLeash
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NFMFindGizmoIdentifier, _NFMFindLocalDeviceEntitlementName, _NFMFindLocalDeviceServerName, _NFMHotterColderIdentifier, _NFMLeashIdentifier, _NFMLeashManagerLeashWarningCloseValue, _NFMLeashManagerLeashWarningFarValue, _NFMLeashManagerLeashWarningImmediateValue, _NFMLeashManagerLeashWarningInsaneDistanceValue, _NFMPEPLog, _NFMProtoDidPlaySoundAndFlashLEDResponseReadFrom, _NFMProtoDidPlaySoundResponseReadFrom, _NFMProtoPlaySoundAndFlashLEDRequestReadFrom, _NFMProtoPlaySoundRequestReadFrom, _NFMProtoSend, _NFMUnlockIdentifier, _OBJC_CLASS_$_NFMIDSMessageInstance, _OBJC_CLASS_$_NFMIDSServiceDelegate, _OBJC_CLASS_$_NFMLeashManager, _OBJC_CLASS_$_NFMProtoDidPlaySoundAndFlashLEDResponse, _OBJC_CLASS_$_NFMProtoDidPlaySoundResponse, _OBJC_CLASS_$_NFMProtoPlaySoundAndFlashLEDRequest, _OBJC_CLASS_$_NFMProtoPlaySoundRequest, _OBJC_CLASS_$_NFMWhereIsMyCompanionConnection, _OBJC_CLASS_$_NFMWiFiManager, _OBJC_IVAR_$_NFMLeashManager._proximityChangeHandler, _OBJC_METACLASS_$_NFMIDSMessageInstance, _OBJC_METACLASS_$_NFMIDSServiceDelegate, _OBJC_METACLASS_$_NFMLeashManager, _OBJC_METACLASS_$_NFMProtoDidPlaySoundAndFlashLEDResponse, _OBJC_METACLASS_$_NFMProtoDidPlaySoundResponse, _OBJC_METACLASS_$_NFMProtoPlaySoundAndFlashLEDRequest, _OBJC_METACLASS_$_NFMProtoPlaySoundRequest, _OBJC_METACLASS_$_NFMWhereIsMyCompanionConnection, _OBJC_METACLASS_$_NFMWiFiManager, _count, _nfm_log ]
+...

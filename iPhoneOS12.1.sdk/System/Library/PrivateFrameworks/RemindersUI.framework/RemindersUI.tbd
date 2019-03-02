@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9B6F4C28-66A9-3359-9084-AFAFE493889F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RemindersUI.framework/RemindersUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_RMUIDetailEditorViewController, _OBJC_CLASS_$_RMUIImageUtilities, _OBJC_CLASS_$_RMUIUpNextCell, _OBJC_CLASS_$_RMUIUpNextLabel, _OBJC_CLASS_$_RMUIUpNextRowSeparator, _OBJC_CLASS_$_RemindersColor, _OBJC_METACLASS_$_RMUIDetailEditorViewController, _OBJC_METACLASS_$_RMUIImageUtilities, _OBJC_METACLASS_$_RMUIUpNextCell, _OBJC_METACLASS_$_RMUIUpNextLabel, _OBJC_METACLASS_$_RMUIUpNextRowSeparator, _OBJC_METACLASS_$_RemindersColor, _addRightPaddingToImage, _defaultPriorityForPriorityLevel, _priorityLevelForPriority, _priorityLevelForReminderInList, _uncoloredPriorityImageForLevelInBundle ]
+...

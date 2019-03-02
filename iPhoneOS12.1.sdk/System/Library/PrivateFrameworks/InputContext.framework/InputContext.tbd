@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 8618634E-048B-3079-96BF-F6629E1E24D6' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/InputContext.framework/InputContext
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _InputContextVersionNumber, _InputContextVersionString, _OBJC_CLASS_$__ICContact, _OBJC_CLASS_$__ICContactRecord, _OBJC_CLASS_$__ICInputContextManager, _OBJC_CLASS_$__ICInternalSource, _OBJC_CLASS_$__ICLexiconManager, _OBJC_CLASS_$__ICLexiconUtilities, _OBJC_CLASS_$__ICLexiconView, _OBJC_CLASS_$__ICNamedEntityRecord, _OBJC_CLASS_$__ICNamedEntityStore, _OBJC_CLASS_$__ICNullLexiconManager, _OBJC_CLASS_$__ICNullSource, _OBJC_CLASS_$__ICPortraitLexiconSource, _OBJC_CLASS_$__ICPortraitPredictionSource, _OBJC_CLASS_$__ICPortraitUtilities, _OBJC_CLASS_$__ICPredictedItem, _OBJC_CLASS_$__ICPredictionManager, _OBJC_CLASS_$__ICProactiveTrigger, _OBJC_CLASS_$__ICResultCache, _OBJC_CLASS_$__ICSearchContext, _OBJC_CLASS_$__ICTransientLexicon, _OBJC_METACLASS_$__ICContact, _OBJC_METACLASS_$__ICContactRecord, _OBJC_METACLASS_$__ICInputContextManager, _OBJC_METACLASS_$__ICInternalSource, _OBJC_METACLASS_$__ICLexiconManager, _OBJC_METACLASS_$__ICLexiconUtilities, _OBJC_METACLASS_$__ICLexiconView, _OBJC_METACLASS_$__ICNamedEntityRecord, _OBJC_METACLASS_$__ICNamedEntityStore, _OBJC_METACLASS_$__ICNullLexiconManager, _OBJC_METACLASS_$__ICNullSource, _OBJC_METACLASS_$__ICPortraitLexiconSource, _OBJC_METACLASS_$__ICPortraitPredictionSource, _OBJC_METACLASS_$__ICPortraitUtilities, _OBJC_METACLASS_$__ICPredictedItem, _OBJC_METACLASS_$__ICPredictionManager, _OBJC_METACLASS_$__ICProactiveTrigger, _OBJC_METACLASS_$__ICResultCache, _OBJC_METACLASS_$__ICSearchContext, _OBJC_METACLASS_$__ICTransientLexicon, __ICMachTimeToNanoseconds, _isEquivalentDictionary ]
+...

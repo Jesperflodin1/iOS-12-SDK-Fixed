@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FBE55A38-09D5-3CEB-9CF1-D8228F23D99F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CoreFollowUpUIVersionNumber, _CoreFollowUpUIVersionString, _OBJC_CLASS_$_FLExtensionContext, _OBJC_CLASS_$_FLExtensionViewController, _OBJC_CLASS_$_FLFollowUpActionHandler, _OBJC_CLASS_$_FLHeaderCell, _OBJC_CLASS_$_FLHostViewController, _OBJC_CLASS_$_FLNetworkStatePrompter, _OBJC_CLASS_$_FLPreferencesController, _OBJC_CLASS_$_FLPreferencesFollowUpItemListViewController, _OBJC_CLASS_$_FLReachabilityObserver, _OBJC_CLASS_$_FLSpecifierTapHandler, _OBJC_CLASS_$_FLViewExtensionLoader, _OBJC_METACLASS_$_FLExtensionContext, _OBJC_METACLASS_$_FLExtensionViewController, _OBJC_METACLASS_$_FLFollowUpActionHandler, _OBJC_METACLASS_$_FLHeaderCell, _OBJC_METACLASS_$_FLHostViewController, _OBJC_METACLASS_$_FLNetworkStatePrompter, _OBJC_METACLASS_$_FLPreferencesController, _OBJC_METACLASS_$_FLPreferencesFollowUpItemListViewController, _OBJC_METACLASS_$_FLReachabilityObserver, _OBJC_METACLASS_$_FLSpecifierTapHandler, _OBJC_METACLASS_$_FLViewExtensionLoader, _SPYGLASS_START_USING_ICLOUD_UID, _SPYGLASS_VERIFY_PRIMARY_EMAIL_UID, _SPYGLASS_VERIFY_TERMS_UID, _createFollowUpSubtitle, _createFollowUpTitle ]
+...

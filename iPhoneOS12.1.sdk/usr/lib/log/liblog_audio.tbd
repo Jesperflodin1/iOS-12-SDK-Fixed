@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C5FBF032-B315-366C-9A28-D04CF0E098A9' ]
+platform:	ios
+install-name:  /usr/lib/log/liblog_audio.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CFStringFromNSAttributedString, _OSLogCopyFormattedString ]
+...

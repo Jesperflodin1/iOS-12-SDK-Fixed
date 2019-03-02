@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C3B55936-26BD-3E38-A891-C5DF26C5B194' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ProactiveWidgetTracker.framework/ProactiveWidgetTracker
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__PWTWidgetEventTracker, _OBJC_METACLASS_$__PWTWidgetEventTracker, _ProactiveWidgetTrackerVersionNumber, _ProactiveWidgetTrackerVersionString ]
+...

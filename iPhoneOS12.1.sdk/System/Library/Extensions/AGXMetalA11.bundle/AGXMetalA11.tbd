@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: BD971D8C-0C69-3A9D-93BC-430AE17987C6' ]
+platform:	ios
+install-name:  /System/Library/Extensions/AGXMetalA11.bundle/AGXMetalA11
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

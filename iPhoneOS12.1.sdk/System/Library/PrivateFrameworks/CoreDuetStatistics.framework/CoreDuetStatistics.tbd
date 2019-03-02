@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4B2ED3D5-AD90-359B-95D1-D2890BD1C5FC' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreDuetStatistics.framework/CoreDuetStatistics
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CDSBasisObject, _OBJC_CLASS_$_CDSEngine, _OBJC_METACLASS_$_CDSBasisObject, _OBJC_METACLASS_$_CDSEngine ]
+...

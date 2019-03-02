@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D1D8CEAC-9ED9-3A26-9E29-3F5DD4CFE471' ]
+platform:	ios
+install-name:  /System/Library/Frameworks/OpenGLES.framework/libGLVMPlugin.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _cvmsPluginElementBuild, _cvmsPluginServiceInitialize, _cvmsPluginServiceTerminate, _oglCodeGenServiceGenerateIR, _oglCodeGenServiceInitialize, _oglCodeGenServiceTerminate ]
+...

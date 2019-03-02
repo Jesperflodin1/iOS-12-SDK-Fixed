@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 66C6F559-2991-32B4-B93A-7364438FC87C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AIDAAccountPropertyAltDSID, _AIDAAccountPropertyDSID, _AIDAErrorDomain, _AIDAServiceTypeCloud, _AIDAServiceTypeFaceTime, _AIDAServiceTypeGameCenter, _AIDAServiceTypeMessages, _AIDAServiceTypeStore, _AppleIDAuthenticationAppleIDSettingsTokenIdentifier, _AppleIDAuthenticationPBTokenIdentifier, _AppleIDAuthenticationServicesKey, _AppleIDAuthenticationiCloudFamilySettingsTokenIdentifier, _AppleIDAuthenticationiCloudSettingsTokenIdentifier, _OBJC_CLASS_$_AIDAMutableServiceContext, _OBJC_CLASS_$_AIDAServiceContext, _OBJC_CLASS_$_AIDAServiceOwnersManager, _OBJC_IVAR_$_AIDAServiceContext._authenticationResults, _OBJC_IVAR_$_AIDAServiceContext._shouldForceOperation, _OBJC_IVAR_$_AIDAServiceContext._viewController, _OBJC_METACLASS_$_AIDAMutableServiceContext, _OBJC_METACLASS_$_AIDAServiceContext, _OBJC_METACLASS_$_AIDAServiceOwnersManager, __AIDALogSystem, __AIDASignpostCreate, __AIDASignpostGetNanoseconds, __AIDASignpostLogSystem, _kDeviceProvisioningMIDKey, _kDeviceProvisioningOTPKey, _kLegacyAlternateDSIDKey, _kiCloudPersonIDKey, _kiCloudPrimaryAccountKey ]
+...

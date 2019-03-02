@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C55FD6EA-EE49-3843-B760-547DB3F782D1' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ShortcutUIKit.framework/ShortcutUIKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SCUIAssetProvider, _OBJC_METACLASS_$_SCUIAssetProvider, _ShortcutUIKitBundle, _ShortcutUIKitVersionNumber, _ShortcutUIKitVersionString ]
+...

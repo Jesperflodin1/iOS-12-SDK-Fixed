@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5ABBA2EB-E5C7-395E-A8CF-E21A6FFEB9D4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppPreferenceClient.framework/AppPreferenceClient
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _APRAppPreferenceInterface, _APRIntentStreamUpdateInterface, _AppPreferenceClientVersionNumber, _AppPreferenceClientVersionString, _OBJC_CLASS_$_APRAppPreferenceClient, _OBJC_CLASS_$_APRAppPreferenceResponse, _OBJC_CLASS_$_APRAppPreferenceTypes, _OBJC_CLASS_$_APRIntentStreamUpdateClient, _OBJC_METACLASS_$_APRAppPreferenceClient, _OBJC_METACLASS_$_APRAppPreferenceResponse, _OBJC_METACLASS_$_APRAppPreferenceTypes, _OBJC_METACLASS_$_APRIntentStreamUpdateClient, _kAPRAppPreferenceInterfaceMachServiceName, _kAPRIntentStreamUpdateInterfaceMachServiceName ]
+...

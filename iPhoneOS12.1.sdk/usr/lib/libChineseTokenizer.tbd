@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AD9B2AAE-114E-329F-AD8F-B0C02D82C55E' ]
+platform:	ios
+install-name:  /usr/lib/libChineseTokenizer.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ChineseTokenizerAdvanceToNextToken, _ChineseTokenizerCreate, _ChineseTokenizerGetCurrentTokenRange, _ChineseTokenizerGoToTokenAtIndex, _ChineseTokenizerRelease, _ChineseTokenizerSetCustomWordCheckBlock, _ChineseTokenizerSetDynamicLexicon, _ChineseTokenizerSetString ]
+...

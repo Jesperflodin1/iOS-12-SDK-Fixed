@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C0CBA875-CD3C-34F9-8FE7-C970C56A5610' ]
+platform:	ios
+install-name:  /System/Library/DataClassMigrators/FaceTimeMigrator.migrator/FaceTimeMigrator
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

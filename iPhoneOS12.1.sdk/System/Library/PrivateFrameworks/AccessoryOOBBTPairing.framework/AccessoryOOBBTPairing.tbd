@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 3F751026-848D-3A8B-A352-C0F5EFC6F338' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AccessoryOOBBTPairing.framework/AccessoryOOBBTPairing
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ACCOOBBTPairingAccFwVer, _ACCOOBBTPairingAccHwVer, _ACCOOBBTPairingAccManufacturer, _ACCOOBBTPairingAccModel, _ACCOOBBTPairingAccName, _ACCOOBBTPairingAccSerialNum, _ACCOOBBTPairingCarPlaySupported, _ACCOOBBTPairingCertData, _ACCOOBBTPairingCertSerial, _ACCOOBBTPairingCompletionMACAddressKey, _ACCOOBBTPairingCompletionNotification, _ACCOOBBTPairingCompletionStatusKey, _ACCOOBBTPairingConnectionIDKey, _ACCOOBBTPairingDisplayName, _ACCOOBBTPairingIsSupported, _ACCOOBBTPairingLaunchNotification, _AccessoryOOBBTPairingVersionNumber, _AccessoryOOBBTPairingVersionString, _OBJC_CLASS_$_ACCOOBBTPairingAccessory, _OBJC_CLASS_$_ACCOOBBTPairingProvider, _OBJC_METACLASS_$_ACCOOBBTPairingAccessory, _OBJC_METACLASS_$_ACCOOBBTPairingProvider ]
+...

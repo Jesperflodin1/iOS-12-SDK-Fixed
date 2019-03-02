@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 05E2D1C5-6B20-3BE2-BD32-EC8A38AAA40C' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/NewsArticles.framework/NewsArticles
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NewsArticlesVersionNumber, _NewsArticlesVersionString, _OBJC_CLASS_$_NAActivityViewController, _OBJC_CLASS_$_NAAnalyticsAssembly, _OBJC_CLASS_$_NAAssembly, _OBJC_CLASS_$_NAManagerAssembly, _OBJC_CLASS_$_NARendererAssembly, _OBJC_CLASS_$_NAReportConcernAssembly, _OBJC_CLASS_$_NAServiceAssembly, _OBJC_CLASS_$_NAStylerAssembly, _OBJC_CLASS_$_NAUtilityAssembly, _OBJC_CLASS_$_SUSharingAssembly, _OBJC_CLASS_$_TSArticleAssembly, _OBJC_CLASS_$_TSArticleViewerAssembly, _OBJC_CLASS_$_TSReportConcernDetailAssembly, _OBJC_CLASS_$_TSReportConcernModule, _OBJC_CLASS_$__TtC12NewsArticles19SharingActivityItem, _OBJC_CLASS_$__TtC12NewsArticles20ReportConcernCommand, _OBJC_CLASS_$__TtC12NewsArticles25ReportConcernDetailModule, _OBJC_CLASS_$__TtC12NewsArticles27ArticleViewerViewController, _OBJC_METACLASS_$_NAActivityViewController, _OBJC_METACLASS_$_NAAnalyticsAssembly, _OBJC_METACLASS_$_NAAssembly, _OBJC_METACLASS_$_NAManagerAssembly, _OBJC_METACLASS_$_NARendererAssembly, _OBJC_METACLASS_$_NAReportConcernAssembly, _OBJC_METACLASS_$_NAServiceAssembly, _OBJC_METACLASS_$_NAStylerAssembly, _OBJC_METACLASS_$_NAUtilityAssembly, _OBJC_METACLASS_$_SUSharingAssembly, _OBJC_METACLASS_$_TSArticleAssembly, _OBJC_METACLASS_$_TSArticleViewerAssembly, _OBJC_METACLASS_$_TSReportConcernDetailAssembly, _OBJC_METACLASS_$_TSReportConcernModule, _OBJC_METACLASS_$__TtC12NewsArticles19SharingActivityItem, _OBJC_METACLASS_$__TtC12NewsArticles20ReportConcernCommand, _OBJC_METACLASS_$__TtC12NewsArticles25ReportConcernDetailModule, _OBJC_METACLASS_$__TtC12NewsArticles27ArticleViewerViewController ]
+...

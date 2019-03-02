@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 49491AEB-C061-34CF-A85D-270DD9EE6BD0' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/AirPortSettings.bundle/AirPortSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F9995397-C420-32BA-90C2-D461AC0E20A7' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Tips.framework/Tips
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_TPSTipsManager, _OBJC_CLASS_$_TPSWelcomeInformation, _OBJC_METACLASS_$_TPSTipsManager, _OBJC_METACLASS_$_TPSWelcomeInformation, _TPSTipsManagerCollectionIdentifierAppleWatch, _TPSTipsManagerCollectionIdentifierHomePod, _TipsVersionNumber, _TipsVersionString ]
+...

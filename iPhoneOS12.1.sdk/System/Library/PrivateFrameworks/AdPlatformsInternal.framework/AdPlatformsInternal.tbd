@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: EF1676D7-3A9B-3238-8AB2-F574391501EB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AdPlatformsInternal.framework/AdPlatformsInternal
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AdPlatformsInternalVersionNumber, _AdPlatformsInternalVersionString, _OBJC_CLASS_$_ADAttributionRequester, _OBJC_CLASS_$_ADAttributionService, _OBJC_METACLASS_$_ADAttributionRequester, _OBJC_METACLASS_$_ADAttributionService ]
+...

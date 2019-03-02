@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C92209F1-BE2A-3B96-8420-3278885FB9EF' ]
+platform:	ios
+install-name:  /System/Library/TextInput/TextInput_ja.bundle/TextInput_ja
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_Romakana, _OBJC_CLASS_$_TICandidateSorter, _OBJC_CLASS_$_TIKeyboardFeatureSpecialization_ja, _OBJC_CLASS_$_TIKeyboardInputManager_ja, _OBJC_CLASS_$_TIKeyboardInputManager_ja_Kana, _OBJC_CLASS_$_TIKeyboardInputManager_ja_Romaji, _OBJC_CLASS_$_TIWordSearch3x3Kana, _OBJC_CLASS_$_TIWordSearch50onKana, _OBJC_CLASS_$_TIWordSearchJapaneseOperationGetCandidates, _OBJC_CLASS_$_TIWordSearchKana, _OBJC_CLASS_$_TIWordSearchRomajiKana, _OBJC_IVAR_$_Romakana._consonantsCharacterSet, _OBJC_IVAR_$_TIKeyboardInputManager_ja._kbws, _OBJC_IVAR_$_TIKeyboardInputManager_ja._remainingInputLength, _OBJC_IVAR_$_TIKeyboardInputManager_ja._shouldLearnAcceptedCandidate, _OBJC_METACLASS_$_Romakana, _OBJC_METACLASS_$_TICandidateSorter, _OBJC_METACLASS_$_TIKeyboardFeatureSpecialization_ja, _OBJC_METACLASS_$_TIKeyboardInputManager_ja, _OBJC_METACLASS_$_TIKeyboardInputManager_ja_Kana, _OBJC_METACLASS_$_TIKeyboardInputManager_ja_Romaji, _OBJC_METACLASS_$_TIWordSearch3x3Kana, _OBJC_METACLASS_$_TIWordSearch50onKana, _OBJC_METACLASS_$_TIWordSearchJapaneseOperationGetCandidates, _OBJC_METACLASS_$_TIWordSearchKana, _OBJC_METACLASS_$_TIWordSearchRomajiKana ]
+...

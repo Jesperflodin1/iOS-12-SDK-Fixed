@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 232ECBFD-4F24-3B90-8548-C38963E5AB41' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AttentionAwareness.framework/AttentionAwareness
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AWAttentionAwarenessClient, _OBJC_CLASS_$_AWAttentionAwarenessConfiguration, _OBJC_CLASS_$_AWAttentionEvent, _OBJC_CLASS_$_AWAttentionLostEvent, _OBJC_METACLASS_$_AWAttentionAwarenessClient, _OBJC_METACLASS_$_AWAttentionAwarenessConfiguration, _OBJC_METACLASS_$_AWAttentionEvent, _OBJC_METACLASS_$_AWAttentionLostEvent, __AWAttentionServiceEventFilterFactory ]
+...

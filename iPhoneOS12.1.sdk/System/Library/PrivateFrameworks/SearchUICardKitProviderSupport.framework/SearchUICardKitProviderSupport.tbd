@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 397A0537-787E-32B1-A710-154A4FD74025' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SearchUICardKitProviderSupport.framework/SearchUICardKitProviderSupport
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CRKAudioPlaybackCardSectionIgnoresMuteSwitch, _CRKMapCardSectionParameterSuffix, _CRKMapCardSectionPlacemarkData, _OBJC_CLASS_$_SUICKPActivityIndicatorCardSectionViewController, _OBJC_CLASS_$_SUICKPAudioPlaybackCardSectionViewController, _OBJC_CLASS_$_SUICKPCardSectionViewProvider, _OBJC_CLASS_$_SUICKPEntryPoint, _OBJC_CLASS_$_SUICKPFeedbackAdapter, _OBJC_CLASS_$_SUICKPFeedbackDelegateDemultiplexer, _OBJC_CLASS_$_SUICKPInteractiveCardSectionViewController, _OBJC_CLASS_$_SUICKPMapCardSectionViewController, _OBJC_CLASS_$_SUICKPMediaInfoCardSectionViewController, _OBJC_CLASS_$_SUICKPMediaPunchoutCardSectionViewController, _OBJC_CLASS_$_SUICKPWatchListCardSectionViewController, _OBJC_METACLASS_$_SUICKPActivityIndicatorCardSectionViewController, _OBJC_METACLASS_$_SUICKPAudioPlaybackCardSectionViewController, _OBJC_METACLASS_$_SUICKPCardSectionViewProvider, _OBJC_METACLASS_$_SUICKPEntryPoint, _OBJC_METACLASS_$_SUICKPFeedbackAdapter, _OBJC_METACLASS_$_SUICKPFeedbackDelegateDemultiplexer, _OBJC_METACLASS_$_SUICKPInteractiveCardSectionViewController, _OBJC_METACLASS_$_SUICKPMapCardSectionViewController, _OBJC_METACLASS_$_SUICKPMediaInfoCardSectionViewController, _OBJC_METACLASS_$_SUICKPMediaPunchoutCardSectionViewController, _OBJC_METACLASS_$_SUICKPWatchListCardSectionViewController, _SUICKPProviderIdentifier, _SearchUICardKitProviderSupportVersionNumber, _SearchUICardKitProviderSupportVersionString ]
+...

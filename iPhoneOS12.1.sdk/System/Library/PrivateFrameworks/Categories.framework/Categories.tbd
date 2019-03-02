@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C09636C9-1EF2-331E-9A38-3A9D9019073D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Categories.framework/Categories
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CTCategoriesDidChangeNotification, _CTCategoriesVersionIdentifierKey, _CTCategoriesVersionNumber, _CTCategoriesVersionString, _CTCategoryIdentifierCreativity, _CTCategoryIdentifierEducation, _CTCategoryIdentifierEntertainment, _CTCategoryIdentifierGames, _CTCategoryIdentifierHealthAndFitness, _CTCategoryIdentifierOther, _CTCategoryIdentifierOtherUnknown, _CTCategoryIdentifierProductivity, _CTCategoryIdentifierReadingAndReference, _CTCategoryIdentifierSocialNetworking, _CTCategoryIdentifierSystem, _CTCategoryIdentifierSystemBlockable, _CTCategoryIdentifierSystemHidden, _CTCategoryIdentifierSystemUnblockable, _CTErrorDomain, _CTErrorKeyHTTPResponse, _CTErrorKeyHTTPResponseData, _OBJC_CLASS_$_CTCategories, _OBJC_CLASS_$_CTCategory, _OBJC_CLASS_$_CTError, _OBJC_CLASS_$_CTLogging, _OBJC_CLASS_$_CTUtilities, _OBJC_METACLASS_$_CTCategories, _OBJC_METACLASS_$_CTCategory, _OBJC_METACLASS_$_CTError, _OBJC_METACLASS_$_CTLogging, _OBJC_METACLASS_$_CTUtilities ]
+...

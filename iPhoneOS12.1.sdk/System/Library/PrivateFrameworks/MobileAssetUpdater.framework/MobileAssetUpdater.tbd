@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 837C80A2-E2C5-3213-9904-4F4C76DB15D8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MobileAssetUpdater.framework/MobileAssetUpdater
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_MobileAssetUpdater, _OBJC_IVAR_$_MobileAssetUpdater._asset, _OBJC_IVAR_$_MobileAssetUpdater._assetDownloaded, _OBJC_IVAR_$_MobileAssetUpdater._assetType, _OBJC_IVAR_$_MobileAssetUpdater._logger, _OBJC_IVAR_$_MobileAssetUpdater._overrideFile, _OBJC_IVAR_$_MobileAssetUpdater._purgeOverrideFile, _OBJC_IVAR_$_MobileAssetUpdater._query, _OBJC_IVAR_$_MobileAssetUpdater._requireAssetMetadata, _OBJC_METACLASS_$_MobileAssetUpdater, _kMobileAssetUpdaterErrorDomain ]
+...

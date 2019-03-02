@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 34ABE319-D5F8-3FED-BC49-383AAD1899DF' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/ProactiveSupportStubs
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__PASDeviceStateStub, _OBJC_METACLASS_$__PASDeviceStateStub, _ProactiveSupportStubsVersionNumber, _ProactiveSupportStubsVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D6B6BD59-84AC-3495-A71E-4892F77405FE' ]
+platform:	ios
+install-name:  /usr/lib/libETLDLOADDynamic.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ETLDLOADCommandCopyDebugDataField, _ETLDLOADCommandCreateChipIDRequest, _ETLDLOADCommandCreateGoRequest, _ETLDLOADCommandCreateMemoryDebugFastReadRequest, _ETLDLOADCommandCreateMemoryDebugInfoRequest, _ETLDLOADCommandCreateMemoryDebugReadRequest, _ETLDLOADCommandCreateMemoryDebugReadRequestPrivate, _ETLDLOADCommandCreateParametersRequest, _ETLDLOADCommandCreatePkHashRequest, _ETLDLOADCommandCreateSerialNumberRequest, _ETLDLOADCommandCreateVersionRequest, _ETLDLOADCommandCreateWriteRequest, _ETLDLOADCommandDumpCommand, _ETLDLOADCommandParseACKNAKResponse, _ETLDLOADCommandParseChipIDResponse, _ETLDLOADCommandParseMemoryDebugInfoResponse, _ETLDLOADCommandParseMemoryDebugReadResponse, _ETLDLOADCommandParseParametersResponse, _ETLDLOADCommandParsePkHashResponse, _ETLDLOADCommandParseSerialNumberResponse, _ETLDLOADCommandParseVersionResponse, _ETLDLOADCommandPowerCreatePowerDownRequest, _ETLDLOADCommandPowerCreateResetRequest, _ETLDLOADCommandReadMemoryDebugFastReadResponse, _ETLDLOADCommandReceiveSmallWithFlags, _ETLDLOADCommandReceiveWithBufferAndFlags, _ETLDLOADCommandSend, _ETLDLOADCreateCommandForSend, _ETLDLOADDetectProtocolVersion, _ETLDLOADExpectCommandType, _ETLDLOADGetNAKReasonAsString, _ETLDLOADGetProtocolVersion ]
+...

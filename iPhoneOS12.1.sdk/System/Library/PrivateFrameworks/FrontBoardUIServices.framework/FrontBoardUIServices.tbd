@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FF5CA465-E0DB-3CFD-91F3-2EE56155029A' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FrontBoardUIServices.framework/FrontBoardUIServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FBUIGetUserAgent, _FBUIGetUserAgentInternal, _FBUISFrontBoardUIServicesVersionNumber, _FBUISFrontBoardUIServicesVersionString, _FBUISceneErrorCodeDescription, _FBUISceneErrorDomain, _OBJC_CLASS_$_FBUICurrentProcess, _OBJC_CLASS_$_FBUIProcess, _OBJC_CLASS_$_FBUIProcessManager, _OBJC_CLASS_$_FBUIScene, _OBJC_CLASS_$_FBUISceneActionsEvent, _OBJC_CLASS_$_FBUISceneClient, _OBJC_CLASS_$_FBUISceneClientIdentity, _OBJC_CLASS_$_FBUISceneEvent, _OBJC_CLASS_$_FBUISceneEventResponse, _OBJC_CLASS_$_FBUISceneHost, _OBJC_CLASS_$_FBUISceneInvalidationEvent, _OBJC_CLASS_$_FBUISceneManager, _OBJC_CLASS_$_FBUISceneUpdateClientSettingsEvent, _OBJC_CLASS_$_FBUISceneUpdateSettingsEvent, _OBJC_CLASS_$_FBUISceneWorkspace, _OBJC_CLASS_$_FBUIUserAgent, _OBJC_IVAR_$_FBUIUserAgent._systemApp, _OBJC_METACLASS_$_FBUICurrentProcess, _OBJC_METACLASS_$_FBUIProcess, _OBJC_METACLASS_$_FBUIProcessManager, _OBJC_METACLASS_$_FBUIScene, _OBJC_METACLASS_$_FBUISceneActionsEvent, _OBJC_METACLASS_$_FBUISceneClient, _OBJC_METACLASS_$_FBUISceneClientIdentity, _OBJC_METACLASS_$_FBUISceneEvent, _OBJC_METACLASS_$_FBUISceneEventResponse, _OBJC_METACLASS_$_FBUISceneHost, _OBJC_METACLASS_$_FBUISceneInvalidationEvent, _OBJC_METACLASS_$_FBUISceneManager, _OBJC_METACLASS_$_FBUISceneUpdateClientSettingsEvent, _OBJC_METACLASS_$_FBUISceneUpdateSettingsEvent, _OBJC_METACLASS_$_FBUISceneWorkspace, _OBJC_METACLASS_$_FBUIUserAgent ]
+...

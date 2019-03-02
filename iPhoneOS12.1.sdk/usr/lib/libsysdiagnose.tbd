@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 937875E5-0601-32C3-9EF2-AF323E32C1E8' ]
+platform:	ios
+install-name:  /usr/lib/libsysdiagnose.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_Libsysdiagnose, _OBJC_METACLASS_$_Libsysdiagnose, _extractDiagnosticID, _metricCompression, _metricGetLogCopying, _metricGetLogGeneration, _metricGetOSLogArchive, _metricGetTimeSensitive, _metricLogCopying, _metricLogGeneration, _metricOSLogarchiveGeneration, _metricStartToTar, _metricTimeSensitive, _metricTotalSize ]
+...

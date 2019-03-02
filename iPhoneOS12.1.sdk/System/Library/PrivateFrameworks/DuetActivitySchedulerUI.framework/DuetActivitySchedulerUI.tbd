@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 65401279-E0CE-3633-8E65-B881B23A6248' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DuetActivitySchedulerUI.framework/DuetActivitySchedulerUI
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$__DASUIFetchContentInBackgroundAction, _OBJC_CLASS_$__DASUIFetchContentInBackgroundActionResponse, _OBJC_CLASS_$__DASUIHandleRemoteNotificationAction, _OBJC_METACLASS_$__DASUIFetchContentInBackgroundAction, _OBJC_METACLASS_$__DASUIFetchContentInBackgroundActionResponse, _OBJC_METACLASS_$__DASUIHandleRemoteNotificationAction ]
+...

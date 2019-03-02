@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 96CB7F2B-2E04-3BA6-87FE-08F66B79E4CD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SearchAds.framework/SearchAds
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ADDataObject, _OBJC_CLASS_$_ADInstallAttributionData, _OBJC_CLASS_$_ADLocationManager, _OBJC_CLASS_$_ADResponseData, _OBJC_CLASS_$_ADSearchAdsSettings, _OBJC_CLASS_$_ADSearchObject, _OBJC_CLASS_$_ADSearchSession, _OBJC_METACLASS_$_ADDataObject, _OBJC_METACLASS_$_ADInstallAttributionData, _OBJC_METACLASS_$_ADLocationManager, _OBJC_METACLASS_$_ADResponseData, _OBJC_METACLASS_$_ADSearchAdsSettings, _OBJC_METACLASS_$_ADSearchObject, _OBJC_METACLASS_$_ADSearchSession, _SearchAdsVersionNumber, _SearchAdsVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C387A1D9-5490-3D1F-A848-6A9580EDA2C7' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IdleTimerServices.framework/IdleTimerServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ITIdleTimerStateServiceIdentifier, _ITIdleTimerStateServiceMessageKeyParam1, _ITIdleTimerStateServiceMessageKeyParam2, _ITLogIdleTimer, _ITLoggingSubsystem, _IdleTimerServicesVersionNumber, _IdleTimerServicesVersionString, _OBJC_CLASS_$_ITIdleTimerDisableAssertion, _OBJC_CLASS_$_ITIdleTimerState, _OBJC_CLASS_$_ITIdleTimerStateClient, _OBJC_CLASS_$_ITIdleTimerStateRequestShim, _OBJC_CLASS_$_ITIdleTimerStateServer, _OBJC_CLASS_$_ITIdleTimerStateService, _OBJC_METACLASS_$_ITIdleTimerDisableAssertion, _OBJC_METACLASS_$_ITIdleTimerState, _OBJC_METACLASS_$_ITIdleTimerStateClient, _OBJC_METACLASS_$_ITIdleTimerStateRequestShim, _OBJC_METACLASS_$_ITIdleTimerStateServer, _OBJC_METACLASS_$_ITIdleTimerStateService ]
+...

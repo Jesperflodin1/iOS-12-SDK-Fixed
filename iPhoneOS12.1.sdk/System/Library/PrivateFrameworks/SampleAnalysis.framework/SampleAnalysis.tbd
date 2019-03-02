@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6B30E671-AC4F-3FF0-AEE0-76FE3B6A1AAD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SampleAnalysis.framework/SampleAnalysis
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _EventTypeString, _OBJC_CLASS_$_SAAuxiliaryData, _OBJC_CLASS_$_SABinary, _OBJC_CLASS_$_SABinaryLoadInfo, _OBJC_CLASS_$_SADispatchQueue, _OBJC_CLASS_$_SADispatchQueueState, _OBJC_CLASS_$_SAFanSpeed, _OBJC_CLASS_$_SAFrame, _OBJC_CLASS_$_SAHIDEvent, _OBJC_CLASS_$_SAHIDStep, _OBJC_CLASS_$_SAInstruction, _OBJC_CLASS_$_SAKernelCache, _OBJC_CLASS_$_SASamplePrintOptions, _OBJC_CLASS_$_SASamplePrinter, _OBJC_CLASS_$_SASampleStore, _OBJC_CLASS_$_SASharedCache, _OBJC_CLASS_$_SASourceInfo, _OBJC_CLASS_$_SASymbol, _OBJC_CLASS_$_SATask, _OBJC_CLASS_$_SATaskState, _OBJC_CLASS_$_SAThread, _OBJC_CLASS_$_SAThreadState, _OBJC_CLASS_$_SATimeRange, _OBJC_CLASS_$_SATimestamp, _OBJC_CLASS_$_SAWaitInfo, _OBJC_METACLASS_$_SAAuxiliaryData, _OBJC_METACLASS_$_SABinary, _OBJC_METACLASS_$_SABinaryLoadInfo, _OBJC_METACLASS_$_SADispatchQueue, _OBJC_METACLASS_$_SADispatchQueueState, _OBJC_METACLASS_$_SAFanSpeed, _OBJC_METACLASS_$_SAFrame, _OBJC_METACLASS_$_SAHIDEvent, _OBJC_METACLASS_$_SAHIDStep, _OBJC_METACLASS_$_SAInstruction, _OBJC_METACLASS_$_SAKernelCache, _OBJC_METACLASS_$_SASamplePrintOptions, _OBJC_METACLASS_$_SASamplePrinter, _OBJC_METACLASS_$_SASampleStore, _OBJC_METACLASS_$_SASharedCache, _OBJC_METACLASS_$_SASourceInfo, _OBJC_METACLASS_$_SASymbol, _OBJC_METACLASS_$_SATask, _OBJC_METACLASS_$_SATaskState, _OBJC_METACLASS_$_SAThread, _OBJC_METACLASS_$_SAThreadState, _OBJC_METACLASS_$_SATimeRange, _OBJC_METACLASS_$_SATimestamp, _OBJC_METACLASS_$_SAWaitInfo, _SABinarySearchArray, _SACFAbsoluteTimeFromTimespec, _SAFormattedBytes, _SAFormattedBytesDouble, _SAFormattedSignedBytes, _SAMachAbsTimeSecondsGetCurrent, _SAMachContTimeSecondsGetCurrent, _SAMachTimeFromSecondsMachTimeUsingTimebase, _SANanosecondsFromMachTimeUsingTimebase, _SASecondsFromMachTimeUsingLiveTimebase, _SASecondsFromMachTimeUsingTimebase, _TracePointString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1C0C7757-577D-3440-9661-CE34C6B3394B' ]
+platform:	ios
+install-name:  /usr/lib/libPPM.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_PPMClient, _OBJC_CLASS_$_PPMClientUserClientInterface, _OBJC_METACLASS_$_PPMClient, _OBJC_METACLASS_$_PPMClientUserClientInterface, _gNotifyPort ]
+...

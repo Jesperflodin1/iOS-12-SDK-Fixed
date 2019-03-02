@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 7E47ECCD-2F55-37E8-A377-C3C778A54C4E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IDSKVStore.framework/IDSKVStore
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_IDSKVDeleteContext, _OBJC_CLASS_$_IDSKVStore, _OBJC_METACLASS_$_IDSKVDeleteContext, _OBJC_METACLASS_$_IDSKVStore ]
+...

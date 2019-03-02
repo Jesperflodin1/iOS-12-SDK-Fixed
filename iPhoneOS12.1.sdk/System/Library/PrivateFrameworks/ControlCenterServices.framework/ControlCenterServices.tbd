@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4A0227B3-2732-32C3-9D7B-4C2CB45D42E4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ControlCenterServices.framework/ControlCenterServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CCSLogModuleSettings, _CCSLogRemoteService, _CCSModuleVisibilityPreferenceDescription, _CCSModuleVisibilityPreferenceFromNumber, _CCSRegisterControlCenterLogging, _CCSRemoteServiceName, _CCSRemoteServiceServerInterface, _CCSResolveModuleVisibility, _ControlCenterServicesVersionNumber, _ControlCenterServicesVersionString, _OBJC_CLASS_$_CCSControlCenterDefaults, _OBJC_CLASS_$_CCSControlCenterService, _OBJC_CLASS_$_CCSModuleMetadata, _OBJC_CLASS_$_CCSModuleRepository, _OBJC_CLASS_$_CCSModuleSettingsProvider, _OBJC_CLASS_$_CCSRemoteServiceConnection, _OBJC_CLASS_$_CCSRemoteServiceProvider, _OBJC_CLASS_$_CCSUsageMetrics, _OBJC_METACLASS_$_CCSControlCenterDefaults, _OBJC_METACLASS_$_CCSControlCenterService, _OBJC_METACLASS_$_CCSModuleMetadata, _OBJC_METACLASS_$_CCSModuleRepository, _OBJC_METACLASS_$_CCSModuleSettingsProvider, _OBJC_METACLASS_$_CCSRemoteServiceConnection, _OBJC_METACLASS_$_CCSRemoteServiceProvider, _OBJC_METACLASS_$_CCSUsageMetrics, _kVersionNumber ]
+...

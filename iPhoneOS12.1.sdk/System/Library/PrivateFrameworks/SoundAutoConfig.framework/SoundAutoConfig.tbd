@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 842106B5-B5EE-301C-A494-A492EC1E6524' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/SoundAutoConfig.framework/SoundAutoConfig
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SACDSPController, _OBJC_CLASS_$_SACInfo, _OBJC_CLASS_$_SACInfoListener, _OBJC_CLASS_$_SACSYSController, _OBJC_METACLASS_$_SACDSPController, _OBJC_METACLASS_$_SACInfo, _OBJC_METACLASS_$_SACInfoListener, _OBJC_METACLASS_$_SACSYSController, _SoundAutoConfigVersionNumber, _SoundAutoConfigVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 08461C24-F86E-3A1C-B807-92D18BE12945' ]
+platform:	ios
+install-name:  /System/Library/Frameworks/LocalAuthentication.framework/Support/ModuleBase.framework/ModuleBase
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AuthenticationInProgress, _OBJC_CLASS_$_AuthenticationManager, _OBJC_CLASS_$_ContextPlugin, _OBJC_CLASS_$_MechanismManager, _OBJC_CLASS_$_Module, _OBJC_METACLASS_$_AuthenticationInProgress, _OBJC_METACLASS_$_AuthenticationManager, _OBJC_METACLASS_$_ContextPlugin, _OBJC_METACLASS_$_MechanismManager, _OBJC_METACLASS_$_Module ]
+...

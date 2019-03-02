@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5CB9CD9F-6E49-336B-9C75-F78E6CE05BED' ]
+platform:	ios
+install-name:  /usr/lib/log/liblog_companionsync.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OSLogCopyFormattedString, _OSStateCreateStringWithData ]
+...

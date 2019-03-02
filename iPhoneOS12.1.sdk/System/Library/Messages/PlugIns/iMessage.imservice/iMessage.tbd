@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 257CE248-E1AE-3494-95E6-C509865734FB' ]
+platform:	ios
+install-name:  /System/Library/Messages/PlugIns/iMessage.imservice/iMessage
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _EngramControllerErrorDomain, _IDSIncomingMessageDecryptedDataKey, _IDSIncomingMessageOriginalEncryptionTypeKey, _IDSIncomingMessagePushPayloadKey, _IDSIncomingMessageShouldShowPeerErrorsKey, _MessageiMessageDeliveryDefaultTimeoutTime, _PeopleSetByAddingMyID, _StickerRefreshUtilConfigureStickerToken, _StickerRefreshUtilGetMMCSRefreshHeaders, _URIsFromHandles, __ConvergeGroupParticipants, __FindChat, __LastAddressedURIForChat, __LastAddressedURIForChatLogMetricIfNeeded, __UpdateLastAddressedHandle, __iMessageDateFromTimeStamp, _incrementParticipantVersionForChat, _setParticipantVersionForChat ]
+...

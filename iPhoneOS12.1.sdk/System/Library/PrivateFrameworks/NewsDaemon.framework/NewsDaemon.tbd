@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 418CD0BE-E0ED-3343-AC83-BF0C5A6B09ED' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NewsDaemon.framework/NewsDaemon
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NDAnalyticsMachServiceName, _NDNewsdDataContainerClass, _NDNewsdDataContainerIdentifier, _NDNewsdProcessName, _NDSharedClientLog, _NDSharedServiceLog, _NDTodayMachServiceName, _NewsDaemonVersionNumber, _NewsDaemonVersionString, _OBJC_CLASS_$_NDNewsDaemonContext, _OBJC_CLASS_$_NDNewsServiceConnection, _OBJC_CLASS_$_NDNewsServiceConnectionClientProxy, _OBJC_METACLASS_$_NDNewsDaemonContext, _OBJC_METACLASS_$_NDNewsServiceConnection, _OBJC_METACLASS_$_NDNewsServiceConnectionClientProxy ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 20795417-42CC-3D52-81B1-95AECCDED858' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_BrightnessSystem, _OBJC_CLASS_$_BrightnessSystemClient, _OBJC_CLASS_$_BrightnessSystemClientInternal, _OBJC_CLASS_$_CBAdaptationClient, _OBJC_CLASS_$_CBBlueLightClient, _OBJC_CLASS_$_CBClient, _OBJC_METACLASS_$_BrightnessSystem, _OBJC_METACLASS_$_BrightnessSystemClient, _OBJC_METACLASS_$_BrightnessSystemClientInternal, _OBJC_METACLASS_$_CBAdaptationClient, _OBJC_METACLASS_$_CBBlueLightClient, _OBJC_METACLASS_$_CBClient ]
+...

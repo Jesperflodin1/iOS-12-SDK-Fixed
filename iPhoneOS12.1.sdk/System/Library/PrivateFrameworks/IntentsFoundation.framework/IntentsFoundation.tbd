@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: C0BE5E75-E51A-3EBD-B1AC-2E661C381886' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IntentsFoundation.framework/IntentsFoundation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _IntentsFoundationVersionNumber, _IntentsFoundationVersionString, _OBJC_CLASS_$_INFGrammarCollection, _OBJC_CLASS_$_INFObject, _OBJC_CLASS_$_INFPartOfSpeech, _OBJC_CLASS_$_INFSentence, _OBJC_CLASS_$_INFSentenceToken, _OBJC_METACLASS_$_INFGrammarCollection, _OBJC_METACLASS_$_INFObject, _OBJC_METACLASS_$_INFPartOfSpeech, _OBJC_METACLASS_$_INFSentence, _OBJC_METACLASS_$_INFSentenceToken ]
+...

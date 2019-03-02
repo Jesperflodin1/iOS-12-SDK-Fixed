@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6E9AB6CE-1603-3A98-BECD-95345DA5BC30' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/ServerAccounts.framework/ServerAccounts
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SVATrustHandler, _OBJC_CLASS_$_SVAVPNUtility, _OBJC_CLASS_$_SVAVerifier, _OBJC_METACLASS_$_SVATrustHandler, _OBJC_METACLASS_$_SVAVPNUtility, _OBJC_METACLASS_$_SVAVerifier, _SVAccountComputerModelName, _SVAccountComputerName, _SVAccountErrorDomain, _SVAccountManuallyEnteredHostName, _SVAccountUserTrustedCertificate, _SVAccountVPNConfigurationIdentifier, _ServerAccountsVersionNumber, _ServerAccountsVersionString ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 2E62DFE2-B366-34D3-9C60-1CAB3B7A71AE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NeutrinoKit.framework/NeutrinoKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NUBoundingRectForRotatedRect, _NUEdgeInsetsInsetRect, _NUFitScaleForImageRectInRect, _NUMaxRectInRotatedRect, _NUMediaTimingFunctionForUIAnimationCurve, _NURectCenterRectInRect, _NURectGetMidpoint, _NeutrinoKitVersionNumber, _NeutrinoKitVersionString, _OBJC_CLASS_$_NUAVPlayerController, _OBJC_CLASS_$_NUAVPlayerView, _OBJC_CLASS_$_NUDebugRenderView, _OBJC_CLASS_$_NUGLLayer, _OBJC_CLASS_$_NUImageLayer, _OBJC_CLASS_$_NUMediaView, _OBJC_CLASS_$_NUMediaViewRenderer, _OBJC_CLASS_$_NURenderView, _OBJC_CLASS_$_NUScrollView, _OBJC_CLASS_$_NUViewGeometry, _OBJC_CLASS_$_NUViewport, _OBJC_CLASS_$_NUViewportRegionPolicy, _OBJC_CLASS_$__NUAVPlayerItemObservation, _OBJC_CLASS_$__NUBackfillLayer, _OBJC_CLASS_$__NUContainerLayer, _OBJC_CLASS_$__NUROILayer, _OBJC_METACLASS_$_NUAVPlayerController, _OBJC_METACLASS_$_NUAVPlayerView, _OBJC_METACLASS_$_NUDebugRenderView, _OBJC_METACLASS_$_NUGLLayer, _OBJC_METACLASS_$_NUImageLayer, _OBJC_METACLASS_$_NUMediaView, _OBJC_METACLASS_$_NUMediaViewRenderer, _OBJC_METACLASS_$_NURenderView, _OBJC_METACLASS_$_NUScrollView, _OBJC_METACLASS_$_NUViewGeometry, _OBJC_METACLASS_$_NUViewport, _OBJC_METACLASS_$_NUViewportRegionPolicy, _OBJC_METACLASS_$__NUAVPlayerItemObservation, _OBJC_METACLASS_$__NUBackfillLayer, _OBJC_METACLASS_$__NUContainerLayer, _OBJC_METACLASS_$__NUROILayer, __NUViewCommonInit, __commonInit, _stringFromTransform ]
+...

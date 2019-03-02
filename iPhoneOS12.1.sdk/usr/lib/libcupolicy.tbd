@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: A3E4B32F-1777-3648-9BE4-501DCC3E3C94' ]
+platform:	ios
+install-name:  /usr/lib/libcupolicy.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _network_usage_policy_create_client, _network_usage_policy_destroy_client, _network_usage_policy_get_WiFi_data_allowed_from_policy, _network_usage_policy_get_bundle_from_policy, _network_usage_policy_get_cell_data_allowed_from_policy, _network_usage_policy_get_datausage_policies, _network_usage_policy_get_first_use_flow_performed_from_policy, _network_usage_policy_get_for_bundle, _network_usage_policy_set_changed_handler, _perform_first_network_use_flow ]
+...

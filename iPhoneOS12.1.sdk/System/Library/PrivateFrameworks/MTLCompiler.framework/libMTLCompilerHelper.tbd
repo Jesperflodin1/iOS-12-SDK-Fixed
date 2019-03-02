@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 1FCB65F7-5942-3AD1-AEDF-02C46815E58F' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/MTLCompiler.framework/libMTLCompilerHelper.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _createCompilerHelper, _deleteCompilerHelper ]
+...

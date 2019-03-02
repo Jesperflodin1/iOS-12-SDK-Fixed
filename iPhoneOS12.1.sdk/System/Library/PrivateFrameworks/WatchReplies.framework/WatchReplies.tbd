@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: A4316174-8BCE-3295-9C42-FEE0B647118D' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WatchReplies.framework/WatchReplies
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_WRCalendarReplyStoreInfo, _OBJC_CLASS_$_WRCannedRepliesStore, _OBJC_CLASS_$_WRCannedRepliesViewController, _OBJC_CLASS_$_WRCannedReply, _OBJC_CLASS_$_WRMailReplyStoreInfo, _OBJC_CLASS_$_WRMessagesReplyStoreInfo, _OBJC_CLASS_$_WRPhoneReplyStoreInfo, _OBJC_CLASS_$_WRReplyStoreInfo, _OBJC_CLASS_$_WRThirdPartyReplyStoreInfo, _OBJC_METACLASS_$_WRCalendarReplyStoreInfo, _OBJC_METACLASS_$_WRCannedRepliesStore, _OBJC_METACLASS_$_WRCannedRepliesViewController, _OBJC_METACLASS_$_WRCannedReply, _OBJC_METACLASS_$_WRMailReplyStoreInfo, _OBJC_METACLASS_$_WRMessagesReplyStoreInfo, _OBJC_METACLASS_$_WRPhoneReplyStoreInfo, _OBJC_METACLASS_$_WRReplyStoreInfo, _OBJC_METACLASS_$_WRThirdPartyReplyStoreInfo, _WRBundle, _WRDeviceLanguage, _WRLocalizedCategoryString, _WRLocalizedStringForLanguage, _WRSmartRepliesMarker, _WatchRepliesVersionNumber, _WatchRepliesVersionString, __WRCannedRepliesStore_handleStoreChange ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: FD70ABA9-1816-34A9-989B-A04BA47828B9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Stocks/TeaDB.framework/TeaDB
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _TeaDBVersionNumber, _TeaDBVersionString ]
+...

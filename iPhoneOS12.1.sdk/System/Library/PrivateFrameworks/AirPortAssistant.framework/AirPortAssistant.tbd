@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: CC45C59B-1770-39C4-A884-0F240F15DCA2' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AirPortAssistant.framework/AirPortAssistant
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AirPortAssistantController, _OBJC_CLASS_$_AirPortAssistantUINavigationController, _OBJC_METACLASS_$_AirPortAssistantController, _OBJC_METACLASS_$_AirPortAssistantUINavigationController, _kAirPortAssistantBrowseRecordKey, _kAirPortAssistantCurrentWiFiAssociationKey, _kAirPortAssistantCurrentWiFiScanKey, _kAirPortAssistantDeviceMACAddressKey, _kAirPortAssistantScanRecordKey, _kAirPortAssistantWACDeviceFriendlyNameKey, _kAirPortAssistantWACDeviceMACAddressKey, _kAirPortAssistantWACDeviceManufacturerNameKey, _kAirPortAssistantWACDeviceModelNameKey, _kAirPortAssistantWACDeviceSSIDKey, _kAirPortAssistantWACDeviceSupportsAirPlayKey, _kAirPortAssistantWACDeviceSupportsSpruce, _kAirPortAssistantWACShouldHideFindAppUIKey ]
+...

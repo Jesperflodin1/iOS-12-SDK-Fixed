@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4EBE4C11-7F67-35E7-9217-10A48C757D4E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DMChangeGraphicalProgressVisibility, _DMCopyContext, _DMCopyCurrentBuildVersion, _DMCopyMigrationPhaseDescription, _DMCopyOrderedPluginIndentifiers, _DMForceMigrationOnNextReboot, _DMGetMigrationPluginResults, _DMGetPreviousBuildVersion, _DMGetUserDataDisposition, _DMIsMigrationNeeded, _DMPerformMigration, _DMPerformMigrationIfNeeded, _DMPerformMigrationReturningAfterPlugin, _DMReportMigrationFailure, _DMSetContext, _DMTestMigrationUI, _DMTestPerformMigrationInfrastructure, _OBJC_CLASS_$_DMConnection, _OBJC_CLASS_$_DMEnvironment, _OBJC_CLASS_$_DMMigrationPluginWrapperConnection, _OBJC_CLASS_$_DMPluginFileSystemRep, _OBJC_CLASS_$_DMXPCConnection, _OBJC_CLASS_$_DataClassMigrator, _OBJC_IVAR_$_DMXPCConnection._connection, _OBJC_IVAR_$_DMXPCConnection._queue, _OBJC_IVAR_$_DMXPCConnection._replyQueue, _OBJC_IVAR_$_DataClassMigrator._context, _OBJC_METACLASS_$_DMConnection, _OBJC_METACLASS_$_DMEnvironment, _OBJC_METACLASS_$_DMMigrationPluginWrapperConnection, _OBJC_METACLASS_$_DMPluginFileSystemRep, _OBJC_METACLASS_$_DMXPCConnection, _OBJC_METACLASS_$_DataClassMigrator, __DMLog, __DMLogFunc, __DMPerformMigration, __DMPluginSignpostLog ]
+...

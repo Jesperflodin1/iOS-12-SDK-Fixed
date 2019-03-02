@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 55366419-C94B-3208-9B92-EC7686450393' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IncomingCallFilter.framework/IncomingCallFilter
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ICFCallProviderShouldAllowIncomingCall, _ICFCallProviderShouldAllowIncomingCallWithQueue, _ICFRegisterCallFilterBlockWithIdentifier, _ICFRegisterCallFilterResultBlockWithIdentifier, _ICFServiceIdentifierFaceTime, _ICFServiceIdentifierFaceTimeAudio, _ICFServiceIdentifierTelephony, _ICFServiceIdentifierTelephonyRelay, _ICFUnknownID, _ICFUnregisterCallFilterBlockWithIdentifier, _ICFUnregisterCallFilterResultBlockWithIdentifier, _OBJC_CLASS_$_ICFCallServer, _OBJC_METACLASS_$_ICFCallServer ]
+...

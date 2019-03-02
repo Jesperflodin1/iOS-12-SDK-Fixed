@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 384D4C8E-24ED-3EA3-85ED-FAC648C8F733' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/NanoAppRegistry.framework/NanoAppRegistry
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _NARApplicationsChangedNotification, _NARItemNameKey, _NARSyncedInfoPlistKeys, _NARSyncedLocalizedInfoPlistKeys, _NARSyncediTunesPlistKeys, _NARVendorNameKey, _NARWorkspaceServiceInterface, _OBJC_CLASS_$_NARApplication, _OBJC_CLASS_$_NARApplicationState, _OBJC_CLASS_$_NARApplicationWorkspace, _OBJC_CLASS_$_NARGlance, _OBJC_CLASS_$_NARWorkspaceInfo, _OBJC_METACLASS_$_NARApplication, _OBJC_METACLASS_$_NARApplicationState, _OBJC_METACLASS_$_NARApplicationWorkspace, _OBJC_METACLASS_$_NARGlance, _OBJC_METACLASS_$_NARWorkspaceInfo, _nar_sync_log, _nar_workspace_log ]
+...

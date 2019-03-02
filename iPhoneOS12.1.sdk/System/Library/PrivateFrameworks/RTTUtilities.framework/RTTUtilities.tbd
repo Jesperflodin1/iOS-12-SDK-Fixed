@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9A459DA3-20DA-3F92-A485-C2B9E7F82207' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXCloudKitContainerIdentifier, _AXCloudKitErrorDomain, _AXCloudKitFinishedSchemaCheckKey, _AXCloudKitMaxRecordDataBytes, _AXCloudKitPushTopic, _AXCloudKitServerChangeTokenKey, _AXCloudKitZoneName, _AXTTYMessageKeyCallID, _AXTTYMessageKeyContactID, _AXTTYMessageKeyContactPathSearchAction, _AXTTYMessageKeyContactSearchAction, _AXTTYMessageKeyConversation, _AXTTYMessageKeyConversationUpdates, _AXTTYMessageKeyDeleteAction, _AXTTYMessageKeyReadAction, _AXTTYMessageKeyResult, _AXTTYMessageKeySettingsKey, _AXTTYMessageKeyUUID, _AXTTYMessageKeyValue, _AXTTYMessageKeyWriteAction, _AXTTYPreferredTransportMethodChangedNotification, _OBJC_CLASS_$_AXCloudKitHelper, _OBJC_CLASS_$_AXCloudKitHelperManagedObjectContext, _OBJC_CLASS_$_AXRTTSettingsListenerHelper, _OBJC_CLASS_$_AXTTYSimulatorSubscriptionContext, _OBJC_CLASS_$_RTTCall, _OBJC_CLASS_$_RTTController, _OBJC_CLASS_$_RTTConversation, _OBJC_CLASS_$_RTTDatabaseHelper, _OBJC_CLASS_$_RTTDictionaryManager, _OBJC_CLASS_$_RTTNanoSettings, _OBJC_CLASS_$_RTTServer, _OBJC_CLASS_$_RTTSettings, _OBJC_CLASS_$_RTTTelephonyUtilities, _OBJC_CLASS_$_RTTUtterance, _OBJC_CLASS_$_TTYContactList, _OBJC_CLASS_$_TTYHistory, _OBJC_METACLASS_$_AXCloudKitHelper, _OBJC_METACLASS_$_AXCloudKitHelperManagedObjectContext, _OBJC_METACLASS_$_AXRTTSettingsListenerHelper, _OBJC_METACLASS_$_AXTTYSimulatorSubscriptionContext, _OBJC_METACLASS_$_RTTCall, _OBJC_METACLASS_$_RTTController, _OBJC_METACLASS_$_RTTConversation, _OBJC_METACLASS_$_RTTDatabaseHelper, _OBJC_METACLASS_$_RTTDictionaryManager, _OBJC_METACLASS_$_RTTNanoSettings, _OBJC_METACLASS_$_RTTServer, _OBJC_METACLASS_$_RTTSettings, _OBJC_METACLASS_$_RTTTelephonyUtilities, _OBJC_METACLASS_$_RTTUtterance, _OBJC_METACLASS_$_TTYContactList, _OBJC_METACLASS_$_TTYHistory, _RTTUtilitiesVersionNumber, _RTTUtilitiesVersionString, _accessibilityRTTUtilitiesBundle, _ttyLocString, _ttyLocStringAndLocale ]
+...

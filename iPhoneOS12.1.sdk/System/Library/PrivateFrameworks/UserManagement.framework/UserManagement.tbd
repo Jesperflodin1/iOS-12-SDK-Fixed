@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B86CF51D-908D-3FC6-84E4-40EFF9C746CA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_UMMobileKeyBag, _OBJC_CLASS_$_UMMutableUser, _OBJC_CLASS_$_UMTask, _OBJC_CLASS_$_UMUser, _OBJC_CLASS_$_UMUserManager, _OBJC_CLASS_$_UMUserSwitchBlockingTask, _OBJC_CLASS_$_UMUserSwitchContext, _OBJC_CLASS_$_UMUserSyncTask, _OBJC_METACLASS_$_UMMobileKeyBag, _OBJC_METACLASS_$_UMMutableUser, _OBJC_METACLASS_$_UMTask, _OBJC_METACLASS_$_UMUser, _OBJC_METACLASS_$_UMUserManager, _OBJC_METACLASS_$_UMUserSwitchBlockingTask, _OBJC_METACLASS_$_UMUserSwitchContext, _OBJC_METACLASS_$_UMUserSyncTask, _UMErrorPasscodeBackOffInterval, _UMUserManagerErrorDomain, _kDebugErrorCausingLogoutKey, _kErrorCausingLogoutKey, _kHasManagedCredentials, _kLanguagesKey, _kPasscodeTypeKey ]
+...

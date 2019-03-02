@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0B15CADC-F8FF-3913-8D58-5F858FEDE30E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/UITriggerVC.framework/UITriggerVC
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_UITriggerTableViewController, _OBJC_METACLASS_$_UITriggerTableViewController ]
+...

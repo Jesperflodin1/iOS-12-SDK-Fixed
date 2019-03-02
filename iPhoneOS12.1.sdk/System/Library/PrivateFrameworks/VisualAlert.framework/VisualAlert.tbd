@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: AEBCA741-38A1-3EE1-88B8-5BB2687DEACD' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/VisualAlert.framework/VisualAlert
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_AXAutoForwardingLocalNotificationHandler, _OBJC_CLASS_$_AXCameraTorchManagerBackgroundAdapter, _OBJC_CLASS_$_AXDistributedNotificationHandler, _OBJC_CLASS_$_AXLocalNotificationHandler, _OBJC_CLASS_$_AXTelephonyNotificationHandler, _OBJC_CLASS_$_AXVisualAlertManager, _OBJC_CLASS_$_AXVisualAlertSBNCScreenController, _OBJC_CLASS_$_AXVisualAlertSBNCSoundController, _OBJC_CLASS_$_AXVisualAlertSBUIFlashlightController, _OBJC_CLASS_$_VISAXNotificationHandler, _OBJC_CLASS_$___AXVisualAlertSBNCScreenController_super, _OBJC_CLASS_$___AXVisualAlertSBNCSoundController_super, _OBJC_CLASS_$___AXVisualAlertSBUIFlashlightController_super, _OBJC_IVAR_$_AXAutoForwardingLocalNotificationHandler._possibleHandlers, _OBJC_IVAR_$_AXAutoForwardingLocalNotificationHandler._possibleHandlersCount, _OBJC_IVAR_$_AXCameraTorchManagerBackgroundAdapter._q, _OBJC_IVAR_$_AXLocalNotificationHandler._opaqueObserver, _OBJC_IVAR_$_VISAXNotificationHandler._dispatcher, _OBJC_IVAR_$_VISAXNotificationHandler._notificationName, _OBJC_IVAR_$_VISAXNotificationHandler._observerIdentifier, _OBJC_IVAR_$_VISAXNotificationHandler._target, _OBJC_IVAR_$_VISAXNotificationHandler._valid, _OBJC_METACLASS_$_AXAutoForwardingLocalNotificationHandler, _OBJC_METACLASS_$_AXCameraTorchManagerBackgroundAdapter, _OBJC_METACLASS_$_AXDistributedNotificationHandler, _OBJC_METACLASS_$_AXLocalNotificationHandler, _OBJC_METACLASS_$_AXTelephonyNotificationHandler, _OBJC_METACLASS_$_AXVisualAlertManager, _OBJC_METACLASS_$_AXVisualAlertSBNCScreenController, _OBJC_METACLASS_$_AXVisualAlertSBNCSoundController, _OBJC_METACLASS_$_AXVisualAlertSBUIFlashlightController, _OBJC_METACLASS_$_VISAXNotificationHandler, _OBJC_METACLASS_$___AXVisualAlertSBNCScreenController_super, _OBJC_METACLASS_$___AXVisualAlertSBNCSoundController_super, _OBJC_METACLASS_$___AXVisualAlertSBUIFlashlightController_super, _kAXDeviceSpringBoardRingerState ]
+...

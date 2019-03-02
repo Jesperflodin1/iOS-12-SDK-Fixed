@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: E846CAB1-AB90-3677-A1C5-010A526E8287' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DAEASOAuthFramework.framework/DAEASOAuthFramework
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_DAEASOAuthClient, _OBJC_CLASS_$_DAEASOAuthFlowController, _OBJC_CLASS_$_DAEASOAuthIdentity, _OBJC_CLASS_$_DAEASOAuthMigrationRequest, _OBJC_CLASS_$_DAEASOAuthRequest, _OBJC_CLASS_$_DAEASOAuthTokenRefreshResponse, _OBJC_CLASS_$_DAEASOAuthTokenRequest, _OBJC_CLASS_$_DAEASOAuthTokenResponse, _OBJC_CLASS_$_DAEASOAuthWebViewController, _OBJC_CLASS_$_DAEASOpenIDMetadataRequest, _OBJC_CLASS_$_DAEASOpenIDMetadataResponse, _OBJC_CLASS_$_DAExchangeOAuthFlowController, _OBJC_CLASS_$_DAOAuthSafariViewController, _OBJC_METACLASS_$_DAEASOAuthClient, _OBJC_METACLASS_$_DAEASOAuthFlowController, _OBJC_METACLASS_$_DAEASOAuthIdentity, _OBJC_METACLASS_$_DAEASOAuthMigrationRequest, _OBJC_METACLASS_$_DAEASOAuthRequest, _OBJC_METACLASS_$_DAEASOAuthTokenRefreshResponse, _OBJC_METACLASS_$_DAEASOAuthTokenRequest, _OBJC_METACLASS_$_DAEASOAuthTokenResponse, _OBJC_METACLASS_$_DAEASOAuthWebViewController, _OBJC_METACLASS_$_DAEASOpenIDMetadataRequest, _OBJC_METACLASS_$_DAEASOpenIDMetadataResponse, _OBJC_METACLASS_$_DAExchangeOAuthFlowController, _OBJC_METACLASS_$_DAOAuthSafariViewController ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 583F712A-C06B-38A8-BDA4-8E18EB540FFB' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/SpeakTypingServices.framework/SpeakTypingServices
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_SpeakTypingServices, _OBJC_METACLASS_$_SpeakTypingServices ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 9094FE74-6DC8-30D0-9958-5ED44F9C8F54' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FMF.framework/FMF
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _FMFDevicesChangedNotification, _FMFErrorDomain, _FMFFenceErrorDomain, _FMFFenceTriggerArriving, _FMFFenceTriggerImmediate, _FMFFenceTriggerLeaving, _FMFFenceTypeNotifyMe, _FMFFenceTypeNotifyOther, _FMFGroupIdDefault, _FMFGroupIdGroup, _FMFGroupIdOneToOne, _FMFHomeKitAutomationDeviceChangedNotification, _FMFMeDeviceChangedNotification, _OBJC_CLASS_$_FMFAppAccountInfo, _OBJC_CLASS_$_FMFContactUtility, _OBJC_CLASS_$_FMFDevice, _OBJC_CLASS_$_FMFFence, _OBJC_CLASS_$_FMFFriendshipRequest, _OBJC_CLASS_$_FMFHandle, _OBJC_CLASS_$_FMFLocation, _OBJC_CLASS_$_FMFMapImageRequest, _OBJC_CLASS_$_FMFMapSession, _OBJC_CLASS_$_FMFPlacemark, _OBJC_CLASS_$_FMFSession, _OBJC_CLASS_$_FMFSynchronizer, _OBJC_METACLASS_$_FMFAppAccountInfo, _OBJC_METACLASS_$_FMFContactUtility, _OBJC_METACLASS_$_FMFDevice, _OBJC_METACLASS_$_FMFFence, _OBJC_METACLASS_$_FMFFriendshipRequest, _OBJC_METACLASS_$_FMFHandle, _OBJC_METACLASS_$_FMFLocation, _OBJC_METACLASS_$_FMFMapImageRequest, _OBJC_METACLASS_$_FMFMapSession, _OBJC_METACLASS_$_FMFPlacemark, _OBJC_METACLASS_$_FMFSession, _OBJC_METACLASS_$_FMFSynchronizer, _kFMFSyncXPCTimeout, _kMapImageKey ]
+...

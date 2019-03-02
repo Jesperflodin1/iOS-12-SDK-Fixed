@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B144CAE7-CFFC-36C5-A6CD-36783E0FFA0C' ]
+platform:	ios
+install-name:  /System/Library/CoreServices/Encodings/libLatin2Converter.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ___CFStringEncodingGetLatin2ConverterDefinition ]
+...

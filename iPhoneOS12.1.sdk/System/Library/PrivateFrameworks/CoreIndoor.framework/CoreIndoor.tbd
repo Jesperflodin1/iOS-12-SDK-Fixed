@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 6399082F-B348-3A2C-9FB3-13A016431954' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/CoreIndoor.framework/CoreIndoor
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_CLAvailabilityTileParser, _OBJC_CLASS_$_CLAvailableVenuesStateMachine, _OBJC_CLASS_$_CLGpsPosition, _OBJC_CLASS_$_CLGpsSignalQuality, _OBJC_CLASS_$_CLIndoorAvailabilityTileParams, _OBJC_CLASS_$_CLIndoorCommonHooks, _OBJC_CLASS_$_CLIndoorLocation, _OBJC_CLASS_$_CLIndoorMaintenance, _OBJC_CLASS_$_CLIndoorPositionProvider, _OBJC_CLASS_$_CLIndoorSettings, _OBJC_CLASS_$_CLLocationContextUtil, _OBJC_CLASS_$_CLLocationGroup, _OBJC_CLASS_$_CLPrefetchFloorRequest, _OBJC_CLASS_$_ECEFCoordinate, _OBJC_CLASS_$_ENUCoordinate, _OBJC_CLASS_$_GeographicCoordinate, _OBJC_METACLASS_$_CLAvailabilityTileParser, _OBJC_METACLASS_$_CLAvailableVenuesStateMachine, _OBJC_METACLASS_$_CLGpsPosition, _OBJC_METACLASS_$_CLGpsSignalQuality, _OBJC_METACLASS_$_CLIndoorAvailabilityTileParams, _OBJC_METACLASS_$_CLIndoorCommonHooks, _OBJC_METACLASS_$_CLIndoorLocation, _OBJC_METACLASS_$_CLIndoorMaintenance, _OBJC_METACLASS_$_CLIndoorPositionProvider, _OBJC_METACLASS_$_CLIndoorSettings, _OBJC_METACLASS_$_CLLocationContextUtil, _OBJC_METACLASS_$_CLLocationGroup, _OBJC_METACLASS_$_CLPrefetchFloorRequest, _OBJC_METACLASS_$_ECEFCoordinate, _OBJC_METACLASS_$_ENUCoordinate, _OBJC_METACLASS_$_GeographicCoordinate, __ZN5boost10filesystem6detail18utf8_codecvt_facet15get_octet_countEh, __ZN5boost10filesystem6detail18utf8_codecvt_facetC1Em, __ZN5boost10filesystem6detail18utf8_codecvt_facetC2Em, __ZNK5boost10filesystem6detail18utf8_codecvt_facet24get_cont_octet_out_countEw, __ZNK5boost10filesystem6detail18utf8_codecvt_facet5do_inER11__mbstate_tPKcS6_RS6_PwS8_RS8_, __ZNK5boost10filesystem6detail18utf8_codecvt_facet6do_outER11__mbstate_tPKwS6_RS6_PcS8_RS8_, __ZNK5boost10filesystem6detail18utf8_codecvt_facet9do_lengthERK11__mbstate_tPKcS7_m, __ZTIN5boost10filesystem6detail18utf8_codecvt_facetE, __ZTSN5boost10filesystem6detail18utf8_codecvt_facetE, __ZTVN5boost10filesystem6detail18utf8_codecvt_facetE ]
+...

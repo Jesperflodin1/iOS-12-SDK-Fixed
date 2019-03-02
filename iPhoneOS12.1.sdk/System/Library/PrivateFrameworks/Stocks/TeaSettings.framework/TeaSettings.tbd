@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4DD69EC7-F36F-3C86-91B0-AF10253461AC' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/News/TeaSettings.framework/TeaSettings
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _TeaSettingsVersionNumber, _TeaSettingsVersionString ]
+...

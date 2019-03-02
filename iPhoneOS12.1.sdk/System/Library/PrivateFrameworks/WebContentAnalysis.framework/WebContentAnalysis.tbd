@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: D03EECAC-7EF9-31B3-961D-25B30F4C4358' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WebContentAnalysis.framework/WebContentAnalysis
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_WFUserSettings, _OBJC_CLASS_$_WebFilterEvaluator, _OBJC_IVAR_$_WebFilterEvaluator._buffer, _OBJC_IVAR_$_WebFilterEvaluator._filterState, _OBJC_IVAR_$_WebFilterEvaluator._pageTitle, _OBJC_IVAR_$_WebFilterEvaluator._url, _OBJC_METACLASS_$_WFUserSettings, _OBJC_METACLASS_$_WebFilterEvaluator, _WFUserWhiteListAllowedSitesAddress, _WFUserWhiteListAllowedSitesBookmarkPath, _WFUserWhiteListAllowedSitesPageTitle ]
+...

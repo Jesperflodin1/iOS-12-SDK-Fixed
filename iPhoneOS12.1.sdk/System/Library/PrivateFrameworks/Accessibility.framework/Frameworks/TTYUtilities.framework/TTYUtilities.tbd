@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 14AAB4BF-8F22-343F-862F-A6ECD2B2D0CE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/TTYUtilities.framework/TTYUtilities
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXTTYMessageKeyCallID, _AXTTYMessageKeyContactID, _AXTTYMessageKeyContactPathSearchAction, _AXTTYMessageKeyContactSearchAction, _AXTTYMessageKeyConversation, _AXTTYMessageKeyConversationUpdates, _AXTTYMessageKeyDeleteAction, _AXTTYMessageKeyReadAction, _AXTTYMessageKeyResult, _AXTTYMessageKeySettingsKey, _AXTTYMessageKeyUUID, _AXTTYMessageKeyValue, _AXTTYMessageKeyWriteAction, _AXTTYPreferredTransportMethodChangedNotification, _OBJC_CLASS_$_AXTTYSettingsListenerHelper, _OBJC_CLASS_$_AXTTYSimulatorSubscriptionContext, _OBJC_CLASS_$_TTYServer, _OBJC_CLASS_$_TTYSettings, _OBJC_CLASS_$_TTYTelephonyUtilities, _OBJC_METACLASS_$_AXTTYSettingsListenerHelper, _OBJC_METACLASS_$_AXTTYSimulatorSubscriptionContext, _OBJC_METACLASS_$_TTYServer, _OBJC_METACLASS_$_TTYSettings, _OBJC_METACLASS_$_TTYTelephonyUtilities, _TTYUtilitiesVersionNumber, _TTYUtilitiesVersionString, _currentProcessIsHeard ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5549FB29-479C-3901-A795-5B5F186342A4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/IntentsCore.framework/IntentsCore
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _INCDeserializeNSUserActivityData, _INCExtensionErrorDomain, _INCExtensionTransactionStateTypeGetName, _INCExtractPreferencesResponseFromMetricsContext, _INCGenerateMetricsContextUsingAppPreferenceResponse, _INCIsCarPlayActive, _INCLaunchAppWithCompletion, _INCLaunchAppWithSockPuppet, _INCLaunchAppWithUserActivity, _INCRouteAudioToAirplayOutputDevices, _INCSerializeNSUserActivity, _IntentsCoreVersionNumber, _IntentsCoreVersionString, _OBJC_CLASS_$_INCAppProxy, _OBJC_CLASS_$_INCExtensionConnection, _OBJC_CLASS_$_INCExtensionError, _OBJC_CLASS_$_INCExtensionManager, _OBJC_CLASS_$_INCExtensionPlugInBundleManager, _OBJC_CLASS_$_INCExtensionProxy, _OBJC_CLASS_$_INCExtensionRequest, _OBJC_CLASS_$_INCExtensionTransaction, _OBJC_CLASS_$_INCExtensionTransactionState, _OBJC_CLASS_$_INCLocalExtensionRegistry, _OBJC_METACLASS_$_INCAppProxy, _OBJC_METACLASS_$_INCExtensionConnection, _OBJC_METACLASS_$_INCExtensionError, _OBJC_METACLASS_$_INCExtensionManager, _OBJC_METACLASS_$_INCExtensionPlugInBundleManager, _OBJC_METACLASS_$_INCExtensionProxy, _OBJC_METACLASS_$_INCExtensionRequest, _OBJC_METACLASS_$_INCExtensionTransaction, _OBJC_METACLASS_$_INCExtensionTransactionState, _OBJC_METACLASS_$_INCLocalExtensionRegistry ]
+...

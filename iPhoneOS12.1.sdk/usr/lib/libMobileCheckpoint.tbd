@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: B587E66D-5823-35CD-8233-02BDD6F4D19E' ]
+platform:	ios
+install-name:  /usr/lib/libMobileCheckpoint.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _MCCopyCheckpoint, _MCCopyCheckpointData, _MCCopyCheckpointValue ]
+...

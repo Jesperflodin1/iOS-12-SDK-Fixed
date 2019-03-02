@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 83B13E99-AC7F-3082-A650-71F5C61A75F9' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/XPCKit.framework/XPCKit
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_XPCClientConnection, _OBJC_CLASS_$_XPCNSClientConnection, _OBJC_CLASS_$_XPCNSRequest, _OBJC_CLASS_$_XPCNSServiceConnection, _OBJC_CLASS_$_XPCNSServiceListener, _OBJC_CLASS_$_XPCRequest, _OBJC_CLASS_$_XPCServiceConnection, _OBJC_CLASS_$_XPCServiceListener, _OBJC_METACLASS_$_XPCClientConnection, _OBJC_METACLASS_$_XPCNSClientConnection, _OBJC_METACLASS_$_XPCNSRequest, _OBJC_METACLASS_$_XPCNSServiceConnection, _OBJC_METACLASS_$_XPCNSServiceListener, _OBJC_METACLASS_$_XPCRequest, _OBJC_METACLASS_$_XPCServiceConnection, _OBJC_METACLASS_$_XPCServiceListener, _XPCSetLogBlocks, __XPCLog, __XPCShouldLog, _kXPCSequenceKey ]
+...

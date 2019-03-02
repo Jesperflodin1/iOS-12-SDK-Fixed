@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: F96775A4-4961-33F7-A980-52C9DCD066AA' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/FMIPSiriActions.framework/FMIPSiriActions
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _LogCategory_Unspecified, _OBJC_CLASS_$_FMIPLocateIntent, _OBJC_CLASS_$_FMIPLocateIntentResponse, _OBJC_CLASS_$_FMIPPlaySoundIntent, _OBJC_CLASS_$_FMIPPlaySoundIntentResponse, _OBJC_METACLASS_$_FMIPLocateIntent, _OBJC_METACLASS_$_FMIPLocateIntentResponse, _OBJC_METACLASS_$_FMIPPlaySoundIntent, _OBJC_METACLASS_$_FMIPPlaySoundIntentResponse ]
+...

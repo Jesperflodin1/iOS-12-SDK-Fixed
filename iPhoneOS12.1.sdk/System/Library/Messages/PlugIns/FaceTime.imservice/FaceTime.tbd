@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 26C52193-BF75-3DE5-9E47-7971EA366A0E' ]
+platform:	ios
+install-name:  /System/Library/Messages/PlugIns/FaceTime.imservice/FaceTime
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

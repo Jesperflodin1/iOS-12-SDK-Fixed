@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 0B2BC8D8-1600-3FB4-B306-5D6C881738E4' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AudioServerApplication.framework/AudioServerApplication
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_ASAAudioDevice, _OBJC_CLASS_$_ASAAudioFormat, _OBJC_CLASS_$_ASABooleanControl, _OBJC_CLASS_$_ASABox, _OBJC_CLASS_$_ASAClockDevice, _OBJC_CLASS_$_ASAControl, _OBJC_CLASS_$_ASACoreAudio, _OBJC_CLASS_$_ASALevelControl, _OBJC_CLASS_$_ASAObject, _OBJC_CLASS_$_ASAPlaythrough, _OBJC_CLASS_$_ASAPlugin, _OBJC_CLASS_$_ASASelectorControl, _OBJC_CLASS_$_ASAStream, _OBJC_METACLASS_$_ASAAudioDevice, _OBJC_METACLASS_$_ASAAudioFormat, _OBJC_METACLASS_$_ASABooleanControl, _OBJC_METACLASS_$_ASABox, _OBJC_METACLASS_$_ASAClockDevice, _OBJC_METACLASS_$_ASAControl, _OBJC_METACLASS_$_ASACoreAudio, _OBJC_METACLASS_$_ASALevelControl, _OBJC_METACLASS_$_ASAObject, _OBJC_METACLASS_$_ASAPlaythrough, _OBJC_METACLASS_$_ASAPlugin, _OBJC_METACLASS_$_ASASelectorControl, _OBJC_METACLASS_$_ASAStream ]
+...

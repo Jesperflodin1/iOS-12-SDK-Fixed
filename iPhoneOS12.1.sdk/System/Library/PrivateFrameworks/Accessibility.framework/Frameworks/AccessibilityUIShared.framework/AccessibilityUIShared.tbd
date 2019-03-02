@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 4830A6B1-643A-3C60-AB1E-8F8FD6AE41BE' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUIShared.framework/AccessibilityUIShared
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _AXUIErrorDomainCommunication, _AXUIErrorDomainProtocol, _AXUIErrorDomainServiceEntitlementMismatch, _AXUIErrorDomainServiceInitialization, _AXUIErrorDomainServiceMessageHandling, _AXUIErrorDomainValidation, _OBJC_CLASS_$_AXUIMessageContext, _OBJC_CLASS_$_AXUIMessageReplyHandler, _OBJC_CLASS_$_AXUIMessageSender, _OBJC_METACLASS_$_AXUIMessageContext, _OBJC_METACLASS_$_AXUIMessageReplyHandler, _OBJC_METACLASS_$_AXUIMessageSender, __AXUIMessageReplyKeyClientRegistrationWithServerDidSucceed, __AXUIMessageReplyKeyDidSucceed, __AXUIMessageReplyKeyErrorDescription, __AXUIMessageReplyKeyErrorDomain, __AXUIServiceDescription, __AXUIServiceMessageKeyClientIdentifier, __AXUIServiceMessageKeyInitializationMessage, __AXUIServiceMessageKeyMessageIdentifier, __AXUIServiceMessageKeyMessageWasEmpty, __AXUIServiceMessageKeyServiceBundleName, __AXUIServiceName ]
+...

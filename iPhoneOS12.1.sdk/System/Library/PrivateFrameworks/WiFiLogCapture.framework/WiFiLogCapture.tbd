@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 813216E3-0BE0-3681-BD11-C4585C4C999E' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/WiFiLogCapture.framework/WiFiLogCapture
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _OBJC_CLASS_$_WiFiLogDumpTaker, _OBJC_METACLASS_$_WiFiLogDumpTaker, _WiFiLogCaptureVersionNumber, _WiFiLogCaptureVersionString ]
+...

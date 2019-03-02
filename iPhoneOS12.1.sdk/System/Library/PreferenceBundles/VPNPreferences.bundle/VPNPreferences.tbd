@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5B4F3CB2-3F8C-3527-8F99-6B30B351638E' ]
+platform:	ios
+install-name:  /System/Library/PreferenceBundles/VPNPreferences.bundle/VPNPreferences
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

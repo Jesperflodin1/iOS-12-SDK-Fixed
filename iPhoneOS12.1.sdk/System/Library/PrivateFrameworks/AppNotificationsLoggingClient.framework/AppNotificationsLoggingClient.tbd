@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 606734ED-50F2-381B-B8BE-94CA1DD8ED37' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/AppNotificationsLoggingClient.framework/AppNotificationsLoggingClient
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _ATXNEventTypeToString, _ATXNRTOutcomeToSettingResponse, _ATXNSettingResponseToNEvent, _ATXNSettingResponseToString, _ATXSuggestionTypeToString, _AppNotificationsLoggingClientVersionNumber, _AppNotificationsLoggingClientVersionString, _OBJC_CLASS_$_ATXNotificationsAggregateLogger, _OBJC_CLASS_$_ATXNotificationsInterface, _OBJC_CLASS_$_ATXNotificationsLoggingClient, _OBJC_METACLASS_$_ATXNotificationsAggregateLogger, _OBJC_METACLASS_$_ATXNotificationsInterface, _OBJC_METACLASS_$_ATXNotificationsLoggingClient ]
+...

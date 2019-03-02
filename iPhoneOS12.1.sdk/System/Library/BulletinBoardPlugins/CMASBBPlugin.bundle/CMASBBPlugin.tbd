@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 253B8A03-B176-309F-A564-2B85A90916FA' ]
+platform:	ios
+install-name:  /System/Library/BulletinBoardPlugins/CMASBBPlugin.bundle/CMASBBPlugin
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _CMASBBPluginSectionIdentifier, _CMASBBPluginUniversalSectionIdentifier, _OBJC_CLASS_$_CMASBBPlugin, _OBJC_METACLASS_$_CMASBBPlugin ]
+...

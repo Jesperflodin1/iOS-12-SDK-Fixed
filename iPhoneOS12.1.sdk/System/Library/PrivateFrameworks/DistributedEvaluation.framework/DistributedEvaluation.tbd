@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 30EB51D2-FD28-3073-83AD-080CFED5ABD8' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _DESAggregatorLogEvaluation, _DESAggregatorLogRecording, _DESApplyAsynchronousSequence, _DESDiagnosticsSubmissionAllowed, _DESGetDeviceClass, _DESGetDeviceID, _DESGetDeviceType, _DESGetOSVersion, _DESIsInternalInstall, _DESPathHasFileVault, _DESServiceAvailable, _DESServiceGetXPCInterface, _DESSubmissionLogDirectoryURL, _DESSubmissionLogFileURLs, _DESSubmissionLogGarbageCollect, _DESWriteSubmissionLog, _DistributedEvaluationVersionNumber, _DistributedEvaluationVersionString, _OBJC_CLASS_$_DESDeviceIdentifierStore, _OBJC_CLASS_$_DESJSONPredicate, _OBJC_CLASS_$_DESRecordStore, _OBJC_METACLASS_$_DESDeviceIdentifierStore, _OBJC_METACLASS_$_DESJSONPredicate, _OBJC_METACLASS_$_DESRecordStore, __DESIsHorseman, _kDESDistributedEvaluationErrorDomain ]
+...

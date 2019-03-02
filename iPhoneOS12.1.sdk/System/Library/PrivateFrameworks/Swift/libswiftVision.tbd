@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: DA8CBE5B-ECD6-3A5E-9DA7-D6F8B4297580' ]
+platform:	ios
+install-name:  /System/Library/PrivateFrameworks/Swift/libswiftVision.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  _$SSo22VNFaceLandmarkRegion2DC6VisionE13pointsInImage9imageSizeSaySo7CGPointVGSo6CGSizeV_tF, _$SSo22VNFaceLandmarkRegion2DC6VisionE16normalizedPointsSaySo7CGPointVGvg, __swift_FORCE_LOAD_$_swiftVision ]
+...

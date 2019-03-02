@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 65822530-0100-3834-8167-D4CA4CDAE47B' ]
+platform:	ios
+install-name:  /usr/lib/libLLVM-C.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  ]
+...

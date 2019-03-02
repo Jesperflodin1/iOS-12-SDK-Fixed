@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:		[ arm64 ]
+uuids:		['arm64: 5637CDBC-990A-3B70-8035-0D8303D5B04E' ]
+platform:	ios
+install-name:  /usr/lib/libiconv.2.dylib
+objc-constraint:	none
+exports:
+  - archs:	[ arm64 ]
+    symbols:          [  __libiconv_version, _iconv, _iconv_canonicalize, _iconv_close, _iconv_open, _iconvctl, _iconvlist, _libiconv_set_relocation_prefix ]
+...
